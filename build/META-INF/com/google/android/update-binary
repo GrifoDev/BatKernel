@@ -1,0 +1,83 @@
+#!/sbin/sh
+
+OUTFD=$2
+ZIP=$3
+
+ui_print() {
+  echo -n -e "ui_print $1\n" > /proc/self/fd/$OUTFD
+  echo -n -e "ui_print\n" > /proc/self/fd/$OUTFD
+}
+
+cd /tmp
+rm -rf tkkg1994
+mkdir tkkg1994
+cd tkkg1994
+unzip -o "$ZIP"
+
+getprop ro.boot.bootloader >> BLmodel
+
+ui_print " ";
+ui_print " - mounting system partition"
+mount /system
+
+ui_print " - mounting data partition"
+mount /data
+
+ui_print " - Installing BatStock-Kernel"
+
+if grep -q G955 BLmodel; then
+	cat dream2lte-eur.img > /dev/block/platform/11120000.ufs/by-name/BOOT
+	ui_print " - Flashing G955X kernel"
+else if grep -q G950 BLmodel; then
+	cat dreamlte-eur.img > /dev/block/platform/11120000.ufs/by-name/BOOT
+	ui_print " - Flashing G950X kernel"
+else
+	echo "Not a supported model. Dont flash any kernel!"
+	ui_print " - Model not support, no kernel flashed"
+fi;
+fi;
+
+ui_print " - removing critical mcRegistry"
+
+rm -f /system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+
+ui_print " - removing vendor files"
+
+rm -f /system/vendor/firmware/fimc_is_lib.bin
+rm -f /system/vendor/firmware/fimc_is_rta_2l2_3h1.bin
+rm -f /system/vendor/firmware/fimc_is_rta_2l2_imx320.bin
+rm -f /system/vendor/firmware/fimc_is_rta_imx333_3h1.bin
+rm -f /system/vendor/firmware/fimc_is_rta_imx333_imx320.bin
+rm -f /system/vendor/lib/libsecure_storage.so
+rm -f /system/vendor/lib64/libsecure_storage.so
+
+cd
+cd /tmp/tkkg1994
+mv -f vendor/firmware/fimc_is_lib.bin /system/vendor/firmware/fimc_is_lib.bin
+mv -f vendor/firmware/fimc_is_rta_2l2_3h1.bin /system/vendor/firmware/fimc_is_rta_2l2_3h1.bin
+mv -f vendor/firmware/fimc_is_rta_2l2_imx320.bin /system/vendor/firmware/fimc_is_rta_2l2_imx320.bin
+mv -f vendor/firmware/fimc_is_rta_imx333_3h1.bin /system/vendor/firmware/fimc_is_rta_imx333_3h1.bin
+mv -f vendor/firmware/fimc_is_rta_imx333_imx320.bin /system/vendor/firmware/fimc_is_rta_imx333_imx320.bin
+mv -f vendor/lib/libsecure_storage.so /system/vendor/lib/libsecure_storage.so
+mv -f vendor/lib64/libsecure_storage.so /system/vendor/lib64/libsecure_storage.so
+
+ui_print " - setting permissions"
+
+chmod 0644 /system/vendor/firmware/fimc_is_lib.bin
+chmod 0644 /system/vendor/firmware/fimc_is_rta_2l2_3h1.bin
+chmod 0644 /system/vendor/firmware/fimc_is_rta_2l2_imx320.bin
+chmod 0644 /system/vendor/firmware/fimc_is_rta_imx333_3h1.bin
+chmod 0644 /system/vendor/firmware/fimc_is_rta_imx333_imx320.bin
+chmod 0644 /system/vendor/lib/libsecure_storage.so
+chmod 0644 /system/vendor/lib64/libsecure_storage.so
+
+ui_print " - unmounting partition /data"
+umount /data > /dev/null 2>&1
+
+ui_print " - unmounting partition /system"
+umount /system > /dev/null 2>&1
+
+ui_print " "
+ui_print "finished"
+rm -rf /tmp/tkkg1994
+sync
