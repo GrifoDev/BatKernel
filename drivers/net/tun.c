@@ -601,11 +601,13 @@ static void tun_detach_all(struct net_device *dev)
 	for (i = 0; i < n; i++) {
 		tfile = rtnl_dereference(tun->tfiles[i]);
 		BUG_ON(!tfile);
+		tfile->socket.sk->sk_shutdown = RCV_SHUTDOWN;
 		tfile->socket.sk->sk_data_ready(tfile->socket.sk);
 		RCU_INIT_POINTER(tfile->tun, NULL);
 		--tun->numqueues;
 	}
 	list_for_each_entry(tfile, &tun->disabled, next) {
+		tfile->socket.sk->sk_shutdown = RCV_SHUTDOWN;
 		tfile->socket.sk->sk_data_ready(tfile->socket.sk);
 		RCU_INIT_POINTER(tfile->tun, NULL);
 	}
@@ -661,6 +663,7 @@ static int tun_attach(struct tun_struct *tun, struct file *file, bool skip_filte
 			goto out;
 	}
 	tfile->queue_index = tun->numqueues;
+	tfile->socket.sk->sk_shutdown &= ~RCV_SHUTDOWN;
 	rcu_assign_pointer(tfile->tun, tun);
 	rcu_assign_pointer(tun->tfiles[tun->numqueues], tfile);
 	tun->numqueues++;
@@ -1139,9 +1142,11 @@ static ssize_t tun_get_user(struct tun_struct *tun, struct tun_file *tfile,
 	}
 
 	if (tun->flags & IFF_VNET_HDR) {
-		if (len < tun->vnet_hdr_sz)
+		int vnet_hdr_sz = READ_ONCE(tun->vnet_hdr_sz);
+
+		if (len < vnet_hdr_sz)
 			return -EINVAL;
-		len -= tun->vnet_hdr_sz;
+		len -= vnet_hdr_sz;
 
 		n = copy_from_iter(&gso, sizeof(gso), from);
 		if (n != sizeof(gso))
@@ -1153,7 +1158,7 @@ static ssize_t tun_get_user(struct tun_struct *tun, struct tun_file *tfile,
 
 		if (tun16_to_cpu(tun, gso.hdr_len) > len)
 			return -EINVAL;
-		iov_iter_advance(from, tun->vnet_hdr_sz - sizeof(gso));
+		iov_iter_advance(from, vnet_hdr_sz - sizeof(gso));
 	}
 
 	if ((tun->flags & TUN_TYPE_MASK) == IFF_TAP) {
@@ -1372,7 +1377,7 @@ static ssize_t tun_put_user(struct tun_struct *tun,
 		vlan_hlen = VLAN_HLEN;
 
 	if (tun->flags & IFF_VNET_HDR)
-		vnet_hdr_sz = tun->vnet_hdr_sz;
+		vnet_hdr_sz = READ_ONCE(tun->vnet_hdr_sz);
 
 	total = skb->len + vlan_hlen + vnet_hdr_sz;
 
@@ -1506,9 +1511,6 @@ static ssize_t tun_do_read(struct tun_struct *tun, struct tun_file *tfile,
 
 	if (!iov_iter_count(to))
 		return 0;
-
-	if (tun->dev->reg_state != NETREG_REGISTERED)
-		return -EIO;
 
 	/* Read frames from queue */
 	skb = __skb_recv_datagram(tfile->socket.sk, noblock ? MSG_DONTWAIT : 0,

@@ -179,6 +179,7 @@ static void rt6_free_pcpu(struct rt6_info *non_pcpu_rt)
 		}
 	}
 
+	free_percpu(non_pcpu_rt->rt6i_pcpu);
 	non_pcpu_rt->rt6i_pcpu = NULL;
 }
 
@@ -902,6 +903,8 @@ add:
 			ins = &rt->dst.rt6_next;
 			iter = *ins;
 			while (iter) {
+				if (iter->rt6i_metric > rt->rt6i_metric)
+					break;
 				if (rt6_qualify_for_ecmp(iter)) {
 					*ins = iter->dst.rt6_next;
 					fib6_purge_rt(iter, fn, info->nl_net);
