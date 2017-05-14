@@ -25,7 +25,6 @@ on init
     #export SECONDARY_STORAGE /storage/extSdCard
 
     symlink /data/app /factory
-
     #Reactivation Lock
     symlink /dev/block/platform/11120000.ufs/by-name/STEADY /dev/block/steady
 
@@ -173,7 +172,7 @@ on boot
     chown system radio /dev/block/NAD_REFER
     chmod 0664 /dev/block/NAD_REFER
 
-# remove MTK_NAD folder
+    # remove MTK_NAD folder
     rmdir /efs/MTK_NAD
 
     # DVFS & Hotplug
@@ -475,6 +474,7 @@ on fs
     chown system media_rw /sys/class/lcd/panel/adaptive_control
     chown system system /sys/class/lcd/panel/SVC_OCTA
     chown system system /sys/class/lcd/panel/xtalk_mode
+    chown system system /sys/class/lcd/panel/poc
 
 # Permissions for LCD COPR
     chown system system /sys/class/lcd/panel/copr
@@ -510,10 +510,12 @@ on fs
 
 # Permission for DRM Key
     chmod 0644 /factory/wv.keys
-
 # Permission for Active clock
     chmod 0660 /dev/act_clk
     chown system system /dev/act_clk
+# Permission for PANEL POC
+    chmod 0660 /dev/poc
+    chown system system /dev/poc
 
 # Permissions for System LSI NFC
 # NFC : Permissions for NFC
@@ -528,6 +530,12 @@ on fs
 # Permissions for Displayport
     chown system system /sys/class/dp_sec/dp_sbu_sw_sel
     chown system system /sys/class/dp_sec/dex
+
+# Permission for flashlight control for HAL3.3
+# The Istor espresso board does not have the flash led h/w, So the below permission line are blocked.
+# If you want to test the flashlight in universal board which have the flash led h/w, Enable the below blocked lines.
+    chmod 0660 /sys/class/camera/flash/rear_flash
+    chown system camera /sys/class/camera/flash/rear_flash
 
 # Resampling Latency valule
     setprop ro.input.resamplelatency 1
@@ -554,12 +562,6 @@ on fs
     chmod 0664 /sys/class/input_booster/level
     chmod 0664 /sys/class/input_booster/head
     chmod 0664 /sys/class/input_booster/tail
-
-# Permission for flashlight control for HAL3.3
-# The Istor espresso board does not have the flash led h/w, So the below permission line are blocked.
-# If you want to test the flashlight in universal board which have the flash led h/w, Enable the below blocked lines.
-    chmod 0660 /sys/class/camera/flash/rear_flash
-    chown system camera /sys/class/camera/flash/rear_flash
 
 # terminal mode
     chmod 0660 /sys/class/android_usb/android0/terminal_version
@@ -855,6 +857,12 @@ service faced /system/bin/faced
     user system
     group system
 
+# irisd
+service irisd /system/bin/irisd
+    class late_start
+    user system
+    group system
+
 # umount service
 service umount_service /system/bin/umount -D /preload
     disabled
@@ -892,12 +900,6 @@ service prepare_param /system/bin/prepare_param.sh /dev/block/platform/11120000.
     group root
     seclabel u:r:prepare_param:s0
     oneshot
-
-# irisd
-service irisd /system/bin/irisd
-    class late_start
-    user system
-    group system
 
 # Secure Storage startup
 service secure_storage /system/bin/secure_storage_daemon
