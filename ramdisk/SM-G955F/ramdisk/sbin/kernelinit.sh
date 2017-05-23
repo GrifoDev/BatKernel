@@ -24,7 +24,6 @@
 /sbin/resetprop -n ro.boot.ddrinfo "00000001"
 
 # Samsung related flags
-/sbin/resetprop -n ro.config.tima "1"
 /sbin/resetprop -n ro.fmp_config "1"
 /sbin/resetprop -n ro.boot.fmp_config "1"
 /sbin/resetprop -n sys.oem_unlock_allowed "0"
