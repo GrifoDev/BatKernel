@@ -951,6 +951,7 @@ on boot
    chown system radio /sys/class/power_supply/battery/wc_enable
    chown system nfc /sys/class/power_supply/battery/wc_control
    chown system nfc /sys/class/power_supply/battery/wc_control_cnt
+   chown system nfc /sys/class/power_supply/battery/led_cover
    chown system radio /sys/class/power_supply/battery/update
    chown system radio /sys/class/power_supply/battery/batt_wdt_control
    chown system radio /sys/class/power_supply/battery/factory_mode_relieve
@@ -974,6 +975,7 @@ on boot
    chown system radio /sys/class/power_supply/ps/status
    chmod 0664 /sys/class/power_supply/battery/wc_control
    chmod 0664 /sys/class/power_supply/battery/wc_control_cnt
+   chmod 0664 /sys/class/power_supply/battery/led_cover
    chmod 0664 /sys/class/power_supply/ps/status
    chmod 0664 /sys/class/power_supply/battery/batt_temp_table
    chown system radio /sys/class/power_supply/battery/batt_temp_table

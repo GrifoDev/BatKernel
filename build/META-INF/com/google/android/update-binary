@@ -23,7 +23,7 @@ mount /system
 ui_print " - mounting data partition"
 mount /data
 
-ui_print " - Installing BatStock-Kernel"
+ui_print " - Installing StockKernel"
 
 if grep -q G955 BLmodel; then
 	cat dream2lte-eur.img > /dev/block/platform/11120000.ufs/by-name/BOOT
