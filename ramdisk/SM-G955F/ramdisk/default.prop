@@ -35,6 +35,6 @@ ro.config.tima=0
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Thu May 11 22:51:03 KST 2017
-ro.bootimage.build.date.utc=1494510663
-ro.bootimage.build.fingerprint=samsung/dream2ltexx/dream2lte:7.0/NRD90M/G955FXXU1AQE5:user/test-keys
+ro.bootimage.build.date=Thu Jun 8 22:11:43 KST 2017
+ro.bootimage.build.date.utc=1496927503
+ro.bootimage.build.fingerprint=samsung/dream2ltexx/dream2lte:7.0/NRD90M/G955FXXU1AQF7:user/test-keys
