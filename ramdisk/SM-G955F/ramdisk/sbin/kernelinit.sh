@@ -27,3 +27,9 @@
 /sbin/resetprop -n ro.fmp_config "1"
 /sbin/resetprop -n ro.boot.fmp_config "1"
 /sbin/resetprop -n sys.oem_unlock_allowed "0"
+
+# Deepsleep fix
+su -c 'echo "temporary none" >> /sys/class/scsi_disk/0:0:0:0/cache_type'
+su -c 'echo "temporary none" >> /sys/class/scsi_disk/0:0:0:1/cache_type'
+su -c 'echo "temporary none" >> /sys/class/scsi_disk/0:0:0:2/cache_type'
+su -c 'echo "temporary none" >> /sys/class/scsi_disk/0:0:0:3/cache_type'
