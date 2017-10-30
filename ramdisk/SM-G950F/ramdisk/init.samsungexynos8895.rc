@@ -25,7 +25,6 @@ on init
     #export SECONDARY_STORAGE /storage/extSdCard
 
     symlink /data/app /factory
-
     #Reactivation Lock
     symlink /dev/block/platform/11120000.ufs/by-name/STEADY /dev/block/steady
 
@@ -35,6 +34,7 @@ on init
 on post-fs-data
 # Log data folder
     mkdir /data/log 0771 radio system
+    mkdir /data/log/abox 0771 audioserver system
 
     setprop vold.post_fs_data_done 1
 
@@ -902,6 +902,12 @@ on property:sys.mobicoredaemon.enable=true
 on property:sys.boot_completed=1
     setprop security.semdaemonfinish 0
     start sem_daemon
+    # Change permission for A-Box firmware logs file & GPR dump
+    chown audioserver system /sys/kernel/debug/abox/log-00
+    chown audioserver system /sys/devices/platform/13e50000.abox/13e50000.abox:abox_debug@0/gpr
+    chown audioserver system /sys/devices/platform/13e50000.abox/13e50000.abox:abox_debug@0/calliope_sram
+    chown audioserver system /sys/devices/platform/13e50000.abox/13e50000.abox:abox_debug@0/calliope_dram
+    chown audioserver system /sys/devices/platform/13e50000.abox/13e50000.abox:abox_debug@0/calliope_iva
 
 on property:security.semdaemonfinish=1
     stop sem_daemon
