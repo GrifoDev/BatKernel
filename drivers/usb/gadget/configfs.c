@@ -355,8 +355,8 @@ static ssize_t gadget_dev_desc_UDC_store(struct config_item *item,
 		ret = unregister_gadget(gi);
 		if (ret)
 			goto err;
-		/* prevent memory leak */
 		kfree(name);
+		/* prevent memory leak */
 	} else {
 		if (gi->udc_name) {
 			ret = -EBUSY;
