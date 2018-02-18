@@ -905,7 +905,6 @@ xfrm_policy_flush_secctx_check(struct net *net, u8 type, bool task_valid)
 				continue;
 			err = security_xfrm_policy_delete(pol->security);
 			if (err) {
-				xfrm_audit_policy_delete(pol, 0, task_valid);
 				return err;
 			}
 		}
@@ -918,7 +917,6 @@ xfrm_policy_flush_secctx_check(struct net *net, u8 type, bool task_valid)
 				err = security_xfrm_policy_delete(
 								pol->security);
 				if (err) {
-					xfrm_audit_policy_delete(pol, 0,
 								 task_valid);
 					return err;
 				}
@@ -958,7 +956,6 @@ int xfrm_policy_flush(struct net *net, u8 type, bool task_valid)
 			write_unlock_bh(&net->xfrm.xfrm_policy_lock);
 			cnt++;
 
-			xfrm_audit_policy_delete(pol, 1, task_valid);
 
 			xfrm_policy_kill(pol);
 
@@ -977,7 +974,6 @@ int xfrm_policy_flush(struct net *net, u8 type, bool task_valid)
 				write_unlock_bh(&net->xfrm.xfrm_policy_lock);
 				cnt++;
 
-				xfrm_audit_policy_delete(pol, 1, task_valid);
 				xfrm_policy_kill(pol);
 
 				write_lock_bh(&net->xfrm.xfrm_policy_lock);
@@ -3043,73 +3039,6 @@ void __init xfrm_init(void)
 	register_pernet_subsys(&xfrm_net_ops);
 	xfrm_input_init();
 }
-
-// [ SEC_SELINUX_PORTING_COMMON - remove AUDIT_MAC_IPSEC_EVENT audit log, it conflict with security notification
-#if 0 // #ifdef CONFIG_AUDITSYSCALL
-static void xfrm_audit_common_policyinfo(struct xfrm_policy *xp,
-					 struct audit_buffer *audit_buf)
-{
-	struct xfrm_sec_ctx *ctx = xp->security;
-	struct xfrm_selector *sel = &xp->selector;
-
-	if (ctx)
-		audit_log_format(audit_buf, " sec_alg=%u sec_doi=%u sec_obj=%s",
-				 ctx->ctx_alg, ctx->ctx_doi, ctx->ctx_str);
-
-	switch (sel->family) {
-	case AF_INET:
-		audit_log_format(audit_buf, " src=%pI4", &sel->saddr.a4);
-		if (sel->prefixlen_s != 32)
-			audit_log_format(audit_buf, " src_prefixlen=%d",
-					 sel->prefixlen_s);
-		audit_log_format(audit_buf, " dst=%pI4", &sel->daddr.a4);
-		if (sel->prefixlen_d != 32)
-			audit_log_format(audit_buf, " dst_prefixlen=%d",
-					 sel->prefixlen_d);
-		break;
-	case AF_INET6:
-		audit_log_format(audit_buf, " src=%pI6", sel->saddr.a6);
-		if (sel->prefixlen_s != 128)
-			audit_log_format(audit_buf, " src_prefixlen=%d",
-					 sel->prefixlen_s);
-		audit_log_format(audit_buf, " dst=%pI6", sel->daddr.a6);
-		if (sel->prefixlen_d != 128)
-			audit_log_format(audit_buf, " dst_prefixlen=%d",
-					 sel->prefixlen_d);
-		break;
-	}
-}
-
-void xfrm_audit_policy_add(struct xfrm_policy *xp, int result, bool task_valid)
-{
-	struct audit_buffer *audit_buf;
-
-	audit_buf = xfrm_audit_start("SPD-add");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_usrinfo(task_valid, audit_buf);
-	audit_log_format(audit_buf, " res=%u", result);
-	xfrm_audit_common_policyinfo(xp, audit_buf);
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_policy_add);
-
-void xfrm_audit_policy_delete(struct xfrm_policy *xp, int result,
-			      bool task_valid)
-{
-	struct audit_buffer *audit_buf;
-
-	audit_buf = xfrm_audit_start("SPD-delete");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_usrinfo(task_valid, audit_buf);
-	audit_log_format(audit_buf, " res=%u", result);
-	xfrm_audit_common_policyinfo(xp, audit_buf);
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_policy_delete);
-#endif
-// ] SEC_SELINUX_PORTING_COMMON - remove AUDIT_MAC_IPSEC_EVENT audit log, it conflict with security notification
 
 #ifdef CONFIG_XFRM_MIGRATE
 static bool xfrm_migrate_selector_match(const struct xfrm_selector *sel_cmp,

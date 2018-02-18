@@ -456,8 +456,6 @@ expired:
 	if (!err)
 		km_state_expired(x, 1, 0);
 
-	xfrm_audit_state_delete(x, err ? 0 : 1, true);
-
 out:
 	spin_unlock(&x->lock);
 	return HRTIMER_NORESTART;
@@ -563,7 +561,6 @@ xfrm_state_flush_secctx_check(struct net *net, u8 proto, bool task_valid)
 		hlist_for_each_entry(x, net->xfrm.state_bydst+i, bydst) {
 			if (xfrm_id_proto_match(x->id.proto, proto) &&
 			   (err = security_xfrm_state_delete(x)) != 0) {
-				xfrm_audit_state_delete(x, 0, task_valid);
 				return err;
 			}
 		}
@@ -599,8 +596,6 @@ restart:
 				spin_unlock_bh(&net->xfrm.xfrm_state_lock);
 
 				err = xfrm_state_delete(x);
-				xfrm_audit_state_delete(x, err ? 0 : 1,
-							task_valid);
 				xfrm_state_put(x);
 				if (!err)
 					cnt++;
@@ -2145,166 +2140,3 @@ void xfrm_state_fini(struct net *net)
 	xfrm_hash_free(net->xfrm.state_bydst, sz);
 }
 
-// [ SEC_SELINUX_PORTING_COMMON - remove AUDIT_MAC_IPSEC_EVENT audit log, it conflict with security notification
-#if 0 // #ifdef CONFIG_AUDITSYSCALL
-static void xfrm_audit_helper_sainfo(struct xfrm_state *x,
-				     struct audit_buffer *audit_buf)
-{
-	struct xfrm_sec_ctx *ctx = x->security;
-	u32 spi = ntohl(x->id.spi);
-
-	if (ctx)
-		audit_log_format(audit_buf, " sec_alg=%u sec_doi=%u sec_obj=%s",
-				 ctx->ctx_alg, ctx->ctx_doi, ctx->ctx_str);
-
-	switch (x->props.family) {
-	case AF_INET:
-		audit_log_format(audit_buf, " src=%pI4 dst=%pI4",
-				 &x->props.saddr.a4, &x->id.daddr.a4);
-		break;
-	case AF_INET6:
-		audit_log_format(audit_buf, " src=%pI6 dst=%pI6",
-				 x->props.saddr.a6, x->id.daddr.a6);
-		break;
-	}
-
-	audit_log_format(audit_buf, " spi=%u(0x%x)", spi, spi);
-}
-
-static void xfrm_audit_helper_pktinfo(struct sk_buff *skb, u16 family,
-				      struct audit_buffer *audit_buf)
-{
-	const struct iphdr *iph4;
-	const struct ipv6hdr *iph6;
-
-	switch (family) {
-	case AF_INET:
-		iph4 = ip_hdr(skb);
-		audit_log_format(audit_buf, " src=%pI4 dst=%pI4",
-				 &iph4->saddr, &iph4->daddr);
-		break;
-	case AF_INET6:
-		iph6 = ipv6_hdr(skb);
-		audit_log_format(audit_buf,
-				 " src=%pI6 dst=%pI6 flowlbl=0x%x%02x%02x",
-				 &iph6->saddr, &iph6->daddr,
-				 iph6->flow_lbl[0] & 0x0f,
-				 iph6->flow_lbl[1],
-				 iph6->flow_lbl[2]);
-		break;
-	}
-}
-
-void xfrm_audit_state_add(struct xfrm_state *x, int result, bool task_valid)
-{
-	struct audit_buffer *audit_buf;
-
-	audit_buf = xfrm_audit_start("SAD-add");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_usrinfo(task_valid, audit_buf);
-	xfrm_audit_helper_sainfo(x, audit_buf);
-	audit_log_format(audit_buf, " res=%u", result);
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_add);
-
-void xfrm_audit_state_delete(struct xfrm_state *x, int result, bool task_valid)
-{
-	struct audit_buffer *audit_buf;
-
-	audit_buf = xfrm_audit_start("SAD-delete");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_usrinfo(task_valid, audit_buf);
-	xfrm_audit_helper_sainfo(x, audit_buf);
-	audit_log_format(audit_buf, " res=%u", result);
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_delete);
-
-void xfrm_audit_state_replay_overflow(struct xfrm_state *x,
-				      struct sk_buff *skb)
-{
-	struct audit_buffer *audit_buf;
-	u32 spi;
-
-	audit_buf = xfrm_audit_start("SA-replay-overflow");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_pktinfo(skb, x->props.family, audit_buf);
-	/* don't record the sequence number because it's inherent in this kind
-	 * of audit message */
-	spi = ntohl(x->id.spi);
-	audit_log_format(audit_buf, " spi=%u(0x%x)", spi, spi);
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_replay_overflow);
-
-void xfrm_audit_state_replay(struct xfrm_state *x,
-			     struct sk_buff *skb, __be32 net_seq)
-{
-	struct audit_buffer *audit_buf;
-	u32 spi;
-
-	audit_buf = xfrm_audit_start("SA-replayed-pkt");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_pktinfo(skb, x->props.family, audit_buf);
-	spi = ntohl(x->id.spi);
-	audit_log_format(audit_buf, " spi=%u(0x%x) seqno=%u",
-			 spi, spi, ntohl(net_seq));
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_replay);
-
-void xfrm_audit_state_notfound_simple(struct sk_buff *skb, u16 family)
-{
-	struct audit_buffer *audit_buf;
-
-	audit_buf = xfrm_audit_start("SA-notfound");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_pktinfo(skb, family, audit_buf);
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_notfound_simple);
-
-void xfrm_audit_state_notfound(struct sk_buff *skb, u16 family,
-			       __be32 net_spi, __be32 net_seq)
-{
-	struct audit_buffer *audit_buf;
-	u32 spi;
-
-	audit_buf = xfrm_audit_start("SA-notfound");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_pktinfo(skb, family, audit_buf);
-	spi = ntohl(net_spi);
-	audit_log_format(audit_buf, " spi=%u(0x%x) seqno=%u",
-			 spi, spi, ntohl(net_seq));
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_notfound);
-
-void xfrm_audit_state_icvfail(struct xfrm_state *x,
-			      struct sk_buff *skb, u8 proto)
-{
-	struct audit_buffer *audit_buf;
-	__be32 net_spi;
-	__be32 net_seq;
-
-	audit_buf = xfrm_audit_start("SA-icv-failure");
-	if (audit_buf == NULL)
-		return;
-	xfrm_audit_helper_pktinfo(skb, x->props.family, audit_buf);
-	if (xfrm_parse_spi(skb, proto, &net_spi, &net_seq) == 0) {
-		u32 spi = ntohl(net_spi);
-		audit_log_format(audit_buf, " spi=%u(0x%x) seqno=%u",
-				 spi, spi, ntohl(net_seq));
-	}
-	audit_log_end(audit_buf);
-}
-EXPORT_SYMBOL_GPL(xfrm_audit_state_icvfail);
-#endif /* CONFIG_AUDITSYSCALL */
-// ] SEC_SELINUX_PORTING_COMMON - remove AUDIT_MAC_IPSEC_EVENT audit log, it conflict with security notification

@@ -247,7 +247,6 @@ int xfrm_input(struct sk_buff *skb, int nexthdr, __be32 spi, int encap_type)
 		x = xfrm_state_lookup(net, mark, daddr, spi, nexthdr, family);
 		if (x == NULL) {
 			XFRM_INC_STATS(net, LINUX_MIB_XFRMINNOSTATES);
-			xfrm_audit_state_notfound(skb, family, spi, seq);
 			goto drop;
 		}
 
@@ -304,8 +303,6 @@ resume:
 		spin_lock(&x->lock);
 		if (nexthdr <= 0) {
 			if (nexthdr == -EBADMSG) {
-				xfrm_audit_state_icvfail(x, skb,
-							 x->type->proto);
 				x->stats.integrity_failed++;
 			}
 			XFRM_INC_STATS(net, LINUX_MIB_XFRMINSTATEPROTOERROR);

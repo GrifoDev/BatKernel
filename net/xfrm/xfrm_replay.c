@@ -102,7 +102,6 @@ static int xfrm_replay_overflow(struct xfrm_state *x, struct sk_buff *skb)
 		XFRM_SKB_CB(skb)->seq.output.hi = 0;
 		if (unlikely(x->replay.oseq == 0)) {
 			x->replay.oseq--;
-			xfrm_audit_state_replay_overflow(x, skb);
 			err = -EOVERFLOW;
 
 			return err;
@@ -142,7 +141,6 @@ static int xfrm_replay_check(struct xfrm_state *x,
 	return 0;
 
 err:
-	xfrm_audit_state_replay(x, skb, net_seq);
 	return -EINVAL;
 }
 
@@ -181,7 +179,6 @@ static int xfrm_replay_overflow_bmp(struct xfrm_state *x, struct sk_buff *skb)
 		XFRM_SKB_CB(skb)->seq.output.hi = 0;
 		if (unlikely(replay_esn->oseq == 0)) {
 			replay_esn->oseq--;
-			xfrm_audit_state_replay_overflow(x, skb);
 			err = -EOVERFLOW;
 
 			return err;
@@ -233,7 +230,6 @@ static int xfrm_replay_check_bmp(struct xfrm_state *x,
 err_replay:
 	x->stats.replay++;
 err:
-	xfrm_audit_state_replay(x, skb, net_seq);
 	return -EINVAL;
 }
 
@@ -418,7 +414,6 @@ static int xfrm_replay_overflow_esn(struct xfrm_state *x, struct sk_buff *skb)
 			if (replay_esn->oseq_hi == 0) {
 				replay_esn->oseq--;
 				replay_esn->oseq_hi--;
-				xfrm_audit_state_replay_overflow(x, skb);
 				err = -EOVERFLOW;
 
 				return err;
@@ -486,7 +481,6 @@ static int xfrm_replay_check_esn(struct xfrm_state *x,
 err_replay:
 	x->stats.replay++;
 err:
-	xfrm_audit_state_replay(x, skb, net_seq);
 	return -EINVAL;
 }
 
