@@ -21,7 +21,7 @@ case $MODEL in
 dreamlte)
 	case $VARIANT in
 	can|duos|eur|xx)
-		KERNEL_DEFCONFIG=exynos8895-dreamlte_eur_open_defconfig
+		KERNEL_DEFCONFIG=exynos8895-dreamlte_defconfig
 		;;
 	*)
 		echo "Unknown variant: $VARIANT"
@@ -32,7 +32,7 @@ dreamlte)
 dream2lte)
 	case $VARIANT in
 	can|duos|eur|xx)
-		KERNEL_DEFCONFIG=exynos8895-dream2lte_eur_open_defconfig
+		KERNEL_DEFCONFIG=exynos8895-dream2lte_defconfig
 		;;
 	*)
 		echo "Unknown variant: $VARIANT"
@@ -85,8 +85,7 @@ FUNC_BUILD_DTIMAGE_TARGET()
 	dream2lte)
 		case $VARIANT in
 		can|duos|eur|xx)
-			DTSFILES="exynos8895-dream2lte_eur_open_01 exynos8895-dream2lte_eur_open_02
-					exynos8895-dream2lte_eur_open_03 exynos8895-dream2lte_eur_open_04
+			DTSFILES="exynos8895-dream2lte_eur_open_03 exynos8895-dream2lte_eur_open_04
 					exynos8895-dream2lte_eur_open_05 exynos8895-dream2lte_eur_open_06
 					exynos8895-dream2lte_eur_open_07 exynos8895-dream2lte_eur_open_08
 					exynos8895-dream2lte_eur_open_09 exynos8895-dream2lte_eur_open_10"

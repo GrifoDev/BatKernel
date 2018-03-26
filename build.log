@@ -1,0 +1,3968 @@
+
+==============================================
+START : FUNC_BUILD_KERNEL
+==============================================
+
+build common config=exynos8895-dream2lte_defconfig 
+build model config=dream2lte 
+rm files in : /home/tkkg1994/Downloads/Kernel/BatKernel/arch/arm64/boot/dts/*.dtb
+rm: cannot remove '/home/tkkg1994/Downloads/Kernel/BatKernel/arch/arm64/boot/dts/*.dtb': No such file or directory
+rm: cannot remove '/home/tkkg1994/Downloads/Kernel/BatKernel/arch/arm64/boot/boot.img-dtb': No such file or directory
+rm: cannot remove '/home/tkkg1994/Downloads/Kernel/BatKernel/arch/arm64/boot/boot.img-zImage': No such file or directory
+drivers/net/wireless/bcmdhd4361/Kconfig:1:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:2:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:3:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:4:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:5:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:5:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:8:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:9:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:10:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:11:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:11:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:15:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:16:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:17:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:18:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:18:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:22:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:23:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:24:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:25:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:25:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:29:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:30:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:31:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:32:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:32:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:36:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:37:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:38:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:39:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:39:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:43:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:44:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:45:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:46:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:46:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:50:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:51:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:52:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:53:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:53:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:57:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:58:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:59:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:60:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:60:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:64:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:65:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:66:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:67:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:67:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:71:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:72:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:73:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:74:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:74:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:78:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:79:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:80:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:81:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:81:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:85:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:86:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:87:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:88:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:88:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:92:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:93:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:94:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:95:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:99:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:100:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:101:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:102:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:102:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:106:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:107:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:108:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:109:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:109:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:113:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:114:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:115:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:116:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:117:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:117:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:120:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:121:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:122:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:123:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:124:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:124:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:127:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:128:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:129:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:130:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:130:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:133:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:134:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:135:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:136:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:136:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:139:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:140:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:141:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:142:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:143:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:143:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:146:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:147:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:148:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:149:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:150:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:150:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:160:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:161:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:162:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:163:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:164:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:164:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:167:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:168:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:169:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:170:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:171:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:171:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:174:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:175:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:176:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:177:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:178:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:178:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:181:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:182:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:183:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:184:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:184:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:187:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:188:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:189:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:190:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:190:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:194:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:195:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:196:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:197:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:197:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:200:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:201:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:202:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:203:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:203:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:206:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:207:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:208:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:209:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:209:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:212:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:213:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:214:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:215:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:215:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:218:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:219:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:220:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:221:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:222:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:1:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:2:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:3:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:12:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:13:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:14:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+#
+# configuration written to .config
+#
+scripts/kconfig/conf  --silentoldconfig Kconfig
+drivers/net/wireless/bcmdhd4361/Kconfig:1:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:2:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:3:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:4:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:5:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:5:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:8:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:9:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:10:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:11:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:11:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:15:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:16:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:17:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:18:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:18:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:22:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:23:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:24:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:25:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:25:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:29:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:30:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:31:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:32:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:32:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:36:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:37:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:38:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:39:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:39:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:43:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:44:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:45:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:46:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:46:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:50:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:51:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:52:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:53:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:53:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:57:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:58:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:59:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:60:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:60:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:64:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:65:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:66:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:67:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:67:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:71:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:72:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:73:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:74:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:74:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:78:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:79:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:80:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:81:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:81:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:85:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:86:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:87:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:88:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:88:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:92:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:93:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:94:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:95:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:99:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:100:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:101:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:102:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:102:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:106:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:107:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:108:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:109:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:109:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:113:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:114:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:115:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:116:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:117:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:117:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:120:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:121:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:122:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:123:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:124:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:124:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:127:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:128:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:129:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:130:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:130:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:133:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:134:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:135:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:136:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:136:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:139:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:140:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:141:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:142:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:143:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:143:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:146:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:147:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:148:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:149:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:150:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:150:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:160:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:161:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:162:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:163:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:164:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:164:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:167:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:168:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:169:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:170:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:171:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:171:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:174:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:175:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:176:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:177:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:178:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:178:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:181:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:182:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:183:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:184:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:184:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:187:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:188:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:189:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:190:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:190:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:194:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:195:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:196:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:197:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:197:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:200:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:201:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:202:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:203:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:203:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:206:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:207:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:208:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:209:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:209:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:212:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:213:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:214:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:215:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:215:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:218:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:219:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:220:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:221:warning: ignoring unsupported character ''
+drivers/net/wireless/bcmdhd4361/Kconfig:222:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:1:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:2:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:3:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:12:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:13:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:14:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+INFO: CC is ../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.4.0/bin/aarch64-cortex_a53-linux-gnueabi-gcc
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CC      scripts/mod/empty.o
+  CC      scripts/mod/devicetable-offsets.s
+  MKELF   scripts/mod/elfconfig.h
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/modpost.o
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTLD  scripts/mod/modpost
+  CC      kernel/bounds.s
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CC      arch/arm64/kernel/asm-offsets.s
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CC      init/main.o
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  LD      certs/built-in.o
+  CC      init/do_mounts.o
+  LD      arch/arm64/net/built-in.o
+  CC      init/do_mounts_rd.o
+  CC      arch/arm64/mm/dma-mapping.o
+  CC      arch/arm64/crypto/first_file_asm.o
+  AS      usr/initramfs_data.o
+  CC      arch/arm64/crypto/sha1-ce-glue.o
+  AS      arch/arm64/crypto/sha1-ce-core.o
+  CC      kernel/fork.o
+  LD      usr/built-in.o
+  CC      kernel/exec_domain.o
+  CC      init/do_mounts_initrd.o
+  CC      arch/arm64/crypto/sha2-ce-glue.o
+  CC      kernel/panic.o
+  CC      arch/arm64/mm/extable.o
+  CC      arch/arm64/mm/fault.o
+  CC      arch/arm64/mm/init.o
+  LDS     arch/arm64/kernel/vdso/vdso.lds
+  VDSOA   arch/arm64/kernel/vdso/gettimeofday.o
+  AS      arch/arm64/crypto/sha2-ce-core.o
+  CC      init/noinitramfs.o
+  VDSOA   arch/arm64/kernel/vdso/note.o
+  CC      arch/arm64/crypto/aes-ce-cipher.o
+  AS      arch/arm64/mm/cache.o
+  CC      arch/arm64/mm/copypage.o
+  CC      mm/filemap.o
+  VDSOA   arch/arm64/kernel/vdso/sigreturn.o
+  CC      init/initramfs.o
+  CC      mm/mempool.o
+  CC      arch/arm64/crypto/aes-glue-ce.o
+  CC      kernel/cpu.o
+  VDSOL   arch/arm64/kernel/vdso/vdso.so.dbg
+  CC      arch/arm64/mm/flush.o
+  CC      init/calibrate.o
+  OBJCOPY arch/arm64/kernel/vdso/vdso.so
+  VDSOSYM arch/arm64/kernel/vdso/vdso-offsets.h
+  CC      init/init_task.o
+  CC      arch/arm64/mm/ioremap.o
+  CC      arch/arm64/mm/mmap.o
+  AS      arch/arm64/kernel/vdso/vdso.o
+  AS      arch/arm64/crypto/aes-ce.o
+  LD      arch/arm64/kernel/vdso/built-in.o
+  CC      arch/arm64/mm/pgd.o
+  AS      arch/arm64/kernel/head.o
+  CC      arch/arm64/crypto/last_file_asm.o
+  LDS     arch/arm64/kernel/vmlinux.lds
+  CC      arch/arm64/mm/mmu.o
+  LD      arch/arm64/crypto/sha1-ce.o
+  LD      arch/arm64/crypto/sha2-ce.o
+  LD      arch/arm64/crypto/aes-ce-blk.o
+  LD      arch/arm64/crypto/built-in.o
+  CC      init/version.o
+  CC      kernel/exit.o
+  CC      kernel/softirq.o
+  CC      arch/arm64/kernel/debug-monitors.o
+  CC      mm/oom_kill.o
+  CC      arch/arm64/mm/context.o
+  LD      init/mounts.o
+  CC      mm/maccess.o
+  LD      init/built-in.o
+  CC      mm/page_alloc.o
+  AS      arch/arm64/mm/proc.o
+  CC      arch/arm64/mm/pageattr.o
+  CC      mm/page-writeback.o
+  AS      arch/arm64/kernel/entry.o
+  CC      mm/readahead.o
+  CC      arch/arm64/kernel/irq.o
+  LD      arch/arm64/mm/built-in.o
+  CC      mm/swap.o
+  CC      arch/arm64/kernel/fpsimd.o
+  AS      arch/arm64/kernel/entry-fpsimd.o
+  CC      kernel/resource.o
+  CC      kernel/sysctl.o
+  LD      ipc/built-in.o
+  CC      kernel/sysctl_binary.o
+  CC      arch/arm64/kernel/process.o
+  CC      fs/open.o
+  CC      mm/truncate.o
+  CC      kernel/capability.o
+  CC      kernel/ptrace.o
+  CC      arch/arm64/kernel/ptrace.o
+  CC      mm/vmscan.o
+  CC      mm/shmem.o
+  CC      kernel/user.o
+  CC      mm/util.o
+  CC      kernel/signal.o
+  CC      kernel/sys.o
+  CC      fs/read_write.o
+  CC      kernel/kmod.o
+  CC      arch/arm64/kernel/setup.o
+  CC      mm/mmzone.o
+  CC      mm/vmstat.o
+  CC      kernel/workqueue.o
+  CC      arch/arm64/kernel/signal.o
+  CC      fs/file_table.o
+  CC      mm/backing-dev.o
+  CC      arch/arm64/kernel/sys.o
+  CC      security/integrity/iint.o
+  CC      fs/super.o
+  CC      security/integrity/integrity_audit.o
+  CC      fs/char_dev.o
+  CC      arch/arm64/kernel/stacktrace.o
+  CC      arch/arm64/kernel/time.o
+  CC      mm/mm_init.o
+  CC      mm/mmu_context.o
+  LD      security/integrity/integrity.o
+  LD      security/integrity/built-in.o
+  CC      security/keys/gc.o
+  CC      security/mstdrv/mstdrv.o
+  CC      fs/stat.o
+  CC      mm/percpu.o
+  CC      kernel/pid.o
+  CC      fs/exec.o
+  CC      kernel/task_work.o
+  CC      arch/arm64/kernel/traps.o
+  CC      security/keys/key.o
+  CC      kernel/extable.o
+  CC      fs/pipe.o
+  LD      security/mstdrv/built-in.o
+  CC      arch/arm64/kernel/io.o
+  CC      security/sdp/dek.o
+  CC      kernel/params.o
+  CC      kernel/kthread.o
+  CC      arch/arm64/kernel/vdso.o
+  CC      security/keys/keyring.o
+  CC      mm/slab_common.o
+  CC      fs/namei.o
+  AS      arch/arm64/kernel/hyp-stub.o
+  CC      arch/arm64/kernel/psci.o
+  CC      fs/fcntl.o
+  CC      mm/compaction.o
+  CC      kernel/sys_ni.o
+  CC      kernel/nsproxy.o
+  CC      security/sdp/dek_aes.o
+  AS      arch/arm64/kernel/psci-call.o
+  CC      arch/arm64/kernel/cpu_ops.o
+  CC      security/keys/keyctl.o
+  CC      security/sdp/sdp_mm.o
+  CC      fs/ioctl.o
+  CC      arch/arm64/kernel/insn.o
+  CC      mm/vmacache.o
+  CC      kernel/notifier.o
+  CC      mm/interval_tree.o
+  CC      security/sdp/pub_crypto_emul.o
+  CC      arch/arm64/kernel/return_address.o
+  CC      fs/readdir.o
+  CC      security/keys/permission.o
+  CC      kernel/ksysfs.o
+  CC      arch/arm64/kernel/cpuinfo.o
+  CC      security/keys/process_keys.o
+  CC      mm/list_lru.o
+  CC      kernel/cred.o
+  CC      mm/workingset.o
+  CC      fs/select.o
+  CC      arch/arm64/kernel/cpu_errata.o
+  CC      security/sdp/dek_sysfs.o
+  CC      fs/dcache.o
+  CC      security/keys/request_key.o
+  CC      arch/arm64/kernel/cpufeature.o
+  CC      mm/debug.o
+  CC      security/keys/request_key_auth.o
+  CC      security/sdp/cache_cleanup.o
+  CC      kernel/reboot.o
+  CC      security/keys/user_defined.o
+  CC      arch/arm64/kernel/alternative.o
+  CC      security/keys/proc.o
+  CC      security/sdp/kek_pack.o
+  CC      mm/gup.o
+  CC      fs/inode.o
+  CC      kernel/async.o
+  CC      security/keys/sysctl.o
+  CC      arch/arm64/kernel/cacheinfo.o
+  CC      security/sdp/fs_handler.o
+  CC      security/keys/encrypted-keys/encrypted.o
+  CC      security/keys/encrypted-keys/ecryptfs_format.o
+  CC      arch/arm64/kernel/smp.o
+  CC      kernel/range.o
+  CC      kernel/smpboot.o
+  CC      mm/highmem.o
+  CC      block/bio.o
+  CC      kernel/groups.o
+  CC      security/sdp/sdp_dlp.o
+  CC      arch/arm64/kernel/smp_spin_table.o
+  CC      fs/attr.o
+  LD      security/keys/encrypted-keys/encrypted-keys.o
+  LD      security/keys/encrypted-keys/built-in.o
+  LD      security/keys/built-in.o
+  CC      arch/arm64/kernel/topology.o
+  CC      mm/memory.o
+  CC      crypto/first_file.o
+  CC      crypto/fips_integrity.o
+  CC      mm/mincore.o
+  CC      crypto/api.o
+  CC      crypto/cipher.o
+  LD      security/sdp/built-in.o
+  CC      block/elevator.o
+  CC      arch/arm64/kernel/ctr_el0_handler.o
+  CC      kernel/bpf/core.o
+  CC      fs/bad_inode.o
+  CC      security/selinux/avc.o
+  CC      arch/arm64/kernel/sys32.o
+  AS      arch/arm64/kernel/kuser32.o
+  CC      crypto/compress.o
+  CC      mm/mlock.o
+  CC      arch/arm64/kernel/signal32.o
+  CC      fs/file.o
+  CC      arch/arm64/kernel/sys_compat.o
+  CC      block/blk-core.o
+  CC      crypto/memneq.o
+  LD      kernel/bpf/built-in.o
+  CC      kernel/events/core.o
+  AS      arch/arm64/kernel/entry32.o
+  CC      block/blk-tag.o
+  CC      mm/mmap.o
+  CC      crypto/crypto_wq.o
+  CC      arch/arm64/kernel/../../arm/kernel/opcodes.o
+  CC      fs/filesystems.o
+  CC      arch/arm64/kernel/perf_regs.o
+  CC      security/selinux/hooks.o
+  CC      crypto/fips.o
+  CC      crypto/algapi.o
+  CC      arch/arm64/kernel/perf_callchain.o
+  CC      fs/namespace.o
+  CC      crypto/scatterwalk.o
+  CC      arch/arm64/kernel/perf_event.o
+  CC      mm/mprotect.o
+  CC      crypto/proc.o
+  CC      fs/seq_file.o
+  CC      arch/arm64/kernel/hw_breakpoint.o
+  CC      crypto/aead.o
+  CC      block/blk-sysfs.o
+  CC      mm/mremap.o
+  AS      arch/arm64/kernel/sleep.o
+  CC      arch/arm64/kernel/suspend.o
+  CC      fs/xattr.o
+  CC      arch/arm64/kernel/cpuidle.o
+  CC      kernel/irq/irqdesc.o
+  CC      block/blk-flush.o
+  AS      arch/arm64/kernel/exynos-smc.o
+  CC      mm/msync.o
+  CC      crypto/ablkcipher.o
+  CC      arch/arm64/kernel/pci.o
+  CC      fs/libfs.o
+  CC      kernel/irq/handle.o
+  CC      security/selinux/selinuxfs.o
+  CC      mm/rmap.o
+  CC      arch/arm64/kernel/armv8_deprecated.o
+  CC      block/blk-settings.o
+  CC      kernel/events/ring_buffer.o
+  CC      kernel/irq/manage.o
+  CC      crypto/blkcipher.o
+  CC      fs/fs-writeback.o
+  CC      arch/arm64/kernel/acpi.o
+  CC      block/blk-ioc.o
+  CC      mm/vmalloc.o
+  CC      kernel/events/callchain.o
+  CC      security/selinux/netlink.o
+  CC      kernel/irq/spurious.o
+  LD      arch/arm64/kernel/built-in.o
+  CC      crypto/skcipher.o
+  CC      block/blk-map.o
+  CC      kernel/events/hw_breakpoint.o
+  CC      kernel/irq/resend.o
+  CC      drivers/acpi/tables.o
+  CC      crypto/chainiv.o
+  CC      security/selinux/nlmsgtab.o
+  CC      block/blk-exec.o
+  LD      kernel/events/built-in.o
+  CC      kernel/irq/chip.o
+  CC      mm/pagewalk.o
+  LD      kernel/livepatch/built-in.o
+  CC      mm/pgtable-generic.o
+  CC      drivers/acpi/osl.o
+  CC      crypto/eseqiv.o
+  CC      block/blk-merge.o
+  CC      fs/pnode.o
+  CC      mm/process_vm_access.o
+  CC      security/selinux/netif.o
+  CC      security/selinux/netnode.o
+  CC      kernel/irq/dummychip.o
+  CC      crypto/seqiv.o
+  CC      fs/splice.o
+  CC      mm/init-mm.o
+  CC      kernel/irq/devres.o
+  CC      mm/nobootmem.o
+  CC      mm/fadvise.o
+  CC      drivers/acpi/utils.o
+  CC      security/selinux/netport.o
+  CC      kernel/irq/generic-chip.o
+  CC      block/blk-softirq.o
+  CC      crypto/echainiv.o
+  CC      crypto/ahash.o
+  CC      mm/madvise.o
+  CC      drivers/acpi/reboot.o
+  CC      block/blk-timeout.o
+  CC      kernel/irq/autoprobe.o
+  CC      crypto/shash.o
+  CC      fs/sync.o
+  CC      security/selinux/exports.o
+  CC      kernel/irq/irqdomain.o
+  CC      drivers/acpi/nvs.o
+  CC      block/blk-iopoll.o
+  CC      crypto/algboss.o
+  CC      mm/memblock.o
+  CC      security/selinux/ss/ebitmap.o
+  CC      drivers/acpi/wakeup.o
+  CC      fs/utimes.o
+  CC      fs/stack.o
+  CC      block/blk-lib.o
+  CC      kernel/irq/proc.o
+  CC      crypto/testmgr.o
+  CC      kernel/irq/cpuhotplug.o
+  CC      drivers/acpi/device_sysfs.o
+  CC      fs/fs_struct.o
+  CC      mm/page_io.o
+  CC      block/blk-mq.o
+  CC      kernel/irq/pm.o
+  CC      security/selinux/ss/hashtab.o
+  CC      security/selinux/ss/symtab.o
+  CC      fs/statfs.o
+  CC      security/selinux/ss/sidtab.o
+  CC      drivers/acpi/device_pm.o
+  CC      security/selinux/ss/avtab.o
+  CC      kernel/irq/msi.o
+  CC      mm/swap_state.o
+  CC      fs/fs_pin.o
+  CC      security/selinux/ss/policydb.o
+  LD      kernel/irq/built-in.o
+  CC      fs/nsfs.o
+  CC      drivers/acpi/bus.o
+  CC      mm/swapfile.o
+  CC      crypto/hmac.o
+  CC      kernel/locking/mutex.o
+  CC      kernel/locking/semaphore.o
+  CC      fs/buffer.o
+  CC      block/blk-mq-tag.o
+  CC      crypto/sha1_generic.o
+  CC      kernel/locking/rwsem.o
+  CC      drivers/acpi/glue.o
+  CC      kernel/locking/percpu-rwsem.o
+  CC      kernel/locking/spinlock.o
+  CC      crypto/sha256_generic.o
+  CC      kernel/locking/osq_lock.o
+  CC      block/blk-mq-sysfs.o
+  CC      kernel/locking/lglock.o
+  CC      drivers/acpi/scan.o
+  CC      kernel/locking/rtmutex.o
+  CC      security/selinux/ss/services.o
+  CC      security/selinux/ss/conditional.o
+  CC      mm/frontswap.o
+  CC      block/blk-mq-cpu.o
+  CC      crypto/sha512_generic.o
+  CC      kernel/locking/rwsem-xadd.o
+  CC      mm/zswap.o
+  CC      fs/block_dev.o
+  CC      block/blk-mq-cpumap.o
+  CC      drivers/acpi/resource.o
+  LD      kernel/locking/built-in.o
+  CC      kernel/power/qos.o
+  CC      crypto/ecb.o
+  CC      security/selinux/ss/mls.o
+  CC      drivers/acpi/acpi_processor.o
+  CC      block/ioctl.o
+  CC      crypto/cbc.o
+  CC      security/selinux/ss/status.o
+  CC      mm/dmapool.o
+  CC      kernel/power/main.o
+  CC      drivers/acpi/processor_core.o
+  CC      fs/direct-io.o
+  CC      crypto/ctr.o
+  CC      crypto/gcm.o
+  CC      block/genhd.o
+  CC      mm/sparse.o
+  CC      drivers/acpi/ec.o
+  LD      security/selinux/selinux.o
+  LD      security/selinux/built-in.o
+  CC      security/commoncap.o
+  CC      kernel/power/process.o
+  CC      crypto/aes_generic.o
+  CC      mm/sparse-vmemmap.o
+  CC      crypto/authenc.o
+  CC      kernel/power/suspend.o
+  CC      drivers/acpi/pci_root.o
+  CC      mm/slub.o
+  CC      security/min_addr.o
+  CC      block/scsi_ioctl.o
+  CC      crypto/authencesn.o
+  CC      fs/mpage.o
+  CC      security/security.o
+  CC      crypto/rng.o
+  CC      drivers/acpi/pci_link.o
+  CC      kernel/power/autosleep.o
+  CC      block/partition-generic.o
+  CC      fs/proc_namespace.o
+  CC      block/ioprio.o
+  CC      kernel/power/wakelock.o
+  CC      crypto/jitterentropy.o
+  CC      crypto/jitterentropy-kcapi.o
+  CC      drivers/acpi/pci_irq.o
+  CC      fs/configfs/inode.o
+  CC      kernel/power/poweroff.o
+  CC      kernel/power/wakeup_reason.o
+  CC      block/partitions/check.o
+  CC      crypto/drbg.o
+  CC      crypto/tcrypt.o
+  CC      security/lsm_audit.o
+  CC      drivers/acpi/acpi_lpss.o
+  CC      mm/migrate.o
+  CC      block/partitions/msdos.o
+  CC      fs/configfs/file.o
+  LD      kernel/power/built-in.o
+  CC      kernel/printk/printk.o
+  CC      block/noop-iosched.o
+  CC      drivers/acpi/acpi_apd.o
+  CC      fs/configfs/dir.o
+  CC      block/partitions/efi.o
+  LD      security/built-in.o
+  CC      block/cfq-iosched.o
+  CC      drivers/acpi/acpi_platform.o
+  CC      drivers/acpi/acpi_pnp.o
+  CC      mm/page_isolation.o
+  LD      block/partitions/built-in.o
+  CC      block/compat_ioctl.o
+  CC      drivers/acpi/int340x_thermal.o
+  CC      drivers/acpi/power.o
+  CC      fs/configfs/symlink.o
+  CC      crypto/ghash-generic.o
+  CC      mm/zpool.o
+  LD      kernel/printk/built-in.o
+  CC      kernel/rcu/update.o
+  CC      fs/configfs/mount.o
+  CC      fs/configfs/item.o
+  CC      mm/zsmalloc.o
+  CC      crypto/last_file.o
+  CC      drivers/acpi/event.o
+  CC      kernel/rcu/sync.o
+  CC      crypto/pcompress.o
+  LD      fs/configfs/configfs.o
+  LD      fs/configfs/built-in.o
+  CC      mm/early_ioremap.o
+  CC      fs/cramfs/inode.o
+  CC      fs/cramfs/uncompress.o
+  LD      block/built-in.o
+  CC      fs/debugfs/inode.o
+  CC      kernel/rcu/srcu.o
+  CC      kernel/rcu/tree.o
+  CC      crypto/cmac.o
+  CC      drivers/acpi/sysfs.o
+  CC      mm/cma.o
+  CC      drivers/acpi/property.o
+  LD      fs/cramfs/cramfs.o
+  LD      fs/cramfs/built-in.o
+  CC      fs/devpts/inode.o
+  CC      crypto/crypto_null.o
+  CC      crypto/md5.o
+  CC      fs/debugfs/file.o
+  CC      crypto/gf128mul.o
+  CC      mm/hpa.o
+  CC      drivers/acpi/debugfs.o
+  LD      fs/devpts/devpts.o
+  LD      fs/devpts/built-in.o
+  LD      fs/debugfs/debugfs.o
+  LD      fs/debugfs/built-in.o
+  CC      crypto/cts.o
+  CC      crypto/xts.o
+  CC      fs/ecryptfs/dentry.o
+  CC      drivers/amba/bus.o
+  CC      drivers/android/binder.o
+  CC      mm/frame_vector.o
+  LD      drivers/amba/built-in.o
+  CC      fs/ecryptfs/file.o
+  LD      fs/exofs/built-in.o
+  CC      crypto/cryptd.o
+  LD      kernel/rcu/built-in.o
+  CC      fs/ext2/balloc.o
+  LD      mm/built-in.o
+  CC      drivers/acpi/acpi_lpat.o
+  CC      kernel/sched/core.o
+  CC      kernel/sched/loadavg.o
+  CC      crypto/des_generic.o
+  CC      fs/ext2/dir.o
+  CC      fs/ext4/balloc.o
+  CC      fs/ecryptfs/inode.o
+  CC      drivers/acpi/gsi.o
+  CC      kernel/sched/clock.o
+  CC      kernel/sched/cputime.o
+  CC      fs/ext2/file.o
+  CC      crypto/twofish_generic.o
+  CC      drivers/android/binder_alloc.o
+  CC      kernel/sched/idle_task.o
+  CC      fs/ecryptfs/main.o
+  CC      drivers/acpi/acpica/dsargs.o
+  CC      fs/ext4/bitmap.o
+  CC      crypto/twofish_common.o
+  LD      drivers/android/built-in.o
+  CC      fs/ext2/ialloc.o
+  CC      fs/ext2/inode.o
+  CC      drivers/acpi/button.o
+  CC      drivers/acpi/acpica/dscontrol.o
+  CC      fs/ext4/dir.o
+  CC      drivers/acpi/fan.o
+  CC      fs/ecryptfs/super.o
+  CC      fs/ext2/ioctl.o
+  CC      drivers/acpi/acpica/dsdebug.o
+  CC      crypto/arc4.o
+  CC      fs/ext2/namei.o
+  CC      drivers/acpi/acpica/dsfield.o
+  CC      fs/ext2/super.o
+  CC      drivers/acpi/processor_driver.o
+  CC      fs/ecryptfs/mmap.o
+  CC      crypto/deflate.o
+  CC      fs/ext4/file.o
+  CC      drivers/acpi/acpica/dsinit.o
+  CC      fs/ext2/symlink.o
+  CC      crypto/crc32c_generic.o
+  CC      crypto/lzo.o
+  CC      fs/ecryptfs/read_write.o
+  LD      drivers/auxdisplay/built-in.o
+  CC      fs/ext2/xattr.o
+  CC      kernel/time/time.o
+  CC      drivers/acpi/acpica/dsmethod.o
+  CC      crypto/lz4.o
+  CC      fs/ext4/fsync.o
+  CC      fs/ext4/ialloc.o
+  CC      fs/ecryptfs/crypto.o
+  CC      kernel/sched/fair.o
+  CC      crypto/ablk_helper.o
+  CC      drivers/acpi/acpica/dsmthdat.o
+  CC      kernel/time/timer.o
+  CC      fs/ext2/xattr_user.o
+  CC      fs/ext2/xattr_trusted.o
+  CC      drivers/acpi/acpica/dsobject.o
+  LD      crypto/crypto.o
+  LD      crypto/crypto_algapi.o
+  LD      crypto/crypto_blkcipher.o
+  LD      crypto/crypto_hash.o
+  LD      crypto/cryptomgr.o
+  LD      crypto/jitterentropy_rng.o
+  LD      crypto/built-in.o
+kernel/sched/fair.c: In function 'move_specific_task':
+kernel/sched/fair.c:9883:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if (throttled_lb_pair(task_group(p), env->src_rq->cpu,
+  ^~
+kernel/sched/fair.c:9887:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+   if (!hmp_can_migrate_task(p, env))
+   ^~
+  CC      fs/ext2/xattr_security.o
+  CC      sound/sound_core.o
+  LD      sound/arm/built-in.o
+  CC      drivers/acpi/acpica/dsopcode.o
+  LD      sound/atmel/built-in.o
+  CC      fs/ecryptfs/keystore.o
+  CC      fs/ext4/inode.o
+  LD      fs/ext2/ext2.o
+  LD      fs/ext2/built-in.o
+  CC      fs/ecryptfs/kthread.o
+  CC      drivers/acpi/acpica/dsutils.o
+  CC      kernel/time/hrtimer.o
+  CC      sound/core/sound.o
+  CC      fs/fat/cache.o
+  CC      fs/fat/dir.o
+  CC      fs/ecryptfs/debug.o
+  CC      drivers/acpi/acpica/dswexec.o
+  CC      sound/core/init.o
+  CC      fs/fat/fatent.o
+  CC      drivers/acpi/acpica/dswload.o
+  CC      fs/ecryptfs/ecryptfs_dek.o
+  CC      kernel/time/itimer.o
+  CC      drivers/acpi/acpica/dswload2.o
+  CC      sound/core/memory.o
+fs/ecryptfs/ecryptfs_dek.c: In function 'ecryptfs_update_crypt_flag':
+fs/ecryptfs/ecryptfs_dek.c:361:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(list_empty(&crypt_stat->keysig_list))
+     ^~
+fs/ecryptfs/ecryptfs_dek.c:364:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+  mutex_lock(&crypt_stat->cs_mutex);
+  ^~~~~~~~~~
+  CC      fs/fat/file.o
+  CC      fs/fat/inode.o
+  CC      sound/core/control.o
+  CC      fs/ecryptfs/mm.o
+  CC      drivers/acpi/acpica/dswscope.o
+  CC      kernel/time/posix-timers.o
+  CC      drivers/acpi/acpica/dswstate.o
+  CC      fs/fat/misc.o
+  CC      fs/ecryptfs/ecryptfs_sdp_chamber.o
+  CC      drivers/acpi/acpica/evevent.o
+  CC      kernel/time/posix-cpu-timers.o
+  CC      fs/fat/nfs.o
+  CC      kernel/time/timekeeping.o
+  LD      fs/ecryptfs/ecryptfs.o
+  LD      fs/ecryptfs/built-in.o
+  CC      sound/core/misc.o
+  CC      kernel/time/ntp.o
+  CC      fs/ext4/page-io.o
+  CC      drivers/acpi/acpica/evgpe.o
+  CC      kernel/sched/rt.o
+  CC      fs/fat/xattr.o
+  CC      sound/core/device.o
+  CC      kernel/time/clocksource.o
+  CC      kernel/time/jiffies.o
+  CC      drivers/acpi/acpica/evgpeblk.o
+  CC      sound/core/info.o
+  CC      fs/fat/namei_vfat.o
+  CC      fs/ext4/ioctl.o
+  CC      kernel/time/timer_list.o
+  CC      drivers/acpi/acpica/evgpeinit.o
+  LD      sound/drivers/mpu401/built-in.o
+  LD      sound/drivers/opl3/built-in.o
+  LD      sound/drivers/opl4/built-in.o
+  LD      sound/drivers/pcsp/built-in.o
+  CC      kernel/time/timeconv.o
+  LD      sound/drivers/vx/built-in.o
+  LD      sound/drivers/built-in.o
+  LD      sound/firewire/built-in.o
+  LD      sound/hda/built-in.o
+  LD      sound/i2c/other/built-in.o
+  LD      sound/i2c/built-in.o
+  CC      drivers/acpi/acpica/evgpeutil.o
+  LD      sound/isa/ad1816a/built-in.o
+  LD      sound/isa/ad1848/built-in.o
+  LD      sound/isa/cs423x/built-in.o
+  CC      drivers/acpi/acpica/evglock.o
+  CC      kernel/sched/deadline.o
+  CC      kernel/time/timecounter.o
+  CC      sound/core/ctljack.o
+  CC      fs/ext4/namei.o
+  LD      sound/isa/es1688/built-in.o
+  CC      kernel/sched/stop_task.o
+  CC      fs/fat/namei_msdos.o
+  LD      sound/isa/galaxy/built-in.o
+  LD      sound/isa/gus/built-in.o
+  LD      sound/isa/msnd/built-in.o
+  LD      sound/isa/opti9xx/built-in.o
+  LD      sound/isa/sb/built-in.o
+  LD      sound/isa/wavefront/built-in.o
+  LD      sound/isa/wss/built-in.o
+  LD      sound/isa/built-in.o
+  CC      kernel/time/posix-clock.o
+  CC      sound/core/jack.o
+  CC      drivers/acpi/acpica/evhandler.o
+  LD      sound/mips/built-in.o
+  LD      sound/parisc/built-in.o
+  CC      sound/core/hwdep.o
+  CC      kernel/sched/wait.o
+  CC      drivers/acpi/acpica/evmisc.o
+  LD      fs/fat/fat.o
+  CC      kernel/time/alarmtimer.o
+  LD      fs/fat/vfat.o
+  LD      fs/fat/msdos.o
+  LD      fs/fat/built-in.o
+  CC      kernel/time/clockevents.o
+  LD      sound/pci/ac97/built-in.o
+  CC      drivers/acpi/acpica/evregion.o
+  CC      sound/core/timer.o
+  LD      sound/pci/ali5451/built-in.o
+  LD      sound/pci/asihpi/built-in.o
+  CC      drivers/acpi/acpica/evrgnini.o
+  CC      kernel/sched/completion.o
+  LD      sound/pci/au88x0/built-in.o
+  LD      sound/pci/aw2/built-in.o
+  LD      sound/pci/ca0106/built-in.o
+  LD      sound/pci/cs46xx/built-in.o
+  LD      sound/pci/cs5535audio/built-in.o
+  LD      sound/pci/ctxfi/built-in.o
+  LD      sound/pci/echoaudio/built-in.o
+  LD      sound/pci/emu10k1/built-in.o
+  LD      sound/pci/hda/built-in.o
+  CC      sound/core/pcm.o
+  LD      sound/pci/ice1712/built-in.o
+  LD      sound/pci/korg1212/built-in.o
+  LD      sound/pcmcia/pdaudiocf/built-in.o
+  LD      sound/pci/lola/built-in.o
+  LD      sound/pcmcia/vx/built-in.o
+  LD      sound/pcmcia/built-in.o
+  LD      sound/pci/lx6464es/built-in.o
+  LD      sound/pci/mixart/built-in.o
+  CC      drivers/acpi/acpica/evsci.o
+  LD      sound/pci/nm256/built-in.o
+  CC      kernel/time/tick-common.o
+  LD      sound/pci/oxygen/built-in.o
+  LD      sound/pci/pcxhr/built-in.o
+  LD      sound/pci/riptide/built-in.o
+  CC      kernel/sched/idle.o
+  LD      sound/pci/rme9652/built-in.o
+  LD      sound/pci/trident/built-in.o
+  LD      sound/pci/vx222/built-in.o
+  LD      sound/pci/ymfpci/built-in.o
+  LD      sound/pci/built-in.o
+  CC      fs/fuse/dev.o
+  CC      fs/fuse/dir.o
+  CC      drivers/acpi/acpica/evxface.o
+  CC      sound/core/pcm_native.o
+  CC      sound/core/pcm_lib.o
+  CC      drivers/acpi/acpica/evxfevnt.o
+  CC      fs/ext4/super.o
+  CC      kernel/time/tick-broadcast.o
+  CC      kernel/sched/cpupri.o
+  CC      drivers/acpi/acpica/evxfgpe.o
+  CC      kernel/sched/cpudeadline.o
+  CC      drivers/acpi/acpica/evxfregn.o
+  CC      drivers/acpi/acpica/exconfig.o
+  CC      kernel/time/tick-broadcast-hrtimer.o
+  CC      kernel/sched/debug.o
+  CC      kernel/sched/cpuacct.o
+  CC      fs/fuse/file.o
+  CC      fs/fuse/inode.o
+  CC      drivers/acpi/acpica/exconvrt.o
+  CC      kernel/time/sched_clock.o
+  CC      kernel/sched/cpufreq.o
+  CC      sound/core/pcm_misc.o
+  CC      kernel/time/tick-oneshot.o
+  CC      drivers/acpi/acpica/excreate.o
+  CC      fs/fuse/control.o
+  CC      drivers/acpi/acpica/exdebug.o
+  LD      kernel/sched/built-in.o
+  CC      kernel/time/tick-sched.o
+  CC      sound/core/pcm_memory.o
+  CC      sound/core/memalloc.o
+  CC      kernel/trace/trace_clock.o
+  CC      fs/fuse/passthrough.o
+  CC      drivers/acpi/acpica/exdump.o
+  CC      sound/core/pcm_timer.o
+  CC      kernel/trace/ring_buffer.o
+  CC      sound/core/rawmidi.o
+  CC      drivers/acpi/acpica/exfield.o
+  CC      drivers/acpi/acpica/exfldio.o
+  CC      kernel/time/timekeeping_debug.o
+  LD      fs/fuse/fuse.o
+  LD      fs/fuse/built-in.o
+  CC      fs/jbd2/transaction.o
+  CC      fs/jbd2/commit.o
+  CC      drivers/acpi/acpica/exmutex.o
+  LD      kernel/time/built-in.o
+  CC      kernel/kaslr.o
+  CC      drivers/acpi/acpica/exnames.o
+  CC      drivers/acpi/acpica/exoparg1.o
+  CC      kernel/freezer.o
+  CC      drivers/acpi/acpica/exoparg2.o
+  CC      sound/core/compress_offload.o
+  CC      drivers/acpi/acpica/exoparg3.o
+  CC      kernel/profile.o
+  CC      drivers/acpi/acpica/exoparg6.o
+  CC      fs/jbd2/recovery.o
+  CC      kernel/trace/trace.o
+  CC      drivers/acpi/acpica/exprep.o
+  CC      fs/jbd2/checkpoint.o
+  CC      drivers/acpi/acpica/exmisc.o
+  LD      sound/core/snd.o
+  LD      sound/core/snd-hwdep.o
+  LD      sound/core/snd-timer.o
+  LD      sound/core/snd-pcm.o
+  LD      sound/core/snd-rawmidi.o
+  LD      sound/core/snd-compress.o
+  LD      sound/core/built-in.o
+  LD      sound/ppc/built-in.o
+  LD      sound/sh/built-in.o
+  CC      sound/soc/soc-core.o
+  CC      drivers/acpi/acpica/exregion.o
+  CC      drivers/acpi/acpica/exresnte.o
+  CC      drivers/acpi/acpica/exresolv.o
+  CC      kernel/stacktrace.o
+  CC      fs/jbd2/revoke.o
+  CC      kernel/futex.o
+  CC      drivers/acpi/acpica/exresop.o
+  CC      drivers/acpi/acpica/exstore.o
+  CC      drivers/acpi/acpica/exstoren.o
+  CC      drivers/acpi/acpica/exstorob.o
+  CC      drivers/acpi/acpica/exsystem.o
+  CC      fs/jbd2/journal.o
+  CC      fs/ext4/symlink.o
+  CC      drivers/base/component.o
+  CC      kernel/futex_compat.o
+  CC      fs/ext4/hash.o
+  CC      fs/ext4/resize.o
+  CC      drivers/acpi/acpica/exutils.o
+  CC      sound/soc/soc-dapm.o
+  CC      kernel/trace/trace_output.o
+  CC      kernel/smp.o
+  CC      fs/ext4/extents.o
+  CC      drivers/base/core.o
+  CC      drivers/acpi/acpica/hwacpi.o
+  CC      drivers/acpi/acpica/hwesleep.o
+  CC      kernel/uid16.o
+  LD      fs/jbd2/jbd2.o
+  LD      fs/jbd2/built-in.o
+  CC      fs/kernfs/mount.o
+  CC      drivers/acpi/acpica/hwgpe.o
+  CC      kernel/trace/trace_seq.o
+  CC      kernel/trace/trace_stat.o
+  CC      kernel/kallsyms.o
+  CC      drivers/acpi/acpica/hwpci.o
+  CC      kernel/trace/trace_printk.o
+  CC      fs/kernfs/inode.o
+  CC      drivers/base/bus.o
+  CC      kernel/trace/trace_sched_switch.o
+  CC      kernel/compat.o
+  CC      drivers/acpi/acpica/hwregs.o
+  CC      sound/soc/soc-jack.o
+  CC      kernel/trace/trace_nop.o
+  CC      drivers/acpi/acpica/hwsleep.o
+  CC      fs/kernfs/dir.o
+  CC      kernel/trace/blktrace.o
+  CC      drivers/base/dd.o
+  CC      kernel/trace/trace_events.o
+  CC      drivers/acpi/acpica/hwvalid.o
+  CC      sound/soc/soc-cache.o
+  CC      kernel/cgroup.o
+  CC      kernel/trace/trace_export.o
+  CC      drivers/base/syscore.o
+  CC      drivers/acpi/acpica/hwxface.o
+  CC      fs/kernfs/file.o
+  CC      sound/soc/soc-utils.o
+  CC      fs/ext4/ext4_jbd2.o
+  CC      drivers/acpi/acpica/hwxfsleep.o
+  CC      kernel/trace/trace_event_perf.o
+  CC      drivers/base/driver.o
+  CC      sound/soc/soc-pcm.o
+  CC      fs/kernfs/symlink.o
+  CC      drivers/acpi/acpica/nsaccess.o
+  CC      fs/ext4/migrate.o
+  CC      drivers/base/class.o
+  CC      kernel/trace/trace_events_filter.o
+  CC      kernel/trace/trace_events_trigger.o
+  LD      fs/kernfs/built-in.o
+  CC      fs/nls/nls_base.o
+  CC      drivers/acpi/acpica/nsalloc.o
+  CC      drivers/base/platform.o
+  CC      fs/ext4/mballoc.o
+  CC      drivers/acpi/acpica/nsarguments.o
+  CC      fs/nls/nls_cp437.o
+  CC      kernel/trace/power-traces.o
+  CC      fs/nls/nls_iso8859-1.o
+  CC      drivers/acpi/acpica/nsconvert.o
+  CC      kernel/trace/rpm-traces.o
+  CC      kernel/cgroup_freezer.o
+  CC      sound/soc/soc-io.o
+  CC      fs/nls/nls_utf8.o
+  CC      drivers/base/cpu.o
+  CC      drivers/acpi/acpica/nsdump.o
+  LD      fs/nls/built-in.o
+  CC      fs/notify/fsnotify.o
+  CC      kernel/trace/gpu-traces.o
+  CC      drivers/acpi/acpica/nseval.o
+  CC      kernel/cpuset.o
+  CC      sound/soc/soc-devres.o
+  CC      drivers/base/firmware.o
+  CC      drivers/acpi/acpica/nsinit.o
+  CC      drivers/acpi/acpica/nsload.o
+  CC      fs/notify/notification.o
+  CC      drivers/base/init.o
+  LD      kernel/trace/built-in.o
+  CC      kernel/utsname.o
+  CC      sound/soc/soc-ops.o
+  CC      drivers/acpi/acpica/nsnames.o
+  CC      drivers/acpi/acpica/nsobject.o
+  CC      drivers/base/map.o
+  CC      kernel/pid_namespace.o
+  CC      fs/notify/group.o
+  CC      fs/notify/inode_mark.o
+  CC      sound/soc/soc-compress.o
+  CC      drivers/acpi/acpica/nsparse.o
+  CC      drivers/base/devres.o
+  CC      drivers/base/attribute_container.o
+  CC      fs/notify/mark.o
+  CC      kernel/stop_machine.o
+  CC      drivers/acpi/acpica/nspredef.o
+  CC      drivers/base/transport_class.o
+  CC      drivers/base/topology.o
+  CC      fs/ext4/block_validity.o
+  CC      fs/ext4/move_extent.o
+  CC      kernel/audit.o
+  CC      fs/notify/vfsmount_mark.o
+  LD      sound/soc/adi/built-in.o
+  LD      sound/soc/atmel/built-in.o
+  LD      sound/soc/au1x/built-in.o
+  LD      sound/soc/bcm/built-in.o
+  CC      drivers/acpi/acpica/nsprepkg.o
+  LD      sound/soc/blackfin/built-in.o
+  LD      sound/soc/cirrus/built-in.o
+  CC      drivers/acpi/acpica/nsrepair.o
+  CC      drivers/base/container.o
+  CC      sound/soc/codecs/cs47l92.o
+  CC      fs/notify/fdinfo.o
+  CC      sound/soc/codecs/madera.o
+  CC      drivers/acpi/acpica/nsrepair2.o
+  CC      drivers/base/property.o
+  CC      fs/ext4/mmp.o
+  CC      fs/ext4/indirect.o
+  CC      fs/notify/dnotify/dnotify.o
+  CC      drivers/acpi/acpica/nssearch.o
+  CC      fs/ext4/extents_status.o
+  CC      drivers/base/cacheinfo.o
+  CC      kernel/auditfilter.o
+  CC      drivers/acpi/acpica/nsutils.o
+  LD      fs/notify/dnotify/built-in.o
+  LD      fs/notify/fanotify/built-in.o
+  CC      fs/notify/inotify/inotify_fsnotify.o
+  CC      fs/ext4/xattr.o
+  CC      drivers/base/devtmpfs.o
+  CC      drivers/base/dma-contiguous.o
+  CC      drivers/acpi/acpica/nswalk.o
+  CC      fs/notify/inotify/inotify_user.o
+  CC      sound/soc/codecs/max98506.o
+  CC      sound/soc/codecs/maxim_dsm.o
+  CC      drivers/acpi/acpica/nsxfeval.o
+  LD      sound/sparc/built-in.o
+  CC      drivers/acpi/acpica/nsxfname.o
+  CC      kernel/auditsc.o
+  CC      fs/ext4/xattr_user.o
+  LD      fs/notify/inotify/built-in.o
+  LD      fs/notify/built-in.o
+  CC      fs/ext4/xattr_trusted.o
+  CC      drivers/base/power/sysfs.o
+  CC      drivers/acpi/acpica/nsxfobj.o
+  CC      drivers/acpi/acpica/psargs.o
+  CC      sound/soc/codecs/maxim_dsm_cal.o
+  CC      drivers/acpi/acpica/psloop.o
+  CC      fs/ext4/inline.o
+  CC      sound/soc/codecs/maxim_dsm_power.o
+  CC      drivers/base/power/generic_ops.o
+  CC      drivers/acpi/acpica/psobject.o
+  CC      sound/soc/codecs/wm_adsp.o
+  CC      drivers/acpi/acpica/psopcode.o
+  LD      sound/soc/codecs/snd-soc-cs47l92.o
+  LD      sound/soc/codecs/snd-soc-madera.o
+  LD      sound/soc/codecs/snd-soc-max98506.o
+  LD      sound/soc/codecs/snd-soc-maxim-dsm.o
+  CC      drivers/acpi/acpica/psopinfo.o
+  CC      kernel/audit_watch.o
+  CC      drivers/base/power/common.o
+  CC      drivers/base/power/qos.o
+  CC      drivers/battery_v2/sec_battery.o
+  CC      drivers/acpi/acpica/psparse.o
+  CC      drivers/battery_v2/sec_adc.o
+  CC      kernel/audit_fsnotify.o
+  AS      firmware/mfc/mfc_fw_flash.bin.gen.o
+  AS      firmware/exynos8895_acpm_dvfs.fw.gen.o
+drivers/battery_v2/sec_battery.c: In function 'sec_bat_store_attrs':
+drivers/battery_v2/sec_battery.c:6012:6: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+      for (i = 0; i < CISD_DATA_MAX_PER_DAY; i++)
+      ^~~
+drivers/battery_v2/sec_battery.c:6014:7: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+       pcisd->data[CISD_DATA_ALG_INDEX] = battery->pdata->cisd_alg_index;
+       ^~~~~
+  CC      drivers/acpi/acpica/psscope.o
+  AS      firmware/tsp_stm/fts8cd56_dream2.fw.gen.o
+  CC      drivers/base/power/runtime.o
+  CC      fs/ext4/readpage.o
+  AS      firmware/tsp_stm/fts8cd56_dream2_old.fw.gen.o
+  AS      firmware/tsp_stm/fts9cd56_dream1.fw.gen.o
+  AS      firmware/tsp_sec/y761_dream1_nosync.fw.gen.o
+  AS      firmware/tsp_sec/y761_dream1.fw.gen.o
+  LD      firmware/built-in.o
+  CC      kernel/audit_tree.o
+  CC      kernel/hung_task.o
+  CC      net/socket.o
+  CC      drivers/acpi/acpica/pstree.o
+  LD      sound/soc/codecs/snd-soc-maxim-dsm-cal.o
+  LD      sound/soc/codecs/snd-soc-wm-adsp.o
+  LD      sound/soc/codecs/built-in.o
+  LD      sound/soc/davinci/built-in.o
+  LD      sound/soc/dwc/built-in.o
+  LD      sound/soc/fsl/built-in.o
+  CC      fs/ext4/sysfs.o
+  LD      sound/soc/generic/built-in.o
+  LD      sound/soc/intel/boards/built-in.o
+  LD      sound/soc/intel/built-in.o
+  CC      drivers/base/power/wakeirq.o
+  CC      drivers/acpi/acpica/psutils.o
+  LD      sound/soc/jz4740/built-in.o
+  LD      sound/soc/kirkwood/built-in.o
+  LD      sound/soc/mediatek/built-in.o
+  LD      sound/soc/mxs/built-in.o
+  LD      sound/soc/nuc900/built-in.o
+  LD      sound/soc/omap/built-in.o
+  LD      sound/soc/pxa/built-in.o
+  LD      sound/soc/qcom/built-in.o
+  LD      sound/soc/rockchip/built-in.o
+  CC      drivers/acpi/acpica/pswalk.o
+  CC      drivers/base/power/main.o
+  CC      kernel/watchdog.o
+  CC      fs/ext4/xattr_security.o
+  CC      sound/soc/samsung/dp_dma.o
+  LD      arch/arm64/lib/built-in.o
+  AS      arch/arm64/lib/bitops.o
+  AS      arch/arm64/lib/clear_page.o
+  AS      arch/arm64/lib/clear_user.o
+  AS      arch/arm64/lib/copy_from_user.o
+  AS      arch/arm64/lib/copy_in_user.o
+  CC      drivers/acpi/acpica/psxface.o
+  AS      arch/arm64/lib/copy_page.o
+  AS      arch/arm64/lib/copy_to_user.o
+  CC      arch/arm64/lib/delay.o
+  CC      drivers/acpi/acpica/rsaddr.o
+  CC      kernel/seccomp.o
+  CC      fs/ext4/crypto_policy.o
+  CC      drivers/acpi/acpica/rscalc.o
+  CC      drivers/base/power/wakeup.o
+  AS      arch/arm64/lib/memchr.o
+  LD      net/802/built-in.o
+  CC      drivers/battery_v2/sec_cisd.o
+  AS      arch/arm64/lib/memcmp.o
+  CC      fs/ext4/crypto.o
+  CC      drivers/acpi/acpica/rscreate.o
+  CC      sound/soc/samsung/abox/abox_util.o
+  CC      net/bluetooth/af_bluetooth.o
+  CC      kernel/utsname_sysctl.o
+  AS      arch/arm64/lib/memcpy.o
+  CC      sound/soc/samsung/abox/abox_dbg.o
+  CC      drivers/base/power/opp/core.o
+  AS      arch/arm64/lib/memmove.o
+  CC      drivers/acpi/acpica/rsdumpinfo.o
+  CC      drivers/battery_v2/battery_notifier.o
+  AS      arch/arm64/lib/memset.o
+  AS      arch/arm64/lib/strchr.o
+  CC      kernel/delayacct.o
+  AS      arch/arm64/lib/strcmp.o
+  AS      arch/arm64/lib/strlen.o
+  AS      arch/arm64/lib/strncmp.o
+  CC      fs/ext4/crypto_key.o
+  AS      arch/arm64/lib/strnlen.o
+  CC      drivers/acpi/acpica/rsinfo.o
+  AS      arch/arm64/lib/strrchr.o
+  AR      arch/arm64/lib/lib.a
+  CC      drivers/battery_v2/max77865_fuelgauge.o
+  CC      sound/soc/samsung/abox/abox_dump.o
+  CC      kernel/taskstats.o
+  CC      kernel/tsacct.o
+  CC      drivers/base/power/opp/cpu.o
+  CC      drivers/acpi/acpica/rsio.o
+  CC      net/bluetooth/hci_core.o
+  CC      net/bluetooth/hci_conn.o
+  CC      fs/ext4/crypto_fname.o
+  CC      drivers/acpi/acpica/rsirq.o
+  LD      drivers/base/power/opp/built-in.o
+  CC      drivers/base/power/domain.o
+  CC      sound/soc/samsung/abox/abox_log.o
+  CC      drivers/acpi/acpica/rslist.o
+  CC      kernel/tracepoint.o
+  CC      drivers/acpi/acpica/rsmemory.o
+  CC      sound/soc/samsung/abox/abox_gic.o
+  CC      fs/ext4/crypto_sec.o
+  CC      kernel/elfcore.o
+  CC      drivers/battery_v2/max77865_charger.o
+  CC      drivers/acpi/acpica/rsmisc.o
+  CC      drivers/base/power/domain_governor.o
+  CC      sound/soc/samsung/abox/abox.o
+  CC      kernel/irq_work.o
+  CC      drivers/base/power/clock_ops.o
+  CC      net/bluetooth/hci_event.o
+  LD      fs/ext4/ext4.o
+  CC      drivers/acpi/acpica/rsserial.o
+  LD      fs/ext4/built-in.o
+  CC      kernel/cpu_pm.o
+  CC      drivers/acpi/acpica/rsutils.o
+  LD      drivers/base/power/built-in.o
+  CC      drivers/base/regmap/regmap.o
+  CC      kernel/membarrier.o
+  CC      fs/proc/task_mmu.o
+  CC      drivers/acpi/acpica/rsxface.o
+  CC      drivers/battery_v2/mfc_charger.o
+  CC      net/bluetooth/mgmt.o
+  CC      kernel/memremap.o
+  CC      fs/proc/inode.o
+  CC      sound/soc/samsung/abox/abox_rdma.o
+  CC      drivers/acpi/acpica/tbdata.o
+  LD      kernel/built-in.o
+  CC      drivers/base/regmap/regcache.o
+  CC      drivers/base/regmap/regcache-rbtree.o
+  CC      drivers/acpi/acpica/tbfadt.o
+  LD      drivers/battery_v2/built-in.o
+  CC      fs/proc/root.o
+  CC      fs/proc/base.o
+  CC      sound/soc/samsung/abox/abox_wdma.o
+  CC      sound/soc/samsung/abox/abox_effect.o
+  CC      drivers/acpi/acpica/tbfind.o
+  CC      drivers/base/regmap/regcache-lzo.o
+  CC      fs/proc/generic.o
+  CC      drivers/acpi/acpica/tbinstal.o
+  CC      drivers/acpi/acpica/tbprint.o
+  CC      sound/soc/samsung/abox/abox_vss.o
+  CC      drivers/base/regmap/regcache-flat.o
+  CC      fs/proc/array.o
+  CC      drivers/acpi/acpica/tbutils.o
+  CC      drivers/base/dma-mapping.o
+  CC      drivers/base/dma-coherent.o
+  CC      sound/soc/samsung/abox/abox_adaptation.o
+  CC      drivers/base/regmap/regmap-debugfs.o
+  CC      net/bluetooth/hci_sock.o
+  CC      drivers/acpi/acpica/tbxface.o
+  CC      fs/proc/fd.o
+  CC      lib/lockref.o
+  CC      lib/bcd.o
+  LD      sound/soc/samsung/abox/built-in.o
+  CC      sound/soc/samsung/vts/mailbox.o
+  CC      lib/div64.o
+  CC      drivers/base/firmware_class.o
+  CC      lib/sort.o
+  CC      drivers/base/soc.o
+  CC      lib/parser.o
+  CC      drivers/base/regmap/regmap-i2c.o
+  CC      drivers/acpi/acpica/tbxfload.o
+  CC      sound/soc/samsung/vts/vts.o
+  CC      lib/halfmd4.o
+  CC      fs/proc/proc_tty.o
+  CC      drivers/base/pinctrl.o
+  CC      lib/debug_locks.o
+  CC      drivers/acpi/acpica/tbxfroot.o
+  CC      lib/random32.o
+  CC      drivers/base/regmap/regmap-spi.o
+  CC      drivers/base/platform-msi.o
+  CC      net/bluetooth/hci_sysfs.o
+  CC      net/bluetooth/l2cap_core.o
+  CC      fs/proc/cmdline.o
+  CC      drivers/acpi/acpica/utaddress.o
+  CC      lib/bust_spinlocks.o
+  CC      drivers/base/regmap/regmap-mmio.o
+  CC      drivers/base/regmap/regmap-irq.o
+  CC      fs/proc/consoles.o
+  CC      drivers/acpi/acpica/utalloc.o
+  CC      lib/kasprintf.o
+  CC      net/bluetooth/l2cap_sock.o
+  CC      fs/proc/cpuinfo.o
+  CC      fs/proc/devices.o
+  CC      sound/soc/samsung/vts/vts_dma.o
+  CC      lib/bitmap.o
+  CC      drivers/acpi/acpica/utbuffer.o
+  LD      drivers/base/regmap/built-in.o
+  LD      drivers/base/built-in.o
+  CC      drivers/block/brd.o
+  CC      lib/scatterlist.o
+  CC      lib/gcd.o
+  CC      fs/proc/interrupts.o
+  CC      drivers/acpi/acpica/utcopy.o
+  LD      sound/soc/samsung/vts/built-in.o
+  CC      sound/soc/samsung/dream_madera.o
+  CC      drivers/block/loop.o
+  CC      sound/soc/samsung/jack_madera_sysfs_cb.o
+  CC      lib/lcm.o
+  CC      lib/list_sort.o
+  CC      lib/uuid.o
+  CC      fs/proc/loadavg.o
+  CC      lib/flex_array.o
+  CC      lib/iov_iter.o
+  CC      drivers/acpi/acpica/utexcep.o
+  CC      drivers/acpi/acpica/utdebug.o
+  CC      drivers/acpi/acpica/utdecode.o
+  CC      fs/proc/meminfo.o
+  CC      sound/soc/samsung/sec_audio_debug.o
+  CC      drivers/acpi/acpica/utdelete.o
+  CC      drivers/acpi/acpica/uterror.o
+  CC      sound/soc/samsung/sec_audio_sysfs.o
+  LD      drivers/block/built-in.o
+  CC      fs/proc/stat.o
+  CC      fs/proc/uptime.o
+  CC      fs/proc/version.o
+  CC      net/bluetooth/smp.o
+  CC      drivers/acpi/acpica/uteval.o
+  CC      drivers/bluetooth/bcm43xx.o
+  LD      sound/soc/samsung/snd-soc-dp_dma.o
+  LD      sound/soc/samsung/built-in.o
+  LD      sound/soc/sh/built-in.o
+  LD      sound/soc/sirf/built-in.o
+  LD      sound/soc/spear/built-in.o
+  CC      fs/proc/softirqs.o
+  CC      fs/proc/namespaces.o
+  LD      sound/soc/sti/built-in.o
+  LD      sound/soc/sunxi/built-in.o
+  CC      drivers/acpi/processor_perflib.o
+  CC      lib/clz_ctz.o
+  LD      sound/soc/tegra/built-in.o
+  LD      sound/soc/txx9/built-in.o
+  LD      sound/soc/ux500/built-in.o
+  CC      drivers/acpi/acpica/utglobal.o
+  LD      drivers/bluetooth/built-in.o
+  CC      drivers/acpi/acpica/uthex.o
+  LD      sound/soc/xtensa/built-in.o
+  LD      sound/soc/zte/built-in.o
+  LD      sound/soc/snd-soc-core.o
+  CC      lib/bsearch.o
+  CC      fs/proc/self.o
+  LD      sound/soc/built-in.o
+  CC      lib/find_bit.o
+  CC      fs/proc/thread_self.o
+  LD      sound/spi/built-in.o
+  LD      sound/synth/built-in.o
+  CC      lib/llist.o
+  CC      lib/memweight.o
+  CC      sound/last.o
+  CC      drivers/acpi/acpica/utids.o
+  CC      fs/proc/stlog.o
+  CC      drivers/acpi/container.o
+  CC      sound/usb/card.o
+  CC      lib/kfifo.o
+  CC      fs/proc/proc_sysctl.o
+  LD      sound/soundcore.o
+  CC      lib/percpu-refcount.o
+  CC      drivers/acpi/acpica/utinit.o
+  CC      net/bluetooth/lib.o
+  CC      drivers/acpi/thermal.o
+  CC      lib/percpu_ida.o
+  CC      lib/rhashtable.o
+  CC      lib/reciprocal_div.o
+  CC      drivers/acpi/acpica/utlock.o
+  CC      sound/usb/clock.o
+  CC      lib/once.o
+  CC      lib/string_helpers.o
+  CC      drivers/acpi/acpica/utmath.o
+  CC      fs/proc/proc_net.o
+  CC      lib/hexdump.o
+  CC      net/bluetooth/ecc.o
+  CC      lib/kstrtox.o
+  CC      lib/pci_iomap.o
+  CC      sound/usb/endpoint.o
+  CC      drivers/acpi/acpi_memhotplug.o
+  CC      drivers/acpi/acpica/utmisc.o
+  CC      lib/iomap_copy.o
+  CC      lib/devres.o
+  CC      net/bluetooth/hci_request.o
+  CC      net/bluetooth/mgmt_util.o
+  CC      drivers/acpi/acpica/utmutex.o
+  CC      drivers/acpi/acpica/utnonansi.o
+  CC      fs/proc/kmsg.o
+  CC      fs/proc/page.o
+  CC      lib/hweight.o
+  CC      sound/usb/format.o
+  CC      lib/assoc_array.o
+  CC      net/bluetooth/sco.o
+  CC      drivers/acpi/acpica/utobject.o
+  CC      net/bluetooth/a2mp.o
+  CC      drivers/acpi/acpica/utosi.o
+  LD      fs/proc/proc.o
+  LD      fs/proc/built-in.o
+  CC      sound/usb/helper.o
+  CC      fs/pstore/inode.o
+  CC      net/bluetooth/amp.o
+  CC      drivers/acpi/acpica/utownerid.o
+  CC      lib/bitrev.o
+  CC      lib/rational.o
+  CC      lib/crc16.o
+  CC      lib/crc32.o
+  CC      sound/usb/mixer.o
+  CC      drivers/acpi/acpica/utpredef.o
+  CC      drivers/acpi/acpica/utresrc.o
+  CC      fs/pstore/platform.o
+  CC      drivers/acpi/acpica/utstate.o
+  CC      drivers/acpi/acpica/utstring.o
+  CC      net/bluetooth/hci_debugfs.o
+  CC      drivers/acpi/acpica/utxface.o
+  CC      lib/libcrc32c.o
+  CC      sound/usb/mixer_quirks.o
+  CC      fs/pstore/pmsg.o
+  CC      drivers/acpi/acpica/utxfinit.o
+  LD      virt/lib/built-in.o
+  LD      virt/built-in.o
+  CC      lib/genalloc.o
+  CC      fs/pstore/ram.o
+  CC      lib/lz4/lz4_compress.o
+  CC      drivers/acpi/acpica/utxferror.o
+  CC      fs/quota/dquot.o
+  LD      net/bluetooth/bluetooth.o
+  LD      net/bluetooth/built-in.o
+  CC      sound/usb/mixer_scarlett.o
+  CC      net/ethernet/eth.o
+  CC      lib/lz4/lz4_decompress.o
+  CC      drivers/acpi/acpica/utxfmutex.o
+  CC      drivers/bts/cal_bts8895.o
+  CC      fs/pstore/ram_core.o
+  LD      lib/lz4/built-in.o
+  CC      lib/lzo/lzo1x_compress.o
+  CC      net/core/sock.o
+  CC      sound/usb/pcm.o
+  LD      drivers/acpi/acpica/acpi.o
+  CC      drivers/bts/bts-exynos8895.o
+  LD      fs/pstore/pstore.o
+  LD      fs/pstore/ramoops.o
+  LD      fs/pstore/built-in.o
+  LD      drivers/acpi/acpica/built-in.o
+  CC      lib/lzo/lzo1x_decompress_safe.o
+  LD      drivers/acpi/acpi.o
+  LD      net/ethernet/built-in.o
+  LD      drivers/acpi/processor.o
+  CC      fs/ramfs/inode.o
+  CC      fs/ramfs/file-mmu.o
+  CC      fs/quota/quota_v2.o
+  LD      lib/lzo/lzo_compress.o
+  LD      drivers/bts/built-in.o
+  LD      lib/lzo/lzo_decompress.o
+  LD      lib/lzo/built-in.o
+  CC      fs/quota/quota_tree.o
+  CC      lib/reed_solomon/reed_solomon.o
+  CC      sound/usb/proc.o
+  CC      sound/usb/quirks.o
+  LD      drivers/acpi/built-in.o
+  LD      drivers/bus/built-in.o
+  LD      fs/ramfs/ramfs.o
+  LD      fs/ramfs/built-in.o
+  LD      drivers/cdrom/built-in.o
+  CC      sound/usb/stream.o
+  CC      drivers/ccic/ccic_notifier.o
+  CC      fs/sdcardfs/dentry.o
+  CC      fs/sysfs/file.o
+  LD      lib/reed_solomon/built-in.o
+  CC      fs/quota/quota.o
+  CC      lib/xz/xz_dec_syms.o
+  CC      fs/sdfat/sdfat.o
+  CC      drivers/ccic/ccic_sysfs.o
+  CC      lib/xz/xz_dec_stream.o
+  CC      fs/sdcardfs/file.o
+  CC      fs/sysfs/dir.o
+  CC      sound/usb/midi.o
+  CC      net/core/request_sock.o
+  CC      lib/xz/xz_dec_lzma2.o
+  CC      fs/sysfs/symlink.o
+  CC      fs/quota/kqid.o
+  CC      fs/sdcardfs/inode.o
+  CC      drivers/ccic/ccic_alternate.o
+  CC      fs/quota/netlink.o
+  CC      fs/sysfs/mount.o
+  CC      lib/xz/xz_dec_bcj.o
+  CC      net/core/skbuff.o
+  CC      fs/sysfs/group.o
+  LD      lib/xz/xz_dec.o
+  LD      lib/xz/built-in.o
+  CC      fs/sdcardfs/main.o
+  LD      sound/usb/6fire/built-in.o
+  CC      fs/sdfat/core.o
+  LD      fs/quota/built-in.o
+  CC      fs/sdfat/core_fat.o
+  LD      sound/usb/bcd2000/built-in.o
+  CC      lib/zlib_deflate/deflate.o
+  LD      sound/usb/caiaq/built-in.o
+  LD      sound/usb/hiface/built-in.o
+  LD      sound/usb/misc/built-in.o
+  LD      sound/usb/usx2y/built-in.o
+  LD      sound/usb/snd-usb-audio.o
+  LD      sound/usb/snd-usbmidi-lib.o
+  LD      sound/usb/built-in.o
+  LD      sound/built-in.o
+  LD      fs/sysfs/built-in.o
+  CC      fs/sdcardfs/super.o
+  CC      fs/sdcardfs/lookup.o
+  CC      drivers/ccic/ccic_misc.o
+  CC      fs/sdcardfs/mmap.o
+  CC      lib/zlib_deflate/deftree.o
+  CC      fs/sdcardfs/packagelist.o
+  CC      drivers/ccic/s2mm005_fw.o
+  CC      fs/sdcardfs/derived_perm.o
+  CC      lib/zlib_deflate/deflate_syms.o
+  CC      fs/tracefs/inode.o
+  LD      lib/zlib_deflate/zlib_deflate.o
+  LD      lib/zlib_deflate/built-in.o
+  CC      lib/zlib_inflate/inffast.o
+  CC      net/ipv4/route.o
+  CC      fs/sdfat/core_exfat.o
+  LD      fs/tracefs/tracefs.o
+  LD      fs/tracefs/built-in.o
+  CC      fs/sdfat/api.o
+  CC      net/core/datagram.o
+  CC      lib/zlib_inflate/inflate.o
+  CC      drivers/ccic/s2mm005_cc.o
+  CC      net/ipv6/af_inet6.o
+  CC      fs/sdfat/blkdev.o
+  CC      lib/zlib_inflate/infutil.o
+  LD      fs/sdcardfs/sdcardfs.o
+  LD      fs/sdcardfs/built-in.o
+  CC      fs/eventpoll.o
+  CC      drivers/ccic/s2mm005_pd.o
+  CC      lib/zlib_inflate/inftrees.o
+  CC      lib/zlib_inflate/inflate_syms.o
+  CC      fs/sdfat/fatent.o
+  LD      lib/zlib_inflate/zlib_inflate.o
+  LD      lib/zlib_inflate/built-in.o
+  CC      net/core/stream.o
+  CC      lib/textsearch.o
+  CC      lib/ts_kmp.o
+  CC      drivers/ccic/s2mm005.o
+  CC      net/ipv6/anycast.o
+  CC      fs/sdfat/amap_smart.o
+  CC      lib/ts_bm.o
+  CC      lib/ts_fsm.o
+  CC      fs/anon_inodes.o
+  CC      lib/percpu_counter.o
+  CC      net/core/scm.o
+  CC      net/core/gen_stats.o
+  CC      net/core/gen_estimator.o
+  CC      net/ipv4/inetpeer.o
+  LD      drivers/ccic/built-in.o
+  CC      net/ipv6/ip6_output.o
+  CC      fs/sdfat/cache.o
+  CC      drivers/char/mem.o
+  CC      lib/audit.o
+  CC      net/ipv4/protocol.o
+  CC      fs/sdfat/dfr.o
+  CC      net/ipv4/ip_input.o
+  CC      lib/compat_audit.o
+  CC      drivers/char/random.o
+  CC      drivers/char/misc.o
+  CC      net/core/net_namespace.o
+  CC      lib/swiotlb.o
+  LD      drivers/char/agp/built-in.o
+  CC      net/ipv4/ip_fragment.o
+  CC      drivers/char/hw_random/core.o
+  CC      fs/sdfat/nls.o
+  CC      net/ipv6/ip6_input.o
+  CC      net/ipv6/addrconf.o
+  CC      drivers/char/hw_random/exyswd-rng.o
+  CC      net/core/secure_seq.o
+  CC      fs/sdfat/misc.o
+  CC      lib/iommu-helper.o
+  CC      lib/iommu-common.o
+  LD      drivers/char/hw_random/rng-core.o
+  LD      drivers/char/hw_random/built-in.o
+  CC      lib/syscall.o
+  CC      drivers/char/mst_ctrl.o
+  CC      net/ipv4/ip_forward.o
+  CC      net/core/flow_dissector.o
+  CC      net/ipv6/addrlabel.o
+  CC      fs/sdfat/mpage.o
+  CC      lib/nlattr.o
+  CC      lib/checksum.o
+  CC      net/core/sysctl_net_core.o
+  LD      drivers/char/built-in.o
+  CC      drivers/clk/clk-devres.o
+  CC      fs/sdfat/extent.o
+  CC      lib/cpu_rmap.o
+  CC      net/ipv4/ip_options.o
+  CC      drivers/clk/clkdev.o
+  CC      drivers/clk/clk.o
+  CC      net/ipv6/route.o
+  CC      lib/dynamic_queue_limits.o
+  CC      fs/sdfat/xattr.o
+  CC      lib/strncpy_from_user.o
+  CC      net/core/dev.o
+  CC      net/core/ethtool.o
+  CC      lib/strnlen_user.o
+  CC      fs/sdfat/statistics.o
+  CC      lib/net_utils.o
+  CC      net/ipv4/ip_output.o
+  LD      fs/sdfat/sdfat_fs.o
+  LD      fs/sdfat/built-in.o
+  CC      fs/signalfd.o
+  CC      net/ipv6/ip6_fib.o
+  CC      lib/argv_split.o
+  CC      lib/bug.o
+  CC      lib/cmdline.o
+  CC      fs/timerfd.o
+  CC      net/ipv4/ip_sockglue.o
+  CC      lib/cpumask.o
+  CC      lib/ctype.o
+  CC      drivers/clk/clk-divider.o
+  CC      drivers/clk/clk-fixed-factor.o
+  CC      net/ipv6/ipv6_sockglue.o
+  CC      lib/dec_and_lock.o
+  CC      drivers/clocksource/clksrc-probe.o
+  CC      lib/decompress.o
+  CC      lib/decompress_bunzip2.o
+  CC      fs/eventfd.o
+  CC      drivers/clk/clk-fixed-rate.o
+  CC      drivers/cpufreq/cpufreq.o
+  CC      drivers/clocksource/exynos_mct.o
+  CC      drivers/clk/clk-gate.o
+  CC      lib/decompress_inflate.o
+  CC      fs/aio.o
+  CC      drivers/clocksource/arm_arch_timer.o
+  CC      drivers/clk/clk-multiplier.o
+  CC      net/ipv4/inet_hashtables.o
+  CC      lib/decompress_unlz4.o
+  CC      net/ipv6/ndisc.o
+  CC      drivers/clk/clk-mux.o
+  CC      net/core/dev_addr_lists.o
+  CC      lib/decompress_unlzma.o
+  CC      drivers/clocksource/dummy_timer.o
+  CC      drivers/clk/clk-composite.o
+  CC      drivers/cpufreq/freq_table.o
+  LD      drivers/clocksource/built-in.o
+  CC      drivers/cpuidle/cpuidle.o
+  CC      drivers/clk/clk-fractional-divider.o
+  CC      net/ipv4/inet_timewait_sock.o
+  CC      drivers/cpufreq/cpufreq_stats.o
+  CC      fs/locks.o
+  CC      net/core/dst.o
+  CC      lib/decompress_unlzo.o
+  CC      drivers/clk/clk-gpio.o
+  CC      lib/decompress_unxz.o
+  CC      drivers/cpufreq/cpufreq_performance.o
+  CC      net/ipv6/udp.o
+  CC      drivers/cpuidle/driver.o
+  CC      drivers/clk/clk-conf.o
+  CC      drivers/cpufreq/cpufreq_userspace.o
+  CC      net/ipv4/inet_connection_sock.o
+  CC      lib/dump_stack.o
+  CC      drivers/clk/clk-xgene.o
+  CC      drivers/cpuidle/governor.o
+  CC      net/core/netevent.o
+  CC      drivers/cpufreq/cpufreq_interactive.o
+  CC      lib/earlycpio.o
+  CC      drivers/cpuidle/sysfs.o
+  CC      lib/extable.o
+  LD      drivers/clk/bcm/built-in.o
+  CC      drivers/clk/samsung/composite.o
+  CC      lib/fdt.o
+  CC      net/core/neighbour.o
+  CC      fs/compat.o
+  CC      net/ipv4/tcp.o
+  CC      drivers/cpuidle/governors/ladder.o
+  CC      lib/fdt_empty_tree.o
+  CC      drivers/clk/samsung/clk-exynos8895.o
+  CC      net/ipv6/udplite.o
+  CC      drivers/cpufreq/exynos-acme.o
+  CC      fs/compat_ioctl.o
+  CC      net/core/rtnetlink.o
+  CC      drivers/clk/samsung/clk-exynos-audss.o
+  CC      lib/fdt_ro.o
+  CC      drivers/cpuidle/governors/menu.o
+  CC      drivers/clk/samsung/clk-exynos-clkout.o
+  CC      lib/fdt_rw.o
+  CC      net/ipv6/raw.o
+  LD      drivers/cpufreq/built-in.o
+  CC      lib/fdt_strerror.o
+  CC      net/ipv4/tcp_input.o
+  CC      drivers/clk/samsung/clk-exynos-pwm.o
+  LD      drivers/cpuidle/governors/built-in.o
+  CC      drivers/cpuidle/dt_idle_states.o
+  CC      lib/fdt_sw.o
+  CC      lib/fdt_wip.o
+  CC      lib/flex_proportions.o
+  CC      net/ipv6/icmp.o
+  LD      drivers/clk/samsung/built-in.o
+  CC      drivers/cpuidle/cpuidle-exynos64.o
+  LD      drivers/clk/built-in.o
+  CC      lib/idr.o
+  CC      net/core/utils.o
+  CC      fs/binfmt_script.o
+  CC      lib/int_sqrt.o
+  CC      lib/ioremap.o
+  CC      fs/binfmt_elf.o
+  LD      drivers/cpuidle/built-in.o
+  CC      lib/irq_regs.o
+  CC      drivers/crypto/fmp/first_file.o
+  CC      drivers/devfreq/devfreq.o
+  CC      drivers/crypto/fmp/fmp_ufs.o
+  CC      lib/is_single_threaded.o
+  CC      net/core/link_watch.o
+  CC      net/ipv6/mcast.o
+  CC      net/ipv6/reassembly.o
+  CC      lib/klist.o
+  CC      lib/kobject.o
+  CC      fs/compat_binfmt_elf.o
+  CC      drivers/devfreq/governor_simpleinteractive.o
+  CC      net/core/filter.o
+  CC      drivers/crypto/fmp/fmpdev.o
+  CC      drivers/crypto/fmp/fmp_integrity.o
+  CC      drivers/devfreq/exynos/exynos-devfreq.o
+  CC      lib/kobject_uevent.o
+  CC      drivers/crypto/fmp/fmplib.o
+  CC      fs/mbcache.o
+  CC      lib/md5.o
+  CC      net/ipv6/tcp_ipv6.o
+  CC      lib/nmi_backtrace.o
+  CC      drivers/crypto/fmp/hmac_fmp.o
+  CC      drivers/crypto/fmp/sha256_fmp.o
+  CC      net/core/sock_diag.o
+  CC      net/ipv4/tcp_output.o
+  CC      fs/posix_acl.o
+  CC      drivers/devfreq/exynos/exynos8895_bus_mif.o
+  CC      lib/plist.o
+  CC      lib/proportions.o
+  CC      drivers/crypto/fmp/fmp_ufs_fips.o
+  CC      drivers/devfreq/exynos/exynos8895_bus_int.o
+  CC      lib/radix-tree.o
+  CC      fs/coredump.o
+  CC      net/core/dev_ioctl.o
+  CC      drivers/crypto/fmp/fmp_derive_iv.o
+  CC      drivers/devfreq/exynos/exynos8895_bus_disp.o
+  CC      drivers/crypto/fmp/last_file.o
+  CC      drivers/devfreq/exynos/exynos8895_bus_cam.o
+  LD      drivers/crypto/fmp/built-in.o
+  LD      drivers/crypto/built-in.o
+  CC      lib/ratelimit.o
+  CC      drivers/dma/dmaengine.o
+  CC      drivers/devfreq/exynos/exynos8895_bus_intcam.o
+  CC      lib/rbtree.o
+  CC      net/ipv6/ping.o
+  CC      net/core/tso.o
+  CC      fs/drop_caches.o
+  CC      drivers/dma-buf/dma-buf.o
+  CC      fs/dcookies.o
+  CC      net/ipv4/tcp_timer.o
+  CC      drivers/dma-buf/fence.o
+  CC      net/ipv6/exthdrs.o
+  CC      lib/seq_buf.o
+  LD      drivers/devfreq/exynos/built-in.o
+  LD      drivers/devfreq/built-in.o
+  CC      net/core/flow.o
+  CC      net/core/net-sysfs.o
+  CC      drivers/dma/acpi-dma.o
+  LD      fs/built-in.o
+  CC      drivers/dma-buf/reservation.o
+  CC      lib/sha1.o
+  CC      drivers/dma/of-dma.o
+  CC      net/ipv4/tcp_ipv4.o
+  CC      lib/show_mem.o
+  CC      net/ipv6/datagram.o
+  CC      drivers/dma-buf/seqno-fence.o
+  CC      net/core/net-procfs.o
+  CC      net/core/fib_rules.o
+  CC      lib/string.o
+  CC      drivers/dma/pl330.o
+  LD      drivers/dma-buf/built-in.o
+  CC      lib/timerqueue.o
+  CC      drivers/fingerprint/fingerprint_sysfs.o
+  CC      net/core/net-traces.o
+  CC      lib/vsprintf.o
+  CC      net/key/af_key.o
+  CC      drivers/fingerprint/vfs8xxx.o
+  CC      net/ipv6/ip6_flowlabel.o
+  CC      net/ipv6/inet6_connection_sock.o
+  CC      net/ipv4/tcp_minisocks.o
+  CC      drivers/dma/samsung-dma.o
+  LD      drivers/fingerprint/built-in.o
+  LD      drivers/firewire/built-in.o
+  LD      drivers/dma/xilinx/built-in.o
+  CC      drivers/gpio/devres.o
+  CC      drivers/firmware/psci.o
+  LD      drivers/dma/built-in.o
+  CC      drivers/gpio/gpiolib.o
+  CC      net/ipv6/sysctl_net_ipv6.o
+  LD      net/core/built-in.o
+  LD      lib/built-in.o
+  AR      lib/lib.a
+  CC      drivers/gps/sec_gps_bcm47531.o
+  LD      drivers/firmware/broadcom/built-in.o
+  CC      net/mptcp/mptcp_ctrl.o
+  CC      net/ipv6/xfrm6_policy.o
+  LD      drivers/firmware/built-in.o
+  CC      net/mptcp/mptcp_ipv4.o
+  CC      net/ipv6/xfrm6_state.o
+  CC      drivers/gpio/gpiolib-legacy.o
+  CC      net/ipv4/tcp_cong.o
+  LD      drivers/gps/built-in.o
+  CC      net/ipv4/tcp_metrics.o
+  LD      net/key/built-in.o
+  CC      net/ipv4/tcp_fastopen.o
+  CC      net/ipv6/xfrm6_input.o
+  CC      drivers/gpio/gpiolib-of.o
+  CC      net/mptcp/mptcp_ofo_queue.o
+  CC      drivers/gpio/gpiolib-sysfs.o
+  CC      drivers/gpio/gpiolib-acpi.o
+  CC      net/ipv6/xfrm6_output.o
+  CC      net/ipv4/tcp_recovery.o
+  CC      net/mptcp/mptcp_pm.o
+  CC      net/mptcp/mptcp_output.o
+  CC      net/mptcp/mptcp_input.o
+  CC      net/ipv4/tcp_offload.o
+  LD      drivers/gpio/built-in.o
+  CC      net/mptcp/mptcp_sched.o
+  CC      net/ipv6/xfrm6_protocol.o
+  CC      net/ipv6/netfilter.o
+  CC      net/ipv4/datagram.o
+  CC      net/ipv4/raw.o
+  CC      net/ipv6/fib6_rules.o
+  CC      net/ipv6/proc.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_device.o
+  CC      net/mptcp/mptcp_fullmesh.o
+  CC      net/mptcp/mptcp_ipv6.o
+  CC      net/netfilter/core.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_cache_policy.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mem.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/admin.o
+  CC      net/ipv6/ah6.o
+  CC      net/ipv6/esp6.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/client.o
+  CC      net/ipv4/udp.o
+  CC      net/ipv4/udplite.o
+  CC      net/netfilter/nf_log.o
+  CC      net/mptcp/mptcp_coupled.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mmu.o
+  CC      net/ipv6/ipcomp6.o
+  CC      net/ipv4/udp_offload.o
+  CC      net/ipv6/xfrm6_tunnel.o
+  CC      net/netfilter/nf_queue.o
+  CC      net/mptcp/mptcp_olia.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/clientlib.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/clock.o
+  CC      net/ipv6/tunnel6.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/fastcall.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_ctx_sched.o
+  CC      net/ipv6/xfrm6_mode_transport.o
+  CC      net/ipv4/arp.o
+  CC      net/netfilter/nf_sockopt.o
+  CC      net/mptcp/mptcp_wvegas.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/iwp.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_jd.o
+  CC      net/ipv4/icmp.o
+  CC      net/ipv6/xfrm6_mode_tunnel.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_jd_debugfs.o
+  CC      net/netfilter/nfnetlink.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/logging.o
+  LD      net/mptcp/mptcp.o
+  LD      net/mptcp/built-in.o
+  CC      net/netlink/af_netlink.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_jm.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_gpuprops.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_js.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/main.o
+  CC      net/ipv6/xfrm6_mode_beet.o
+  CC      net/netfilter/nfnetlink_queue.o
+  CC      net/ipv4/devinet.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_js_ctx_attr.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/mcp.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_event.o
+  CC      net/ipv6/mip6.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_context.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/mmu.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_pm.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_config.o
+  CC      net/netlink/genetlink.o
+  CC      net/netfilter/nfnetlink_log.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_vinstr.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_softjobs.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/nq.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_10969_workaround.o
+  CC      net/ipv4/af_inet.o
+  CC      net/ipv6/netfilter/ip6_tables.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_hw.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/pm.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/scheduler.o
+  LD      net/netlink/built-in.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_utility.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_debug.o
+  CC      net/netfilter/nf_conntrack_core.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_trace_timeline.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/session.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/teeclientapi.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_gpu_memory_debugfs.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mem_linux.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_core_linux.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/user.o
+  CC      net/ipv4/igmp.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_replay.o
+  CC      net/ipv4/fib_frontend.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/mcDrvModule.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/MobiCoreDriver/built-in.o
+  CC      net/ipv6/netfilter/ip6table_filter.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/TlcTui/main.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mem_profile_debugfs.o
+  CC      net/netfilter/nf_conntrack_standalone.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/TlcTui/tlcTui.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mmu_mode_lpae.o
+  CC      net/ipv6/netfilter/ip6table_mangle.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/TlcTui/trustedui.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mmu_mode_aarch64.o
+  CC      net/netfilter/nf_conntrack_expect.o
+  CC      net/netfilter/nf_conntrack_helper.o
+  CC      net/netfilter/nf_conntrack_proto.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/TlcTui/platforms/exynos8895/tui-hal.o
+  CC      net/netfilter/nf_conntrack_l3proto_generic.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_disjoint_events.o
+  CC      net/ipv6/netfilter/ip6table_raw.o
+  CC      net/ipv4/fib_semantics.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_gator_api.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/TlcTui/TlcTui.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/TlcTui/built-in.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/sec-os-booster/sec_os_booster.o
+  CC      net/ipv6/netfilter/ip6table_nat.o
+  CC      net/netfilter/nf_conntrack_proto_generic.o
+  CC      net/netfilter/nf_conntrack_proto_tcp.o
+  CC      net/ipv6/netfilter/nf_conntrack_l3proto_ipv6.o
+  CC      net/packet/af_packet.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_debug_mem_view.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/sec-os-booster/built-in.o
+  CC      drivers/gud/gud-exynos8895_kinibi400/sec-os-ctrl/sec_os_ctrl.o
+  CC      net/netfilter/nf_conntrack_proto_udp.o
+  CC      net/ipv4/fib_trie.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/sec-os-ctrl/built-in.o
+  LD      drivers/gud/gud-exynos8895_kinibi400/built-in.o
+  CC      net/ipv6/netfilter/nf_conntrack_proto_icmpv6.o
+  LD      drivers/gud/built-in.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_debug_job_fault.o
+  LD      drivers/hsi/clients/built-in.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_smc.o
+  LD      drivers/hsi/controllers/built-in.o
+  LD      drivers/hsi/built-in.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mem_pool.o
+  CC      drivers/hwmon/hwmon.o
+  CC      net/netfilter/nf_conntrack_extend.o
+  CC      net/ipv6/netfilter/nf_nat_l3proto_ipv6.o
+  CC      net/ipv6/netfilter/nf_nat_proto_icmpv6.o
+  CC      drivers/hid/hid-core.o
+  CC      drivers/hwmon/sec_thermistor.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_mem_pool_debugfs.o
+  CC      net/netfilter/nf_conntrack_acct.o
+  CC      net/ipv4/inet_fragment.o
+  CC      net/ipv6/netfilter/nf_nat_masquerade_ipv6.o
+  LD      drivers/hwmon/built-in.o
+  LD      drivers/hwtracing/intel_th/built-in.o
+  CC      drivers/i2c/i2c-boardinfo.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_tlstream.o
+  LD      net/packet/built-in.o
+  CC      drivers/i2c/i2c-core.o
+  CC      net/ipv6/netfilter/nf_defrag_ipv6_hooks.o
+  CC      net/netfilter/nf_conntrack_seqadj.o
+  CC      drivers/i2c/i2c-dev.o
+  CC      net/ipv4/ping.o
+  CC      net/ipv6/netfilter/nf_conntrack_reasm.o
+  CC      drivers/hid/hid-input.o
+  CC      drivers/i2c/i2c-mux.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_strings.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_as_fault_debugfs.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_regs_history_debugfs.o
+  CC      net/netfilter/nf_conntrack_ecache.o
+  CC      net/ipv6/netfilter/nf_log_ipv6.o
+  CC      net/ipv6/netfilter/nf_reject_ipv6.o
+  CC      net/ipv4/ip_tunnel_core.o
+  CC      net/ipv4/gre_offload.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_sync_android.o
+  CC      drivers/hid/hid-debug.o
+  CC      net/netfilter/nf_conntrack_labels.o
+  CC      drivers/i2c/algos/i2c-algo-bit.o
+  CC      net/ipv6/netfilter/ip6t_rpfilter.o
+  CC      drivers/gpu/arm/tMIx/r9p0/mali_kbase_sync_common.o
+  CC      net/ipv6/netfilter/ip6t_MASQUERADE.o
+  CC      drivers/hid/hidraw.o
+  LD      drivers/i2c/algos/built-in.o
+  CC      drivers/i2c/busses/i2c-exynos5.o
+  CC      net/ipv4/ip_tunnel.o
+  CC      net/netfilter/nf_conntrack_proto_dccp.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_cache_policy_backend.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_device_hw.o
+  CC      net/ipv6/netfilter/ip6t_REJECT.o
+  CC      drivers/hid/uhid.o
+  LD      net/ipv6/netfilter/nf_conntrack_ipv6.o
+  LD      net/ipv6/netfilter/nf_nat_ipv6.o
+  LD      net/ipv6/netfilter/nf_defrag_ipv6.o
+  CC      drivers/hid/hid-generic.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_gpu.o
+  CC      net/ipv4/sysctl_net_ipv4.o
+  CC      drivers/i2c/busses/i2c-speedy.o
+  CC      drivers/i2c/busses/i2c-gpio.o
+  CC      net/netfilter/nf_conntrack_proto_gre.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_gpuprops_backend.o
+  LD      net/ipv6/netfilter/built-in.o
+  CC      net/ipv6/sit.o
+  CC      drivers/hid/hid-a4tech.o
+  CC      net/ipv4/sysfs_net_ipv4.o
+  CC      net/ipv4/proc.o
+  LD      drivers/i2c/busses/built-in.o
+  LD      drivers/i2c/muxes/built-in.o
+  LD      drivers/i2c/built-in.o
+  LD      drivers/idle/built-in.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_debug_job_fault_backend.o
+  CC      drivers/hid/hid-axff.o
+  CC      drivers/hid/hid-apple.o
+  CC      drivers/iio/industrialio-core.o
+  CC      net/netfilter/nf_conntrack_proto_sctp.o
+  CC      net/netfilter/nf_conntrack_proto_udplite.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_irq_linux.o
+  CC      net/ipv4/fib_rules.o
+  CC      drivers/hid/hid-belkin.o
+  CC      net/ipv4/ah4.o
+  CC      drivers/iio/industrialio-event.o
+  CC      net/ipv6/ip6_tunnel.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_instr_backend.o
+  CC      net/netfilter/nf_conntrack_netlink.o
+  CC      drivers/hid/hid-cherry.o
+  CC      net/netfilter/nf_conntrack_amanda.o
+  CC      net/ipv4/esp4.o
+  CC      drivers/hid/hid-chicony.o
+  CC      drivers/iio/inkern.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_jm_as.o
+  CC      net/ipv4/ipcomp.o
+  CC      drivers/hid/hid-cypress.o
+  CC      drivers/iio/industrialio-buffer.o
+  CC      drivers/iio/industrialio-trigger.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_jm_hw.o
+  CC      drivers/hid/hid-dr.o
+  CC      net/ipv4/xfrm4_tunnel.o
+  CC      net/ipv6/addrconf_core.o
+  CC      net/ipv4/xfrm4_mode_beet.o
+  CC      net/netfilter/nf_conntrack_ftp.o
+  CC      drivers/hid/hid-emsff.o
+  LD      drivers/iio/accel/built-in.o
+  CC      drivers/iio/adc/exynos_adc.o
+  LD      drivers/iio/amplifiers/built-in.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_jm_rb.o
+  CC      drivers/iio/buffer/kfifo_buf.o
+  LD      drivers/iio/chemical/built-in.o
+  CC      net/ipv6/exthdrs_core.o
+  CC      drivers/hid/hid-elecom.o
+  CC      net/ipv4/tunnel4.o
+  CC      net/phonet/pn_dev.o
+  LD      drivers/iio/adc/built-in.o
+  CC      net/phonet/pn_netlink.o
+  LD      drivers/iio/buffer/built-in.o
+  LD      drivers/iio/common/hid-sensors/built-in.o
+  LD      drivers/iio/common/ms_sensors/built-in.o
+  LD      drivers/iio/common/ssp_sensors/built-in.o
+  LD      drivers/iio/common/st_sensors/built-in.o
+  LD      drivers/iio/common/built-in.o
+  CC      drivers/hid/hid-ezkey.o
+  CC      net/netfilter/nf_conntrack_h323_main.o
+  LD      drivers/iio/dac/built-in.o
+  LD      drivers/iio/frequency/built-in.o
+  LD      drivers/iio/gyro/built-in.o
+  LD      drivers/iio/humidity/built-in.o
+  LD      drivers/iio/imu/inv_mpu6050/built-in.o
+  LD      drivers/iio/imu/built-in.o
+  LD      drivers/iio/light/built-in.o
+  CC      net/ipv6/ip6_checksum.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_js_affinity.o
+  LD      drivers/iio/magnetometer/built-in.o
+  LD      drivers/iio/orientation/built-in.o
+  LD      drivers/iio/potentiometer/built-in.o
+  CC      drivers/hid/hid-gyration.o
+  CC      drivers/hid/hid-holtek-kbd.o
+  CC      net/ipv4/xfrm4_mode_transport.o
+  LD      drivers/iio/pressure/built-in.o
+  LD      drivers/iio/proximity/built-in.o
+  LD      drivers/iio/temperature/built-in.o
+  LD      drivers/iio/trigger/built-in.o
+  LD      drivers/iio/industrialio.o
+  CC      net/phonet/socket.o
+  LD      drivers/iio/built-in.o
+  CC      drivers/input/input.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_js_backend.o
+  CC      drivers/hid/hid-holtek-mouse.o
+  CC      drivers/hid/hid-holtekff.o
+  CC      net/ipv6/ip6_icmp.o
+  CC      net/ipv4/xfrm4_mode_tunnel.o
+  CC      drivers/hid/hid-kensington.o
+  CC      drivers/hid/hid-keytouch.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_mmu_hw_direct.o
+  CC      net/netfilter/nf_conntrack_h323_asn1.o
+  CC      net/phonet/datagram.o
+  CC      drivers/hid/hid-kye.o
+  CC      drivers/input/serio/serio.o
+  CC      net/netfilter/nf_conntrack_irc.o
+  CC      net/ipv6/output_core.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_backend.o
+  CC      net/ipv4/ipconfig.o
+  CC      drivers/hid/hid-lcpower.o
+  CC      net/phonet/sysctl.o
+  CC      drivers/input/serio/libps2.o
+  CC      drivers/hid/hid-lg.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_driver.o
+  CC      net/phonet/af_phonet.o
+  CC      net/ipv6/protocol.o
+  CC      net/netfilter/nf_conntrack_broadcast.o
+  LD      drivers/input/serio/built-in.o
+  CC      drivers/iommu/iommu.o
+  CC      drivers/hid/hid-lgff.o
+  CC      net/ipv4/netfilter.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_metrics.o
+  CC      net/ipv6/ip6_offload.o
+  CC      net/netfilter/nf_conntrack_netbios_ns.o
+  CC      net/phonet/pep.o
+  CC      drivers/hid/hid-lg2ff.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_ca.o
+  CC      drivers/iommu/iommu-traces.o
+  CC      drivers/hid/hid-lg3ff.o
+  CC      net/netfilter/nf_conntrack_pptp.o
+  CC      net/ipv6/tcpv6_offload.o
+  CC      net/ipv4/netfilter/nf_conntrack_l3proto_ipv4_compat.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_ca_fixed.o
+  CC      drivers/hid/hid-lg4ff.o
+  CC      drivers/iommu/iommu-sysfs.o
+  CC      drivers/input/input-compat.o
+  CC      net/phonet/pep-gprs.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_always_on.o
+  CC      net/netfilter/nf_conntrack_sane.o
+  CC      net/ipv6/udp_offload.o
+  CC      net/ipv4/netfilter/nf_conntrack_l3proto_ipv4.o
+  CC      drivers/iommu/dma-iommu.o
+  CC      drivers/input/input-mt.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_coarse_demand.o
+  CC      drivers/hid/hid-logitech-dj.o
+  LD      net/phonet/phonet.o
+  LD      net/phonet/pn_pep.o
+  LD      net/phonet/built-in.o
+  CC      net/rfkill/core.o
+  CC      net/netfilter/nf_conntrack_tftp.o
+  CC      drivers/iommu/iova.o
+  CC      drivers/input/ff-core.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_demand.o
+  CC      net/ipv6/exthdrs_offload.o
+  CC      net/ipv4/netfilter/nf_conntrack_proto_icmp.o
+  CC      drivers/hid/hid-logitech-hidpp.o
+  CC      drivers/iommu/of_iommu.o
+  CC      drivers/input/sec_cmd.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_pm_policy.o
+  LD      net/rfkill/rfkill.o
+  LD      net/rfkill/built-in.o
+  CC      net/netfilter/nf_log_common.o
+  CC      net/sched/sch_generic.o
+  CC      net/ipv6/inet6_hashtables.o
+  CC      drivers/iommu/exynos-iovmm.o
+  CC      net/ipv4/netfilter/nf_nat_l3proto_ipv4.o
+  CC      drivers/input/ff-memless.o
+  CC      drivers/hid/hid-magicmouse.o
+  CC      drivers/gpu/arm/tMIx/r9p0/backend/gpu/mali_kbase_time.o
+  CC      net/netfilter/nf_nat_core.o
+  CC      drivers/input/input-leds.o
+  CC      net/ipv6/mcast_snoop.o
+  CC      drivers/hid/hid-microsoft.o
+  CC      net/sched/sch_mq.o
+  CC      drivers/iommu/exynos-iommu.o
+  CC      net/ipv4/netfilter/nf_nat_proto_icmp.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_integration_callbacks.o
+  CC      drivers/input/mousedev.o
+  CC      drivers/hid/hid-monterey.o
+  LD      net/ipv6/ipv6.o
+  CC      drivers/hid/hid-multitouch.o
+  CC      net/sched/sch_api.o
+  CC      net/netfilter/nf_nat_proto_unknown.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/mali_kbase_platform.o
+  CC      net/ipv4/netfilter/nf_defrag_ipv4.o
+  LD      net/ipv6/built-in.o
+  CC      drivers/input/evdev.o
+  CC      drivers/input/joystick/xpad.o
+  CC      drivers/iommu/exynos-iommu-log.o
+  CC      drivers/hid/hid-ntrig.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_notifier.o
+  CC      net/netfilter/nf_nat_proto_common.o
+  LD      drivers/iommu/built-in.o
+  CC      net/ipv4/netfilter/nf_log_ipv4.o
+  CC      drivers/irqchip/irqchip.o
+  LD      drivers/input/joystick/built-in.o
+  CC      drivers/irqchip/exynos-combiner.o
+  CC      net/sched/sch_blackhole.o
+  CC      drivers/input/keyboard/atkbd.o
+  CC      drivers/hid/hid-ortek.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_exynos8895.o
+  CC      net/netfilter/nf_nat_proto_udp.o
+  CC      drivers/irqchip/irq-gic.o
+  CC      drivers/irqchip/irq-gic-common.o
+  CC      drivers/hid/hid-prodikeys.o
+  CC      net/ipv4/netfilter/nf_reject_ipv4.o
+  CC      net/sched/cls_api.o
+  CC      drivers/irqchip/irq-gic-v2m.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_control.o
+  CC      net/netfilter/nf_nat_proto_tcp.o
+  CC      drivers/input/keyboard/gpio_keys.o
+  CC      net/sched/act_api.o
+  CC      drivers/hid/hid-pl.o
+  CC      drivers/irqchip/irq-gic-v3.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_pmqos.o
+  CC      net/ipv4/netfilter/nf_nat_h323.o
+  CC      net/sched/act_police.o
+  CC      net/netfilter/nf_nat_helper.o
+  CC      drivers/hid/hid-petalynx.o
+  LD      drivers/input/keyboard/built-in.o
+  CC      drivers/input/misc/gpio_event.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_utilization.o
+  CC      drivers/hid/hid-picolcd_core.o
+  CC      drivers/irqchip/irq-gic-v3-its.o
+  CC      drivers/irqchip/irq-gic-v3-its-pci-msi.o
+  CC      net/sched/act_gact.o
+  CC      net/netfilter/nf_nat_redirect.o
+  CC      drivers/input/misc/gpio_matrix.o
+  CC      net/ipv4/netfilter/nf_nat_pptp.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_dvfs_handler.o
+  CC      drivers/irqchip/irq-gic-v3-its-platform-msi.o
+  CC      drivers/hid/hid-picolcd_debugfs.o
+  CC      net/sched/act_mirred.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_dvfs_api.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_dvfs_governor.o
+  CC      drivers/input/misc/gpio_input.o
+  CC      net/netfilter/nf_nat_proto_dccp.o
+  CC      net/ipv4/netfilter/nf_nat_masquerade_ipv4.o
+  CC      drivers/irqchip/irq-madera.o
+  CC      drivers/hid/hid-primax.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_perf.o
+  CC      net/sched/sch_fifo.o
+  CC      net/sched/sch_htb.o
+  CC      drivers/input/misc/gpio_output.o
+  CC      drivers/irqchip/irq-madera-cs47l92.o
+  CC      net/netfilter/nf_nat_proto_udplite.o
+  CC      drivers/hid/hid-roccat.o
+  CC      drivers/gpu/arm/tMIx/r9p0/platform/exynos/gpu_custom_interface.o
+  CC      drivers/input/misc/gpio_axis.o
+  CC      net/netfilter/nf_nat_proto_sctp.o
+  CC      net/ipv4/netfilter/nf_nat_proto_gre.o
+  LD      drivers/irqchip/built-in.o
+  CC      drivers/leds/led-core.o
+  CC      drivers/hid/hid-roccat-common.o
+  CC      net/sched/sch_ingress.o
+  CC      drivers/input/misc/keychord.o
+  CC      net/netfilter/nf_nat_amanda.o
+  CC      drivers/leds/led-class.o
+  CC      net/ipv4/netfilter/ip_tables.o
+  CC      drivers/hid/hid-roccat-arvo.o
+  CC      net/netfilter/nf_nat_ftp.o
+  CC      net/sched/sch_prio.o
+  CC      drivers/input/misc/uinput.o
+  CC      drivers/leds/leds-s2mpb02.o
+  LD      drivers/gpu/arm/tMIx/r9p0/platform/exynos/built-in.o
+  LD      drivers/gpu/arm/tMIx/r9p0/platform/built-in.o
+  LD      drivers/gpu/arm/tMIx/r9p0/mali_kbase.o
+  LD      drivers/gpu/arm/tMIx/r9p0/built-in.o
+  CC      drivers/leds/leds-max77865-rgb.o
+  CC      drivers/hid/hid-roccat-isku.o
+  LD      drivers/gpu/arm/built-in.o
+  LD      drivers/gpu/drm/bridge/built-in.o
+  CC      net/netfilter/nf_nat_irc.o
+  LD      drivers/gpu/drm/i2c/built-in.o
+  LD      drivers/gpu/drm/panel/built-in.o
+  CC      net/sched/cls_u32.o
+  LD      drivers/gpu/drm/tilcdc/built-in.o
+  LD      drivers/gpu/drm/built-in.o
+  CC      net/sched/cls_basic.o
+  CC      drivers/gpu/vga/vgaarb.o
+  LD      drivers/input/misc/built-in.o
+  CC      drivers/input/tablet/acecad.o
+  CC      drivers/hid/hid-roccat-kone.o
+  LD      drivers/leds/built-in.o
+  LD      drivers/lguest/built-in.o
+  CC      net/ipv4/netfilter/iptable_filter.o
+  LD      drivers/macintosh/built-in.o
+  CC      net/ipv4/netfilter/iptable_mangle.o
+  CC      net/netfilter/nf_nat_tftp.o
+  CC      drivers/input/tablet/aiptek.o
+  CC      net/sched/ematch.o
+  LD      drivers/gpu/vga/built-in.o
+  LD      drivers/gpu/built-in.o
+  CC      net/sched/em_u32.o
+  CC      drivers/hid/hid-roccat-koneplus.o
+  CC      net/ipv4/netfilter/iptable_nat.o
+  CC      net/netfilter/x_tables.o
+  CC      drivers/md/dm-uevent.o
+  CC      drivers/md/dm.o
+  CC      net/netfilter/xt_tcpudp.o
+  LD      net/sched/built-in.o
+  CC      drivers/hid/hid-roccat-konepure.o
+  CC      drivers/input/tablet/gtco.o
+  CC      net/unix/af_unix.o
+  CC      drivers/md/dm-table.o
+  CC      net/ipv4/netfilter/iptable_raw.o
+  CC      drivers/hid/hid-roccat-kovaplus.o
+  CC      drivers/input/tablet/hanwang.o
+  CC      net/netfilter/xt_mark.o
+  CC      net/netfilter/xt_connmark.o
+  CC      net/netfilter/xt_nat.o
+  CC      drivers/hid/hid-roccat-lua.o
+  CC      drivers/input/tablet/kbtab.o
+  CC      net/ipv4/netfilter/iptable_security.o
+  CC      drivers/md/dm-target.o
+  CC      net/netfilter/xt_CLASSIFY.o
+  CC      drivers/hid/hid-roccat-pyra.o
+  LD      drivers/input/tablet/built-in.o
+  CC      drivers/input/keyreset.o
+  CC      drivers/input/touchscreen/of_touchscreen.o
+  CC      net/netfilter/xt_CONNSECMARK.o
+  CC      drivers/md/dm-linear.o
+  CC      net/unix/garbage.o
+  CC      net/ipv4/netfilter/ipt_ah.o
+  CC      net/ipv4/netfilter/ipt_rpfilter.o
+  CC      drivers/input/keycombo.o
+  CC      drivers/hid/hid-roccat-ryos.o
+  CC      drivers/input/touchscreen/sec_ts/sec_ts.o
+  CC      drivers/md/dm-stripe.o
+  CC      net/netfilter/xt_LOG.o
+  CC      net/ipv4/netfilter/ipt_MASQUERADE.o
+  CC      net/unix/sysctl_net_unix.o
+  CC      drivers/input/hall.o
+  CC      drivers/hid/hid-roccat-savu.o
+  CC      net/ipv4/netfilter/ipt_REJECT.o
+  CC      drivers/md/dm-ioctl.o
+  CC      net/netfilter/xt_NETMAP.o
+  CC      drivers/input/certify_hall.o
+  CC      drivers/hid/hid-saitek.o
+  LD      net/unix/unix.o
+  LD      net/unix/built-in.o
+  CC      net/ipv4/netfilter/arp_tables.o
+  CC      net/wireless/core.o
+  CC      net/ipv4/netfilter/arpt_mangle.o
+  CC      drivers/hid/hid-ovr.o
+  LD      drivers/input/input-core.o
+  CC      net/wireless/sysfs.o
+  CC      net/netfilter/xt_NFLOG.o
+  CC      drivers/md/dm-io.o
+  CC      net/ipv4/netfilter/arptable_filter.o
+  CC      drivers/input/touchscreen/sec_ts/sec_ts_fw.o
+  CC      net/netfilter/xt_NFQUEUE.o
+  CC      net/netfilter/xt_REDIRECT.o
+  CC      drivers/md/dm-kcopyd.o
+  CC      drivers/hid/hid-samsung.o
+  CC      net/wireless/radiotap.o
+  CC      drivers/input/touchscreen/sec_ts/sec_ts_fn.o
+  LD      net/ipv4/netfilter/nf_conntrack_ipv4.o
+  LD      net/ipv4/netfilter/nf_nat_ipv4.o
+  LD      net/ipv4/netfilter/built-in.o
+  CC      net/ipv4/inet_diag.o
+  CC      drivers/hid/hid-sjoy.o
+  CC      net/wireless/util.o
+  CC      net/netfilter/xt_SECMARK.o
+  CC      drivers/md/dm-sysfs.o
+  CC      drivers/md/dm-stats.o
+  CC      drivers/hid/hid-sony.o
+  CC      drivers/md/dm-builtin.o
+  CC      drivers/hid/hid-speedlink.o
+  CC      net/netfilter/xt_TPROXY.o
+  CC      net/ipv4/tcp_diag.o
+  CC      drivers/md/dm-bufio.o
+  CC      drivers/md/dm-crypt.o
+  CC      drivers/hid/hid-sunplus.o
+  CC      drivers/hid/hid-gaff.o
+  CC      drivers/hid/hid-tmff.o
+  CC      net/ipv4/tcp_bic.o
+  CC      net/netfilter/xt_TCPMSS.o
+  CC      drivers/hid/hid-tivo.o
+  CC      net/wireless/reg.o
+  CC      drivers/hid/hid-topseed.o
+  CC      drivers/md/dm-verity-fec.o
+  CC      drivers/hid/hid-twinhan.o
+  CC      net/ipv4/tcp_cubic.o
+  CC      net/ipv4/tcp_westwood.o
+  CC      net/ipv4/tcp_htcp.o
+  CC      drivers/hid/hid-uclogic.o
+  CC      net/netfilter/xt_TRACE.o
+  CC      drivers/md/dm-verity-target.o
+  CC      drivers/hid/hid-zpff.o
+  CC      net/netfilter/xt_IDLETIMER.o
+  CC      net/ipv4/xfrm4_policy.o
+  CC      net/ipv4/xfrm4_state.o
+  CC      net/wireless/scan.o
+  CC      drivers/md/dm-dirty.o
+  CC      drivers/hid/hid-zydacron.o
+  LD      drivers/md/dm-mod.o
+  LD      drivers/md/dm-verity.o
+  CC      net/netfilter/xt_comment.o
+  CC      drivers/hid/hid-synaptics-bt.o
+  LD      drivers/md/built-in.o
+  CC      net/ipv4/xfrm4_input.o
+  CC      net/compat.o
+  CC      net/xfrm/xfrm_policy.o
+  LD      drivers/media/common/b2c2/built-in.o
+  CC      drivers/hid/wacom_wac.o
+  LD      drivers/media/common/saa7146/built-in.o
+  CC      net/netfilter/xt_connbytes.o
+  LD      drivers/media/common/siano/built-in.o
+  LD      drivers/media/common/built-in.o
+  LD      drivers/input/touchscreen/sec_ts/built-in.o
+  LD      drivers/media/firewire/built-in.o
+  CC      drivers/input/touchscreen/stm/fts_ts.o
+  LD      drivers/media/i2c/soc_camera/built-in.o
+  LD      drivers/media/i2c/built-in.o
+  LD      drivers/media/mmc/siano/built-in.o
+  LD      drivers/media/mmc/built-in.o
+  CC      net/wireless/nl80211.o
+  LD      drivers/media/pci/b2c2/built-in.o
+  LD      drivers/media/pci/ddbridge/built-in.o
+  LD      drivers/media/pci/dm1105/built-in.o
+  CC      net/ipv4/xfrm4_output.o
+  LD      drivers/media/pci/mantis/built-in.o
+  CC      net/netfilter/xt_connlabel.o
+  LD      drivers/media/pci/netup_unidvb/built-in.o
+  LD      drivers/media/pci/ngene/built-in.o
+  LD      drivers/media/pci/pluto2/built-in.o
+  CC      net/sysctl_net.o
+  LD      drivers/media/pci/pt1/built-in.o
+  LD      drivers/media/pci/pt3/built-in.o
+  LD      drivers/media/pci/saa7146/built-in.o
+  LD      drivers/media/pci/smipcie/built-in.o
+  LD      drivers/media/pci/ttpci/built-in.o
+  LD      drivers/media/pci/built-in.o
+  CC      net/ipv4/xfrm4_protocol.o
+  CC      net/netfilter/xt_connlimit.o
+  CC      net/netfilter/xt_conntrack.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-preprocessor.o
+  CC      drivers/hid/wacom_sys.o
+  CC      net/xfrm/xfrm_state.o
+  LD      net/ipv4/built-in.o
+  CC      net/xfrm/xfrm_hash.o
+  CC      net/netfilter/xt_ecn.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-preprocessor.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-csi_v3.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-core.o
+  CC      drivers/hid/hid-waltop.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-spi.o
+  CC      net/xfrm/xfrm_input.o
+  CC      net/netfilter/xt_hashlimit.o
+  CC      drivers/hid/hid-wiimote-core.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-i2c.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-debug.o
+  CC      drivers/hid/hid-wiimote-modules.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-mem.o
+  CC      net/xfrm/xfrm_output.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-pipe.o
+  CC      net/netfilter/xt_helper.o
+  CC      drivers/hid/hid-wiimote-debug.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-framemgr.o
+  CC      drivers/hid/hid-madcatz.o
+  CC      net/netfilter/xt_hl.o
+  CC      net/xfrm/xfrm_sysctl.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-groupmgr.o
+  CC      drivers/hid/usbhid/hid-core.o
+  LD      drivers/hid/hid.o
+  LD      drivers/hid/hid-logitech.o
+  LD      drivers/hid/hid-picolcd.o
+  LD      drivers/hid/wacom.o
+  LD      drivers/hid/hid-wiimote.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-resourcemgr.o
+  CC      net/xfrm/xfrm_replay.o
+  CC      net/netfilter/xt_iprange.o
+  CC      net/xfrm/xfrm_algo.o
+  CC      drivers/hid/usbhid/hid-quirks.o
+  CC      net/netfilter/xt_length.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-devicemgr.o
+  CC      net/xfrm/xfrm_user.o
+  CC      net/xfrm/xfrm_ipcomp.o
+  CC      drivers/hid/usbhid/hiddev.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-sensor.o
+  CC      net/netfilter/xt_limit.o
+  CC      net/netfilter/xt_mac.o
+  CC      net/netfilter/xt_pkttype.o
+  CC      drivers/input/touchscreen/stm/fts_fwu.o
+  CC      net/netfilter/xt_policy.o
+  LD      drivers/hid/usbhid/usbhid.o
+  LD      drivers/hid/usbhid/built-in.o
+  LD      drivers/hid/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-3aa.o
+  LD      net/xfrm/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-3aac.o
+  CC      net/wireless/mlme.o
+  CC      drivers/mfd/madera-core.o
+  CC      drivers/mfd/madera-spi.o
+  CC      drivers/mfd/cs47l92-tables.o
+  CC      drivers/mfd/mfd-core.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-3aap.o
+  CC      net/netfilter/xt_qtaguid_print.o
+  LD      drivers/input/touchscreen/stm/built-in.o
+  LD      drivers/input/touchscreen/built-in.o
+  CC      drivers/mfd/max77865.o
+  LD      drivers/input/built-in.o
+  LD      drivers/misc/cb710/built-in.o
+  CC      drivers/mfd/max77865-irq.o
+  LD      drivers/misc/eeprom/built-in.o
+  LD      drivers/misc/lis3lv02d/built-in.o
+  CC      drivers/misc/mcu_ipc/mcu_ipc.o
+  CC      drivers/mmc/card/block.o
+  CC      net/netfilter/xt_qtaguid.o
+  CC      drivers/mfd/s2mps17_core.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-isp.o
+  CC      drivers/mfd/s2mps17_irq.o
+  CC      drivers/mfd/s2mpb02-core.o
+  CC      net/wireless/ibss.o
+  CC      drivers/misc/mcu_ipc/shm_ipc.o
+  CC      drivers/mfd/s2mpb02-irq.o
+  CC      drivers/mfd/syscon.o
+  CC      drivers/mmc/card/queue.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ispc.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ispp.o
+  LD      drivers/misc/mcu_ipc/built-in.o
+  LD      drivers/mfd/built-in.o
+  LD      drivers/misc/mic/bus/built-in.o
+  LD      drivers/misc/mic/built-in.o
+  CC      net/wireless/sme.o
+  CC      drivers/misc/modem_v1/modem_main.o
+  LD      drivers/mmc/card/mmc_block.o
+  LD      drivers/mmc/card/built-in.o
+  LD      drivers/misc/ti-st/built-in.o
+  CC      net/wireless/chan.o
+  CC      net/netfilter/xt_oneshot.o
+  CC      drivers/mmc/host/dw_mmc.o
+  CC      drivers/mmc/core/core.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-dis.o
+  CC      net/netfilter/xt_quota.o
+  CC      drivers/misc/modem_v1/modem_variation.o
+  CC      net/netfilter/xt_quota2.o
+  CC      net/netfilter/xt_sctp.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-disc.o
+  CC      net/wireless/ethtool.o
+  CC      net/wireless/mesh.o
+  CC      drivers/misc/modem_v1/modem_io_device.o
+  CC      drivers/misc/modem_v1/modem_utils.o
+  CC      drivers/mmc/core/bus.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-scc.o
+  CC      net/netfilter/xt_socket.o
+  CC      net/wireless/ap.o
+  CC      drivers/mmc/host/dw_mmc-pltfm.o
+  CC      drivers/mmc/core/host.o
+drivers/misc/modem_v1/modem_utils.c: In function 'stop_net_ifaces':
+drivers/misc/modem_v1/modem_utils.c:525:39: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  if (!atomic_read(&ld->netif_stopped) > 0) {
+                                       ^
+  CC      net/wireless/trace.o
+  CC      drivers/mmc/host/dw_mmc-exynos.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-scp.o
+  CC      drivers/misc/modem_v1/modem_dump.o
+  CC      net/netfilter/xt_state.o
+  CC      drivers/mmc/core/mmc.o
+  CC      net/wireless/ocb.o
+  CC      drivers/misc/modem_v1/link_device_shmem.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-mcs.o
+  CC      drivers/misc/modem_v1/link_device_memory_snapshot.o
+  CC      net/netfilter/xt_statistic.o
+  LD      drivers/mmc/host/built-in.o
+  CC      net/netfilter/xt_string.o
+  CC      drivers/mmc/core/mmc_ops.o
+  CC      net/netfilter/xt_time.o
+  CC      drivers/misc/modem_v1/link_device_memory_flow_control.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-mcsp.o
+  CC      net/netfilter/xt_u32.o
+  CC      net/netfilter/xt_PRIO.o
+  LD      drivers/media/platform/omap/built-in.o
+  CC      net/netfilter/nf_history.o
+  CC      drivers/mmc/core/sd.o
+  LD      net/netfilter/netfilter.o
+  LD      net/netfilter/nf_conntrack.o
+  LD      net/netfilter/nf_conntrack_h323.o
+  CC      drivers/misc/modem_v1/link_device_memory_debug.o
+  LD      net/netfilter/nf_nat.o
+  CC      drivers/misc/modem_v1/link_device_memory_sbd.o
+  CC      drivers/mmc/core/sd_ops.o
+  CC      drivers/media/platform/exynos/g2d1shot/g2d1shot_drv.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-vra.o
+  LD      net/netfilter/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ssvc0.o
+  CC      drivers/mmc/core/sdio.o
+  CC      drivers/mmc/core/sdio_ops.o
+  CC      drivers/misc/modem_v1/modem_notifier.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ssvc1.o
+  CC      drivers/mmc/core/sdio_bus.o
+  CC      drivers/misc/modem_v1/modem_ctrl_ss310ap.o
+  CC      drivers/media/platform/exynos/g2d1shot/g2d1shot_hw5x.o
+  CC      drivers/mmc/core/sdio_cis.o
+  CC      drivers/misc/modem_v1/modem_argos_notifier.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ssvc2.o
+  CC      drivers/mmc/core/sdio_io.o
+  CC      drivers/mmc/core/sdio_irq.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ssvc3.o
+  CC      drivers/media/platform/exynos/g2d1shot/g2d1shot_helper.o
+  CC      drivers/mmc/core/quirks.o
+  LD      drivers/misc/modem_v1/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-subdev-ctrl.o
+  CC      drivers/misc/uid_cputime.o
+  LD      drivers/media/platform/exynos/g2d1shot/built-in.o
+  LD      drivers/media/radio/built-in.o
+  CC      drivers/mmc/core/slot-gpio.o
+  LD      drivers/media/tuners/built-in.o
+  CC      drivers/mmc/core/pwrseq.o
+  LD      drivers/media/rc/keymaps/built-in.o
+  LD      drivers/media/rc/built-in.o
+  LD      drivers/media/usb/b2c2/built-in.o
+  LD      drivers/media/usb/dvb-usb/built-in.o
+  LD      drivers/media/usb/dvb-usb-v2/built-in.o
+  LD      drivers/media/usb/s2255/built-in.o
+  LD      drivers/media/usb/siano/built-in.o
+  LD      drivers/media/usb/stkwebcam/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-flite.o
+  LD      drivers/media/usb/ttusb-dec/built-in.o
+  LD      drivers/media/usb/ttusb-budget/built-in.o
+  CC      drivers/motor/max77865_haptic.o
+  LD      drivers/media/usb/zr364xx/built-in.o
+  LD      drivers/media/usb/built-in.o
+  CC      drivers/mmc/core/pwrseq_simple.o
+  CC      drivers/motor/drv2624.o
+  CC      drivers/misc/exynos_ima.o
+  CC      drivers/media/v4l2-core/v4l2-dev.o
+  CC      drivers/mmc/core/pwrseq_emmc.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-ischain.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-time.o
+  CC      drivers/misc/tzic64.o
+  CC      drivers/mmc/core/debugfs.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-dvfs.o
+  LD      net/wireless/cfg80211.o
+  LD      net/wireless/built-in.o
+  LD      net/built-in.o
+  CC      drivers/misc/dmverity_query.o
+  LD      drivers/motor/built-in.o
+  CC      drivers/media/v4l2-core/v4l2-ioctl.o
+  LD      drivers/mmc/core/mmc_core.o
+  CC      drivers/media/v4l2-core/v4l2-device.o
+  LD      drivers/mmc/core/built-in.o
+  LD      drivers/mmc/built-in.o
+  CC      drivers/muic/muic-core.o
+  CC      drivers/net/mii.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-dt.o
+  LD      drivers/misc/built-in.o
+  CC      drivers/nfc/sec_nfc.o
+  CC      drivers/media/v4l2-core/v4l2-fh.o
+  LD      drivers/nvme/host/built-in.o
+  LD      drivers/nvme/built-in.o
+  CC      drivers/of/base.o
+  CC      drivers/muic/muic_notifier.o
+  CC      drivers/media/v4l2-core/v4l2-event.o
+  CC      drivers/net/Space.o
+  CC      drivers/muic/universal/muic_ccic.o
+  CC      drivers/nfc/ese_p3.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-clk-gate.o
+  CC      drivers/media/v4l2-core/v4l2-ctrls.o
+  CC      drivers/net/loopback.o
+  CC      drivers/media/v4l2-core/v4l2-subdev.o
+  CC      drivers/of/device.o
+  CC      drivers/muic/universal/muic_usb.o
+  CC      drivers/nfc/nfc_logger/nfc_logger.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-binary.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-interface-wrap.o
+  CC      drivers/muic/universal/muic_coagent.o
+  LD      drivers/nfc/nfc_logger/built-in.o
+  LD      drivers/nfc/built-in.o
+  CC      drivers/net/phy/phy.o
+  LD      drivers/net/ethernet/3com/built-in.o
+  CC      drivers/of/platform.o
+  CC      drivers/of/fdt.o
+  LD      drivers/net/ethernet/8390/built-in.o
+  LD      drivers/net/ethernet/adaptec/built-in.o
+  LD      drivers/net/ethernet/agere/built-in.o
+  CC      drivers/pci/access.o
+  LD      drivers/net/ethernet/alteon/built-in.o
+  LD      drivers/net/ethernet/amd/built-in.o
+  LD      drivers/net/ethernet/arc/built-in.o
+  LD      drivers/net/ethernet/atheros/built-in.o
+  LD      drivers/net/ethernet/broadcom/built-in.o
+  LD      drivers/net/ethernet/brocade/built-in.o
+  CC      drivers/of/fdt_address.o
+  CC      drivers/net/phy/phy_device.o
+  CC      drivers/pci/bus.o
+  CC      drivers/muic/universal/muic_state.o
+  LD      drivers/net/ethernet/cadence/built-in.o
+  LD      drivers/net/ethernet/cavium/liquidio/built-in.o
+  LD      drivers/net/ethernet/cavium/thunder/built-in.o
+  LD      drivers/net/ethernet/cavium/built-in.o
+  LD      drivers/net/ethernet/chelsio/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-sensor_v2.o
+  LD      drivers/net/ethernet/cisco/built-in.o
+  CC      drivers/net/ppp/ppp_generic.o
+  LD      drivers/net/ethernet/dec/built-in.o
+  CC      drivers/media/v4l2-core/v4l2-clk.o
+  CC      drivers/muic/universal/muic_apis.o
+  LD      drivers/net/ethernet/dlink/built-in.o
+  LD      drivers/net/ethernet/emulex/built-in.o
+  LD      drivers/net/ethernet/ezchip/built-in.o
+  LD      drivers/net/ethernet/hisilicon/built-in.o
+  CC      drivers/of/address.o
+  LD      drivers/net/ethernet/hp/built-in.o
+  CC      drivers/pci/probe.o
+  CC      drivers/net/phy/mdio_bus.o
+  LD      drivers/net/ethernet/i825xx/built-in.o
+  LD      drivers/net/ethernet/intel/built-in.o
+  LD      drivers/net/ethernet/marvell/built-in.o
+  LD      drivers/net/ethernet/mellanox/built-in.o
+  CC      drivers/muic/universal/muic_sysfs.o
+  LD      drivers/net/ethernet/micrel/built-in.o
+  CC      drivers/media/v4l2-core/v4l2-async.o
+  LD      drivers/net/ethernet/microchip/built-in.o
+  LD      drivers/net/ethernet/myricom/built-in.o
+  LD      drivers/net/ethernet/natsemi/built-in.o
+  LD      drivers/net/ethernet/neterion/built-in.o
+  LD      drivers/net/ethernet/nvidia/built-in.o
+  LD      drivers/net/ethernet/oki-semi/built-in.o
+  LD      drivers/net/ethernet/packetengines/built-in.o
+  LD      drivers/net/ethernet/qlogic/built-in.o
+  LD      drivers/net/ethernet/qualcomm/built-in.o
+  LD      drivers/net/ethernet/rdc/built-in.o
+  LD      drivers/net/ethernet/realtek/built-in.o
+  CC      drivers/muic/universal/muic_debug.o
+  CC      drivers/of/irq.o
+  LD      drivers/net/ethernet/renesas/built-in.o
+  LD      drivers/net/ethernet/rocker/built-in.o
+  LD      drivers/net/ethernet/samsung/built-in.o
+  CC      drivers/media/v4l2-core/v4l2-compat-ioctl32.o
+  LD      drivers/net/ethernet/seeq/built-in.o
+  LD      drivers/net/phy/libphy.o
+  LD      drivers/net/phy/built-in.o
+  LD      drivers/net/ethernet/silan/built-in.o
+  CC      drivers/net/slip/slhc.o
+  LD      drivers/net/ethernet/sis/built-in.o
+  CC      drivers/net/ppp/bsd_comp.o
+  LD      drivers/net/ethernet/smsc/built-in.o
+  LD      drivers/net/ethernet/stmicro/built-in.o
+  CC      drivers/muic/universal/muic_dt.o
+  LD      drivers/net/ethernet/sun/built-in.o
+  LD      drivers/net/ethernet/synopsys/built-in.o
+  LD      drivers/net/ethernet/tehuti/built-in.o
+  LD      drivers/net/ethernet/ti/built-in.o
+  LD      drivers/net/ethernet/via/built-in.o
+  CC      drivers/pci/host-bridge.o
+  CC      drivers/of/of_net.o
+  LD      drivers/net/ethernet/wiznet/built-in.o
+  LD      drivers/net/ethernet/built-in.o
+  CC      drivers/net/usb/rtl8150.o
+  CC      drivers/net/ppp/ppp_deflate.o
+  CC      drivers/muic/universal/muic_i2c.o
+  CC      drivers/pci/remove.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-control.o
+  CC      drivers/of/of_mdio.o
+  LD      drivers/net/slip/built-in.o
+  CC      drivers/muic/universal/muic_regmap.o
+  CC      drivers/net/ppp/ppp_mppe.o
+  CC      drivers/pci/pci.o
+  CC      drivers/media/v4l2-core/v4l2-of.o
+  CC      drivers/media/v4l2-core/vb2-trace.o
+  CC      drivers/muic/universal/muic_vps.o
+  CC      drivers/net/usb/r8152.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_pno.o
+  CC      drivers/of/of_pci.o
+  CC      drivers/net/ppp/pppox.o
+  CC      drivers/media/v4l2-core/v4l2-trace.o
+  CC      drivers/of/of_pci_irq.o
+  CC      drivers/muic/universal/muic_task_max77865.o
+  CC      drivers/net/ppp/pppolac.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-3aa.o
+  CC      drivers/of/of_reserved_mem.o
+  CC      drivers/media/v4l2-core/v4l2-common.o
+  CC      drivers/muic/universal/muic_regmap_max77865.o
+  CC      drivers/pci/pci-driver.o
+  LD      drivers/of/built-in.o
+  CC      drivers/perf/arm_pmu.o
+  CC      drivers/net/ppp/pppopns.o
+  CC      drivers/muic/universal/muic_hv_max77865.o
+  CC      drivers/media/v4l2-core/v4l2-dv-timings.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-isp.o
+  CC      drivers/media/v4l2-core/v4l2-mem2mem.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_common.o
+  LD      drivers/perf/built-in.o
+  CC      drivers/media/v4l2-core/videobuf2-core.o
+  CC      drivers/pci/search.o
+  CC      drivers/net/usb/asix_devices.o
+  LD      drivers/net/ppp/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-tpu.o
+  LD      drivers/muic/built-in.o
+  CC      drivers/net/tun.o
+  CC      drivers/phy/phy-core.o
+  CC      drivers/media/v4l2-core/videobuf2-v4l2.o
+  CC      drivers/pci/pci-sysfs.o
+  CC      drivers/phy/phy-exynos8895-mipi.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-vra.o
+  CC      drivers/net/usb/asix_common.o
+  CC      drivers/media/v4l2-core/videobuf2-memops.o
+  CC      drivers/phy/phy-exynos-displayport.o
+  CC      drivers/media/v4l2-core/videobuf2-ion.o
+  CC      drivers/pci/rom.o
+  LD      drivers/media/v4l2-core/videodev.o
+  CC      drivers/pci/setup-res.o
+  CC      drivers/phy/phy-exynos5-usbdrd.o
+  CC      drivers/net/usb/ax88172a.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-dm.o
+  CC      drivers/pci/irq.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-mcscaler-v2.o
+  CC      drivers/pci/vpd.o
+  CC      drivers/phy/phy-exynos-usbdrd.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-common.o
+  LD      drivers/media/v4l2-core/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_ip.o
+  CC      drivers/media/media-device.o
+  CC      drivers/pci/setup-bus.o
+  CC      drivers/pci/vc.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-vra.o
+  CC      drivers/net/usb/ax88179_178a.o
+  CC      drivers/media/media-devnode.o
+  CC      drivers/phy/phy-samsung-usb3-cal.o
+  CC      drivers/pci/proc.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-mcscaler-v3_0.o
+  CC      drivers/pci/slot.o
+  CC      drivers/media/media-entity.o
+  CC      drivers/pci/quirks.o
+  LD      drivers/phy/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_custom_gpio.o
+  CC      drivers/pci/host/pcie-designware.o
+  CC      drivers/pinctrl/core.o
+  CC      drivers/net/usb/cdc_ether.o
+  CC      drivers/pci/pcie/portdrv_core.o
+  CC      drivers/media/m2m1shot.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_custom_sec.o
+  CC      drivers/net/usb/cdc_eem.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_linux.o
+  CC      drivers/pinctrl/pinctrl-utils.o
+  CC      drivers/pci/pcie/portdrv_pci.o
+  CC      drivers/pci/host/pci-exynos.o
+  CC      drivers/pci/host/pci-exynos8895_cal.o
+  CC      drivers/pinctrl/pinmux.o
+  CC      drivers/pci/pcie/portdrv_bus.o
+  LD      drivers/media/platform/exynos/fimc-is2/hardware/api/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/hardware/built-in.o
+  CC      drivers/net/usb/smsc75xx.o
+  CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-ischain.o
+  CC      drivers/pci/pcie/portdrv_acpi.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_linux_sched.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_cfg80211.o
+  CC      drivers/pinctrl/pinconf.o
+  LD      drivers/pci/host/built-in.o
+  CC      drivers/pci/msi.o
+  CC      drivers/pci/pcie/aer/aerdrv_errprint.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_linux_wq.o
+  CC      drivers/pinctrl/devicetree.o
+  CC      drivers/net/wireless/bcmdhd4361/aiutils.o
+  CC      drivers/net/usb/smsc95xx.o
+  LD      drivers/pinctrl/freescale/built-in.o
+  CC      drivers/pci/pcie/aer/aerdrv_core.o
+  LD      drivers/pinctrl/nomadik/built-in.o
+  CC      drivers/pinctrl/samsung/pinctrl-samsung.o
+  CC      drivers/pci/setup-irq.o
+  CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-library.o
+  CC      drivers/net/wireless/bcmdhd4361/bcmevent.o
+  CC      drivers/pci/pci-acpi.o
+  CC      drivers/pci/pcie/aer/aerdrv.o
+  CC      drivers/pinctrl/samsung/pinctrl-exynos.o
+  CC      drivers/net/wireless/bcmdhd4361/bcmutils.o
+  CC      drivers/net/usb/net1080.o
+  CC      drivers/net/wireless/bcmdhd4361/bcmwifi_channels.o
+  CC      drivers/pci/pci-label.o
+  CC      drivers/pci/pcie/aer/aerdrv_acpi.o
+  LD      drivers/pinctrl/samsung/built-in.o
+  LD      drivers/pinctrl/built-in.o
+  LD      drivers/platform/built-in.o
+  CC      drivers/pnp/core.o
+  CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-vra.o
+  LD      drivers/pci/pcie/aer/aerdriver.o
+  CC      drivers/net/usb/cdc_subset.o
+  LD      drivers/pci/pcie/aer/built-in.o
+  CC      drivers/pci/pcie/pme.o
+  CC      drivers/pci/syscall.o
+  CC      drivers/net/wireless/bcmdhd4361/hndpmu.o
+  CC      drivers/pnp/card.o
+  CC      drivers/pci/of.o
+  LD      drivers/pci/pcie/pcieportdrv.o
+  LD      drivers/pci/pcie/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/linux_osl.o
+  CC      drivers/net/usb/zaurus.o
+  CC      drivers/net/wireless/bcmdhd4361/sbutils.o
+  CC      drivers/pnp/driver.o
+  LD      drivers/pci/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-ddk.o
+  CC      drivers/net/wireless/bcmdhd4361/siutils.o
+  CC      drivers/net/usb/usbnet.o
+  CC      drivers/net/usb/cdc_ncm.o
+  CC      drivers/net/usb/cdc_mbim.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_android.o
+  CC      drivers/pnp/resource.o
+drivers/net/wireless/bcmdhd4361/siutils.c: In function 'si_doattach':
+drivers/net/wireless/bcmdhd4361/siutils.c:627:14: warning: self-comparison always evaluates to false [-Wtautological-compare]
+  if (bustype != BUSTYPE(bustype)) {
+              ^~
+  LD      drivers/media/platform/exynos/fimc-is2/interface/built-in.o
+  CC      drivers/pnp/manager.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/setup-fimc-is.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/fimc-is-helper-i2c.o
+  LD      drivers/net/usb/asix.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/csi2/fimc-is-hw-csi-v5_0.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/flite/fimc-is-hw-flite-v4_20_0.o
+  CC      drivers/pnp/support.o
+  LD      drivers/net/usb/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-interface-sensor.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-interface-actuator.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/setup-fimc-is-sensor.o
+  CC      drivers/pnp/interface.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/csi2/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/flite/built-in.o
+  CC      drivers/pnp/quirks.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_cfg80211.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/fimc-is-helper-actuator-i2c.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-control-sensor.o
+  CC      drivers/pnp/system.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/fimc-is-actuator-ak7371.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/setup-fimc-is-module.o
+  CC      drivers/pnp/pnpacpi/core.o
+  LD      drivers/pnp/pnp.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/setup-fimc-is-preprocessor.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/fimc-is-actuator-ak7372.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v3_11_0/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-control-actuator.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v3_1_1/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-device-sensor-peri.o
+  CC      drivers/pnp/pnpacpi/rsparser.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v3_20_0/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v4_0_0/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v4_3_0/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_10_0/built-in.o
+drivers/net/wireless/bcmdhd4361/wl_cfg80211.c: In function 'wl_update_ap_rps_params':
+drivers/net/wireless/bcmdhd4361/wl_cfg80211.c:21646:27: warning: comparison of constant '1' with boolean expression is always false [-Wbool-compare]
+  if (rps->sta_assoc_check > RADIO_PWRSAVE_ASSOCCHECK_MAX ||
+                           ^
+drivers/net/wireless/bcmdhd4361/wl_cfg80211.c:21647:24: warning: comparison of constant '0' with boolean expression is always false [-Wbool-compare]
+   rps->sta_assoc_check < RADIO_PWRSAVE_ASSOCCHECK_MIN)
+                        ^
+  LD      drivers/net/wireless/realtek/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_custom_memprealloc.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-hw-pwr.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-hw-chain.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_custom_exynos.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis.o
+  LD      drivers/pnp/pnpacpi/pnp.o
+  LD      drivers/pnp/pnpacpi/built-in.o
+  LD      drivers/pnp/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_cfgp2p.o
+  CC      drivers/power/power_supply_core.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-hw-dvfs.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-3aa.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/built-in.o
+  CC      drivers/power/power_supply_sysfs.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/fimc-is-flash-s2mpb02.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-3h1.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-3ac.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-3ap.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-2l1.o
+  LD      drivers/power/reset/built-in.o
+  LD      drivers/power/power_supply.o
+  LD      drivers/power/built-in.o
+  CC      drivers/pwm/core.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/fimc-is-flash-gpio.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-isp.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-ixc.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-2l2.o
+  CC      drivers/pwm/sysfs.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/built-in.o
+  CC      drivers/media/platform/exynos/mdev/exynos-mdev.o
+  CC      drivers/pwm/pwm-samsung.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_cfg_btcoex.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-ixp.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-base.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-imx320.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-dis.o
+  LD      drivers/media/platform/exynos/mdev/mdev.o
+  LD      drivers/media/platform/exynos/mdev/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-imx333.o
+  LD      drivers/pwm/built-in.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-dxc.o
+  CC      drivers/media/m2m1shot-helper.o
+  CC      drivers/ras/ras.o
+  CC      drivers/ras/debugfs.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3h1.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3h1-c3.o
+  CC      drivers/regulator/core.o
+  CC      drivers/media/m2m1shot2.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-mcs.o
+  LD      drivers/ras/built-in.o
+  CC      drivers/rtc/rtc-lib.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-2l1.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-mcsp.o
+  CC      drivers/rtc/hctosys.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_irq.o
+  CC      drivers/rtc/systohc.o
+  LD      drivers/media/media.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-2l2.o
+  CC      drivers/rtc/class.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-vra.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx320.o
+  CC      drivers/rtc/interface.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_dec.o
+  CC      drivers/regulator/dummy.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor.o
+  CC      drivers/rtc/rtc-dev.o
+  CC      drivers/regulator/fixed-helper.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_bns.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_dec_vb2_ops.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx320-c3.o
+  CC      drivers/regulator/helpers.o
+  CC      drivers/rtc/rtc-proc.o
+drivers/sensorhub/brcm/Makefile:66: ANDROID_MAJOR_VERSION : 8
+drivers/sensorhub/brcm/Makefile:67: ANDROID_PLATFORM_VERSION : 800000
+  CC      drivers/scsi/scsi.o
+  CC      drivers/sensorhub/brcm/ssp_dev.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx333.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc0.o
+  CC      drivers/regulator/devres.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_enc.o
+  CC      drivers/sensorhub/brcm/ssp_i2c.o
+  CC      drivers/net/wireless/bcmdhd4361/wldev_common.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc1.o
+  CC      drivers/rtc/rtc-sysfs.o
+  CC      drivers/scsi/hosts.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-5e6.o
+  CC      drivers/regulator/of_regulator.o
+  CC      drivers/rtc/rtc-s2mps17.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc2.o
+  CC      drivers/scsi/scsi_ioctl.o
+  CC      drivers/regulator/fixed.o
+  CC      drivers/sensorhub/brcm/ssp_data.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_linux_mon.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_enc_vb2_ops.o
+  LD      drivers/rtc/rtc-core.o
+  LD      drivers/rtc/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc3.o
+  CC      drivers/regulator/madera-ldo1.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/built-in.o
+  CC      drivers/scsi/scsicam.o
+  CC      drivers/scsi/scsi_error.o
+  CC      drivers/soc/samsung/exynos-powermode.o
+  CC      drivers/sensorhub/brcm/ssp_sysfs.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_roam.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_ctrl.o
+  CC      drivers/regulator/madera-micsupp.o
+  CC      drivers/regulator/s2mps17.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-vender.o
+  CC      drivers/soc/samsung/exynos-pm.o
+  CC      drivers/regulator/s2mps17_powermeter.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_hwlock.o
+  CC      drivers/regulator/s2mpb02-regulator.o
+  CC      drivers/scsi/scsi_lib.o
+  CC      drivers/sensorhub/brcm/ssp_firmware.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_linux_platdev.o
+  CC      drivers/soc/samsung/exynos-smc.o
+  CC      drivers/sensorhub/brcm/ssp_debug.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sec-define.o
+  CC      drivers/soc/samsung/exynos-el3_mon.o
+  CC      drivers/regulator/s2dos03.o
+  CC      drivers/soc/samsung/exynos-cpu_hotplug.o
+  CC      drivers/soc/samsung/exynos-cpumap.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_nal_q.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_watchdog.o
+  CC      drivers/soc/samsung/core_reg.o
+  CC      drivers/sensorhub/brcm/ssp_dump.o
+  CC      drivers/net/wireless/bcmdhd4361/hnd_pktq.o
+  LD      drivers/regulator/built-in.o
+  CC      drivers/scsi/scsi_common.o
+  CC      drivers/spi/spi.o
+  CC      drivers/scsi/scsi_lib_dma.o
+  CC      drivers/soc/samsung/acpm/acpm.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_opr.o
+  CC      drivers/staging/staging.o
+  CC      drivers/sensorhub/brcm/sensors_core.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/crc32.o
+  CC      drivers/scsi/scsi_scan.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sysfs.o
+  CC      drivers/soc/samsung/acpm/acpm_ipc.o
+  CC      drivers/net/wireless/bcmdhd4361/hnd_pktpool.o
+  CC      drivers/staging/android/ion/ion.o
+  CC      drivers/sensorhub/brcm/ssp_iio_ring.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_sync.o
+drivers/staging/android/ion/ion.c: In function 'user_ion_free_nolock':
+drivers/staging/android/ion/ion.c:951:30: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  if (!handle->user_ref_count > 0) {
+                              ^
+  CC      drivers/sensorhub/brcm/ssp_iio_trigger.o
+  CC      drivers/soc/samsung/acpm/acpm_mfd.o
+  CC      drivers/scsi/scsi_sysfs.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_debug.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_pm.o
+  LD      drivers/soc/samsung/acpm/built-in.o
+  CC      drivers/sensorhub/brcm/factory/accel_lsm6dsl.o
+  CC      drivers/spi/spidev.o
+  CC      drivers/soc/samsung/cal-if/cal-if.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-from.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_inst.o
+  CC      drivers/soc/samsung/cal-if/pmucal_system.o
+  CC      drivers/sensorhub/brcm/factory/gyro_lsm6dsl.o
+  CC      drivers/scsi/scsi_devinfo.o
+  CC      drivers/spi/spi-bitbang.o
+  CC      drivers/soc/samsung/cal-if/pmucal_local.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-pmic.o
+  CC      drivers/staging/android/ion/ion_heap.o
+  CC      drivers/soc/samsung/cal-if/pmucal_cpu.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_cmd.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_debug_linux.o
+  CC      drivers/spi/spi-gpio.o
+  CC      drivers/soc/samsung/cal-if/pmucal_rae.o
+  CC      drivers/scsi/scsi_sysctl.o
+  CC      drivers/sensorhub/brcm/factory/magnetic_common.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-companion_c3.o
+  CC      drivers/soc/samsung/cal-if/cmucal.o
+  CC      drivers/staging/android/ion/ion_page_pool.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_reg.o
+  CC      drivers/soc/samsung/cal-if/ra.o
+  CC      drivers/scsi/scsi_proc.o
+  CC      drivers/spi/spi-s3c64xx.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_custom_cis.o
+  CC      drivers/staging/android/ion/ion_system_heap.o
+  CC      drivers/scsi/scsi_trace.o
+  CC      drivers/sensorhub/brcm/factory/light_tmg399x.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_dec_ops.o
+  CC      drivers/soc/samsung/cal-if/vclk.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-ois_common.o
+  CC      drivers/staging/android/ion/ion_carveout_heap.o
+  CC      drivers/sensorhub/brcm/factory/prox_autocal_ams.o
+  LD      drivers/spi/built-in.o
+  CC      drivers/scsi/scsi_logging.o
+  CC      drivers/staging/samsung/sec_notifier/vbus_notifier.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_mschdbg.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_enc_ops.o
+  LD      drivers/staging/samsung/sec_notifier/built-in.o
+  CC      drivers/staging/android/ion/ion_chunk_heap.o
+  CC      drivers/switch/switch_class.o
+  CC      drivers/soc/samsung/cal-if/pll_spec.o
+  CC      drivers/sensorhub/brcm/factory/light_colorid.o
+  CC      drivers/scsi/scsi_pm.o
+  CC      drivers/soc/samsung/cal-if/cmucal-debug.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-af.o
+  CC      drivers/switch/switch-madera.o
+  CC      drivers/staging/android/ion/ion_cma_heap.o
+  CC      drivers/soc/samsung/cal-if/acpm_dvfs.o
+  CC      drivers/scsi/ufs/ufshcd.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_enc_param.o
+  CC      drivers/sensorhub/brcm/factory/pressure_lps22h.o
+  CC      drivers/staging/android/ion/ion_test.o
+  CC      drivers/soc/samsung/cal-if/fvmap.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-eeprom.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_pktlog.o
+  CC      drivers/soc/samsung/cal-if/exynos8895/cal_data.o
+  CC      drivers/sensorhub/brcm/factory/barcode_emul_tmg3992.o
+  CC      drivers/staging/android/ion/compat_ion.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-ois_s4.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_queue.o
+  LD      drivers/switch/built-in.o
+  CC      drivers/thermal/thermal_core.o
+  CC      drivers/staging/android/ion/exynos/exynos_ion.o
+  CC      drivers/sensorhub/brcm/ssp_sensorhub.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_pcie.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_buf.o
+  CC      drivers/staging/android/ion/exynos/exynos_ion_sync.o
+  CC      drivers/sensorhub/brcm/ssp_misc.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/fimc-is-interface-preprocessor.o
+  LD      drivers/soc/samsung/cal-if/built-in.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-tx-auth.o
+  CC      drivers/sensorhub/brcm/sx9320.o
+  CC      drivers/staging/android/ion/exynos/ion_hpa_heap.o
+  CC      drivers/scsi/ufs/ufs_quirks.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_utils.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/fimc-is-module-preprocessor.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-tx-session.o
+  LD      drivers/staging/android/ion/exynos/built-in.o
+  LD      drivers/staging/android/ion/built-in.o
+  CC      drivers/scsi/ufs/ufshcd-pltfrm.o
+  CC      drivers/staging/android/ashmem.o
+  CC      drivers/thermal/thermal_hwmon.o
+  CC      drivers/sensorhub/brcm/hrm_adpd143.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_qos.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/fimc-is-preprocessor-c3.o
+  CC      drivers/thermal/of-thermal.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2.o
+  CC      drivers/scsi/ufs/ufs-exynos.o
+  CC      drivers/staging/android/timed_output.o
+  CC      drivers/media/platform/exynos/mfc/s5p_mfc_mem.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-teeif.o
+  CC      drivers/thermal/step_wise.o
+  CC      drivers/staging/android/timed_gpio.o
+drivers/scsi/ufs/ufs-exynos.c: In function 'exynos_ufs_hibern8_notify':
+drivers/scsi/ufs/ufs-exynos.c:1825:2: warning: switch condition has boolean value [-Wswitch-bool]
+  switch (notify) {
+  ^~~~~~
+  LD      drivers/media/platform/exynos/mfc/s5p-mfc.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_pcie_linux.o
+  LD      drivers/media/platform/exynos/mfc/built-in.o
+  CC      drivers/thermal/power_allocator.o
+  LD      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/vendor/mcd/built-in.o
+  CC      drivers/staging/android/lowmemorykiller.o
+  LD      drivers/media/platform/exynos/fimc-is2/vendor/built-in.o
+  CC      drivers/media/platform/exynos/scaler/scaler-core.o
+  LD      drivers/media/platform/exynos/fimc-is2/fimc-is.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-protocol-msg.o
+  LD      drivers/media/platform/exynos/fimc-is2/built-in.o
+  CC      drivers/scsi/ufs/ufs-exynos-dbg.o
+  CC      drivers/staging/android/alarm-dev.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-selftest.o
+  CC      drivers/media/platform/exynos/smfc/smfc.o
+  CC      drivers/thermal/cpu_cooling.o
+  LD      drivers/scsi/ufs/built-in.o
+  CC      drivers/scsi/sd.o
+  CC      drivers/staging/android/sync.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-misc.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-encrypt.o
+  CC      drivers/net/wireless/bcmdhd4361/pcie_core.o
+  CC      drivers/soc/samsung/exynos-hdcp/exynos-hdcp2-crypto.o
+  CC      drivers/sensorhub/brcm/hrmsensor.o
+  CC      drivers/thermal/gpu_cooling.o
+  CC      drivers/media/platform/exynos/smfc/smfc-v4l2-ioctls.o
+  CC      drivers/soc/samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink.o
+  CC      drivers/media/platform/exynos/scaler/scaler-regs.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_flowring.o
+  CC      drivers/staging/android/sync_debug.o
+  CC      drivers/thermal/isp_cooling.o
+  CC      drivers/soc/samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-if.o
+  CC      drivers/media/platform/exynos/smfc/smfc-regs.o
+  CC      drivers/staging/android/sw_sync.o
+  LD      drivers/media/platform/exynos/scaler/scaler.o
+  LD      drivers/media/platform/exynos/scaler/built-in.o
+  CC      drivers/sensorhub/brcm/ssp_bbd.o
+  CC      drivers/trace/exynos8895-itmon.o
+  CC      drivers/scsi/scsi_srpmb.o
+  CC      drivers/thermal/samsung/exynos_tmu.o
+  LD      drivers/staging/android/built-in.o
+  CC      drivers/soc/samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-auth.o
+  LD      drivers/staging/iio/accel/built-in.o
+  CC      drivers/media/platform/exynos/smfc/smfc-stream-parser.o
+  LD      drivers/staging/iio/adc/built-in.o
+  LD      drivers/staging/iio/addac/built-in.o
+  LD      drivers/staging/iio/cdc/built-in.o
+  LD      drivers/staging/iio/frequency/built-in.o
+  LD      drivers/staging/iio/gyro/built-in.o
+  LD      drivers/staging/iio/impedance-analyzer/built-in.o
+  LD      drivers/staging/iio/light/built-in.o
+  LD      drivers/staging/iio/magnetometer/built-in.o
+  LD      drivers/staging/iio/meter/built-in.o
+  CC      drivers/net/wireless/bcmdhd4361/dhd_msgbuf.o
+  LD      drivers/staging/iio/resolver/built-in.o
+  LD      drivers/staging/iio/trigger/built-in.o
+  LD      drivers/staging/iio/built-in.o
+  LD      drivers/staging/media/built-in.o
+  CC      drivers/sensorhub/brcm/factory/mcu_bcm4774.o
+  CC      drivers/staging/samsung/sec_batt.o
+  CC      drivers/trace/exynos-ss.o
+  LD      drivers/scsi/scsi_mod.o
+  LD      drivers/scsi/sd_mod.o
+  LD      drivers/scsi/built-in.o
+  CC      drivers/soc/samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-protocol-msg.o
+  LD      drivers/media/platform/exynos/smfc/built-in.o
+  LD      drivers/media/platform/exynos/built-in.o
+  CC      drivers/tty/tty_io.o
+  CC      drivers/staging/samsung/sec_log.o
+  LD      drivers/thermal/samsung/exynos_thermal.o
+  LD      drivers/thermal/samsung/built-in.o
+  LD      drivers/thermal/thermal_sys.o
+  LD      drivers/media/platform/built-in.o
+  LD      drivers/thermal/built-in.o
+  CC      drivers/trace/exynos-coresight.o
+  CC      drivers/sensorhub/brcm/bbdpl/bcm_gps_spi.o
+  CC      drivers/soc/samsung/exynos-hdcp/dp_link/exynos-hdcp2-dplink-selftest.o
+  LD      drivers/media/built-in.o
+  CC      drivers/staging/samsung/sec_sysfs.o
+  CC      drivers/staging/vnswap/vnswap.o
+  LD      drivers/soc/samsung/exynos-hdcp/built-in.o
+  CC      drivers/soc/samsung/exynos-pmu.o
+  CC      drivers/usb/class/cdc-acm.o
+  CC      drivers/staging/samsung/sec_reboot.o
+  CC      drivers/sensorhub/brcm/bbdpl/bbd_rpc_lh.o
+  LD      drivers/trace/built-in.o
+  CC      drivers/soc/samsung/exynos-chipid.o
+  CC      drivers/video/backlight/lcd.o
+  CC      drivers/sensorhub/brcm/bbdpl/bbd.o
+  CC      drivers/staging/samsung/sec_debug.o
+  CC      drivers/staging/vnswap/vnswap_sysfs.o
+  CC      drivers/tty/n_tty.o
+  CC      drivers/soc/samsung/exynos-reboot.o
+  CC      drivers/video/backlight/backlight.o
+  CC      drivers/usb/class/usblp.o
+  LD      drivers/staging/vnswap/built-in.o
+  CC      drivers/usb/class/cdc-wdm.o
+  CC      drivers/soc/samsung/exynos-pd.o
+  CC      drivers/staging/samsung/sec_getlog.o
+  LD      drivers/sensorhub/brcm/bbdpl/built-in.o
+  LD      drivers/video/backlight/built-in.o
+  CC      drivers/sensorhub/brcm/ssp_motorcallback.o
+  CC      drivers/tty/tty_ioctl.o
+  CC      drivers/net/wireless/bcmdhd4361/wl_cfgvendor.o
+  CC      drivers/soc/samsung/exynos-pd-dbg.o
+  CC      drivers/soc/samsung/exynos-rgt.o
+  LD      drivers/usb/class/built-in.o
+  CC      drivers/staging/samsung/sec_gaf.o
+  CC      drivers/usb/common/common.o
+  CC      drivers/video/fbdev/core/fb_notify.o
+  CC      drivers/sensorhub/brcm/ssp_iio.o
+  CC      drivers/staging/samsung/sec_debug_test.o
+  CC      drivers/soc/samsung/exynos-pm-dvs.o
+  CC      drivers/tty/tty_ldisc.o
+  CC      drivers/soc/samsung/ect_parser.o
+  LD      drivers/usb/common/usb-common.o
+  LD      drivers/usb/common/built-in.o
+  CC      drivers/video/fbdev/core/fb_cmdline.o
+  CC      drivers/usb/core/usb.o
+  CC      drivers/soc/samsung/cpuidle_profiler.o
+  LD      drivers/sensorhub/brcm/built-in.o
+  CC      drivers/staging/samsung/sec_debug_hard_reset_hook.o
+  LD      drivers/sensorhub/built-in.o
+  CC      drivers/video/fbdev/core/fbmem.o
+  CC      drivers/vision/iva/iva_ctrl.o
+  CC      drivers/tty/tty_buffer.o
+  CC      drivers/video/fbdev/core/fbmon.o
+  CC      drivers/staging/samsung/sec_debug_reset_reason.o
+  CC      drivers/net/wireless/bcmdhd4361/bcmxtlv.o
+  CC      drivers/usb/core/hub.o
+  CC      drivers/soc/samsung/usi.o
+  CC      drivers/video/fbdev/core/fbcmap.o
+  CC      drivers/tty/tty_port.o
+  CC      drivers/vision/iva/iva_pmu.o
+  CC      drivers/staging/samsung/sec_debug_extra_info.o
+  CC      drivers/soc/samsung/pmu-cp.o
+  CC      drivers/video/fbdev/core/fbsysfs.o
+  CC      drivers/tty/tty_mutex.o
+  CC      drivers/video/fbdev/core/modedb.o
+  CC      drivers/vision/iva/iva_mcu.o
+  CC      drivers/staging/samsung/sec_debug_hw_param.o
+  CC      drivers/net/wireless/bcmdhd4361/bcm_app_utils.o
+  CC      drivers/soc/samsung/exynos-seclog.o
+  CC      drivers/tty/tty_ldsem.o
+  CC      drivers/video/fbdev/core/fbcvt.o
+  CC      drivers/vision/iva/iva_sh_mem.o
+  CC      drivers/video/fbdev/core/cfbfillrect.o
+  CC      drivers/staging/samsung/sec_debug_auto_summary.o
+  CC      drivers/tty/pty.o
+  LD      drivers/net/wireless/bcmdhd4361/dhd.o
+  CC      drivers/soc/samsung/exynos-sdm.o
+  CC      drivers/soc/samsung/exynos-dm.o
+  CC      drivers/video/fbdev/core/cfbcopyarea.o
+  CC      drivers/tty/tty_audit.o
+  CC      drivers/vision/iva/iva_ram_dump.o
+  CC      drivers/staging/samsung/sec_upload.o
+  LD      drivers/net/wireless/bcmdhd4361/built-in.o
+  LD      drivers/net/wireless/built-in.o
+  LD      drivers/net/built-in.o
+  CC      drivers/usb/core/hcd.o
+  CC      drivers/usb/core/urb.o
+  CC      drivers/usb/core/message.o
+  CC      drivers/vision/iva/iva_mbox.o
+  CC      drivers/video/fbdev/core/cfbimgblt.o
+  CC      drivers/tty/sysrq.o
+  CC      drivers/soc/samsung/exynos-mcinfo.o
+  CC      drivers/staging/samsung/sec_param.o
+  CC      drivers/vision/iva/iva_ipc_queue.o
+  CC      drivers/soc/samsung/secmem.o
+  CC      drivers/soc/samsung/exynos-earlytmu.o
+  CC      drivers/vision/iva/iva_mem.o
+  CC      drivers/staging/samsung/sec_bootstat.o
+  CC      drivers/usb/core/driver.o
+  CC      drivers/usb/core/config.o
+  LD      drivers/video/fbdev/core/fb.o
+  LD      drivers/tty/ipwireless/built-in.o
+  LD      drivers/video/fbdev/core/built-in.o
+  CC      drivers/tty/serial/serial_core.o
+  CC      drivers/video/fbdev/exynos/dpu/dpp_drv.o
+  CC      drivers/staging/samsung/sec_argos.o
+  CC      drivers/staging/samsung/sec_nad.o
+  LD      drivers/soc/samsung/built-in.o
+  LD      drivers/soc/built-in.o
+  CC      drivers/watchdog/watchdog_core.o
+  CC      drivers/vision/iva/iva_mem_sync.o
+  CC      drivers/watchdog/watchdog_dev.o
+  CC      drivers/video/fbdev/exynos/dpu/dsim_drv.o
+  CC      drivers/vision/score/score-lock.o
+  CC      drivers/vision/score/score-debug-print.o
+  CC      drivers/usb/core/file.o
+  CC      drivers/staging/samsung/sec_fd_detect.o
+  CC      drivers/tty/serial/earlycon.o
+  CC      drivers/vision/iva/iva_sysfs.o
+  CC      drivers/watchdog/s3c2410_wdt.o
+  CC      drivers/vision/score/score-fw-queue.o
+  CC      drivers/video/fbdev/exynos/dpu/displayport_drv.o
+  CC      drivers/video/fbdev/exynos/dpu/displayport_edid.o
+  CC      drivers/staging/samsung/sec_nad_balancer.o
+  CC      drivers/usb/core/buffer.o
+  CC      drivers/tty/serial/samsung.o
+drivers/tty/serial/samsung.c: In function 's3c24xx_serial_bt_log':
+drivers/tty/serial/samsung.c:1688:9: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+         if (port && port->state->pm_state == UART_PM_STATE_ON)
+         ^~
+drivers/tty/serial/samsung.c:1690:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+   return 0;
+   ^~~~~~
+  LD      drivers/staging/samsung/built-in.o
+  LD      drivers/watchdog/watchdog.o
+  LD      drivers/watchdog/built-in.o
+  CC      drivers/vision/iva/iva_vdma.o
+  CC      drivers/usb/core/sysfs.o
+  CC      drivers/vision/score/score-utils.o
+  LD      drivers/staging/built-in.o
+  CC      drivers/vision/score/score-debug.o
+  LD      drivers/vision/iva/iva_ctl.o
+  LD      drivers/vision/iva/built-in.o
+  CC      drivers/vision/score/score-dump.o
+  CC      drivers/usb/dwc3/core.o
+  CC      drivers/usb/dwc3/debug.o
+  CC      drivers/usb/core/endpoint.o
+  CC      drivers/usb/dwc3/trace.o
+  LD      drivers/tty/serial/built-in.o
+  CC      drivers/video/fbdev/exynos/dpu/displayport_hdcp13.o
+  CC      drivers/vision/score/score-binary.o
+  LD      drivers/tty/vt/built-in.o
+  LD      drivers/tty/built-in.o
+  LD      drivers/video/fbdev/omap2/displays-new/built-in.o
+  CC      drivers/vision/score/score-framemgr.o
+  LD      drivers/video/fbdev/omap2/dss/built-in.o
+  LD      drivers/video/fbdev/omap2/built-in.o
+  CC      drivers/video/fbdev/simplefb.o
+  CC      drivers/usb/dwc3/otg.o
+  CC      drivers/usb/core/devio.o
+  CC      drivers/vision/score/score-interface.o
+  CC      drivers/usb/dwc3/host.o
+  CC      drivers/vision/vision-core/vision-dev.o
+  CC      drivers/vision/score/score-memory.o
+  CC      drivers/usb/dwc3/gadget.o
+  CC      drivers/video/fbdev/exynos/dpu/secdp_aux_control.o
+  CC      drivers/vision/score/score-vertexmgr.o
+  CC      drivers/usb/dwc3/ep0.o
+  CC      drivers/usb/dwc3/debugfs.o
+  CC      drivers/vision/vision-core/vision-compat-ioctl32.o
+  CC      drivers/video/fbdev/exynos/dpu/dsim_reg.o
+  CC      drivers/vision/score/score-buftracker.o
+  CC      drivers/vision/score/score-vertex.o
+  CC      drivers/usb/dwc3/dwc3-exynos.o
+  CC      drivers/vision/score/score-system.o
+  CC      drivers/usb/dwc3/dwc3-pci.o
+  CC      drivers/vision/vision-core/vision-ioctl.o
+  CC      drivers/usb/core/notify.o
+  CC      drivers/vision/score/score-sysfs.o
+  CC      drivers/vision/vision-core/vision-buffer.o
+  CC      drivers/vision/score/score-device.o
+  CC      drivers/video/fbdev/exynos/dpu/dpp_reg.o
+  CC      drivers/usb/core/generic.o
+  LD      drivers/usb/dwc3/dwc3.o
+  CC      drivers/usb/core/quirks.o
+  LD      drivers/usb/dwc3/built-in.o
+  CC      drivers/vision/score/score-cache-ctrl.o
+  CC      drivers/usb/gadget/usbstring.o
+  CC      drivers/vision/score/score-profiler.o
+  CC      drivers/usb/core/devices.o
+  CC      drivers/usb/core/port.o
+  CC      drivers/vision/score/platform/score-exynos.o
+  CC      drivers/usb/gadget/config.o
+  CC      drivers/vision/score/platform/exynos8895/score-exynos8895.o
+  LD      drivers/vision/vision-core/built-in.o
+  CC      drivers/usb/core/hcd-pci.o
+  CC      drivers/usb/gadget/epautoconf.o
+  CC      drivers/usb/core/usb-acpi.o
+  LD      drivers/vision/score/platform/exynos8895/built-in.o
+  LD      drivers/vision/score/platform/built-in.o
+  LD      drivers/vision/score/built-in.o
+  LD      drivers/vision/built-in.o
+  CC      drivers/usb/gadget/composite.o
+  CC      drivers/usb/gadget/functions.o
+  CC      drivers/usb/manager/usb_typec_manager_notifier.o
+  CC      drivers/video/fbdev/exynos/dpu/displayport_reg.o
+  CC      drivers/usb/host/pci-quirks.o
+  CC      drivers/usb/host/xhci.o
+  CC      drivers/video/fbdev/exynos/dpu/decon_reg.o
+  LD      drivers/usb/core/usbcore.o
+  LD      drivers/usb/core/built-in.o
+  LD      drivers/usb/misc/built-in.o
+  CC      drivers/video/fbdev/exynos/dpu/decon_core.o
+  CC      drivers/usb/notify/host_notify_class.o
+  LD      drivers/usb/manager/built-in.o
+  CC      drivers/usb/phy/of.o
+  CC      drivers/usb/host/xhci-mem.o
+  CC      drivers/usb/notify/external_notify.o
+  CC      drivers/usb/gadget/configfs.o
+  CC      drivers/usb/phy/class-dual-role.o
+  CC      drivers/usb/notify/usblog_proc_notify.o
+  CC      drivers/video/fbdev/exynos/dpu/decon_dsi.o
+  LD      drivers/usb/phy/built-in.o
+  CC      drivers/usb/serial/usb-serial.o
+  CC      drivers/usb/storage/scsiglue.o
+  CC      drivers/usb/notify/usb_notify.o
+  CC      drivers/usb/host/xhci-ring.o
+  CC      drivers/usb/host/xhci-hub.o
+  CC      drivers/usb/storage/protocol.o
+  CC      drivers/usb/gadget/u_f.o
+  CC      drivers/video/fbdev/exynos/dpu/decon_displayport.o
+  CC      drivers/video/fbdev/exynos/dpu/decon_wb.o
+  CC      drivers/usb/serial/generic.o
+  CC      drivers/usb/notify/usb_notify_sysfs.o
+  CC      drivers/usb/storage/transport.o
+  CC      drivers/usb/storage/usb.o
+  CC      drivers/usb/gadget/function/f_acm.o
+  CC      drivers/video/fbdev/exynos/dpu/helper.o
+  CC      drivers/video/fbdev/exynos/dpu/win_update.o
+  CC      drivers/usb/serial/bus.o
+  CC      drivers/usb/notify/dock_notify.o
+  CC      drivers/usb/gadget/function/u_serial.o
+  CC      drivers/usb/storage/initializers.o
+  CC      drivers/usb/host/xhci-dbg.o
+  CC      drivers/usb/serial/ftdi_sio.o
+  CC      drivers/video/fbdev/exynos/dpu/bts.o
+  CC      drivers/usb/host/xhci-trace.o
+  CC      drivers/video/fbdev/exynos/dpu/event_log.o
+  CC      drivers/usb/notify/usb_notifier.o
+  CC      drivers/usb/storage/sierra_ms.o
+  CC      drivers/usb/host/xhci-pci.o
+  CC      drivers/usb/gadget/function/u_ether.o
+  CC      drivers/usb/host/xhci-plat.o
+  CC      drivers/video/fbdev/exynos/dpu/dsu_update.o
+  CC      drivers/usb/serial/pl2303.o
+  LD      drivers/usb/notify/usb_notify_layer.o
+  LD      drivers/usb/notify/built-in.o
+  LD      drivers/usb/serial/usbserial.o
+  CC      drivers/usb/storage/option_ms.o
+  CC      drivers/video/fbdev/exynos/dpu/dp_logger/dp_logger.o
+  LD      drivers/usb/host/xhci-hcd.o
+  LD      drivers/video/fbdev/exynos/dpu/dpp.o
+  LD      drivers/video/fbdev/exynos/dpu/dsim.o
+  LD      drivers/video/fbdev/exynos/dpu/displayport.o
+  LD      drivers/video/fbdev/exynos/dpu/decon.o
+  CC      drivers/video/fbdev/exynos/dpu/dp_logger/displayport_bigdata.o
+  CC      drivers/usb/gadget/function/f_ncm.o
+  CC      drivers/usb/gadget/function/f_rndis.o
+  LD      drivers/usb/host/xhci-plat-hcd.o
+  LD      drivers/usb/host/built-in.o
+  CC      drivers/usb/gadget/function/rndis.o
+  LD      drivers/usb/gadget/legacy/built-in.o
+  CC      drivers/usb/gadget/udc/udc-core.o
+  CC      drivers/usb/storage/usual-tables.o
+  LD      drivers/video/fbdev/exynos/dpu/dp_logger/built-in.o
+  LD      drivers/video/fbdev/exynos/dpu/built-in.o
+  LD      drivers/usb/serial/built-in.o
+  CC      drivers/usb/gadget/function/f_fs.o
+  CC      drivers/video/fbdev/exynos/panel/panel.o
+  CC      drivers/usb/gadget/function/f_midi.o
+  LD      drivers/usb/storage/usb-storage.o
+  LD      drivers/usb/storage/built-in.o
+  CC      drivers/usb/gadget/function/f_dm.o
+  CC      drivers/usb/gadget/function/f_adb.o
+  CC      drivers/usb/gadget/function/f_mtp_samsung.o
+  LD      drivers/usb/gadget/udc/built-in.o
+  LD      drivers/usb/gadget/libcomposite.o
+  CC      drivers/usb/gadget/function/f_ptp.o
+  CC      drivers/usb/gadget/function/f_audio_source.o
+  CC      drivers/usb/gadget/function/f_accessory.o
+  CC      drivers/usb/gadget/function/f_conn_gadget.o
+  CC      drivers/usb/gadget/function/multi_config.o
+  CC      drivers/video/fbdev/exynos/panel/panel_bl.o
+  LD      drivers/usb/gadget/function/usb_f_acm.o
+  LD      drivers/usb/gadget/function/usb_f_ncm.o
+  LD      drivers/usb/gadget/function/usb_f_rndis.o
+  LD      drivers/usb/gadget/function/usb_f_midi.o
+  LD      drivers/usb/gadget/function/usb_f_dm.o
+  LD      drivers/usb/gadget/function/usb_f_adb.o
+  LD      drivers/usb/gadget/function/usb_f_ptp.o
+  CC      drivers/video/fbdev/exynos/panel/dimming.o
+  LD      drivers/usb/gadget/function/usb_f_audio_source.o
+  CC      drivers/video/fbdev/exynos/panel/panel_drv.o
+drivers/usb/gadget/function/f_conn_gadget.c: In function 'conn_gadget_cleanup':
+drivers/usb/gadget/function/f_conn_gadget.c:1269:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (_conn_gadget_dev->rd_queue_buf)
+     ^~
+drivers/usb/gadget/function/f_conn_gadget.c:1272:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+  kfree(_conn_gadget_dev);
+  ^~~~~
+  CC      drivers/video/fbdev/exynos/panel/s6e3ha6/s6e3ha6.o
+  LD      drivers/usb/gadget/function/usb_f_mtp_samsung.o
+  CC      drivers/video/fbdev/exynos/panel/mdnie.o
+  LD      drivers/usb/gadget/function/usb_f_fs.o
+  CC      drivers/video/fbdev/exynos/panel/sysfs.o
+  LD      drivers/usb/gadget/function/usb_f_accessory.o
+  CC      drivers/video/fbdev/exynos/panel/spi.o
+  CC      drivers/video/fbdev/exynos/panel/copr.o
+  LD      drivers/usb/gadget/function/usb_f_conn_gadget.o
+  LD      drivers/usb/gadget/function/built-in.o
+  LD      drivers/usb/gadget/built-in.o
+  LD      drivers/usb/built-in.o
+  CC      drivers/video/fbdev/exynos/panel/active_clock.o
+  CC      drivers/video/fbdev/exynos/panel/dpui.o
+  CC      drivers/video/fbdev/exynos/panel/panel_poc.o
+  LD      drivers/video/fbdev/exynos/panel/built-in.o
+  LD      drivers/video/fbdev/exynos/built-in.o
+  LD      drivers/video/fbdev/built-in.o
+  LD      drivers/video/built-in.o
+  LD      drivers/built-in.o
+  LINK    vmlinux
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SYSMAP  System.map
+  FIPS with KALSR : Generating hmac of crypto and fmp, then update vmlinux... 
+./scripts/fips_crypto_utils.c: In function ‘main’:
+./scripts/fips_crypto_utils.c:28:7: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+  if (!strcmp ("-u", argv[1]))
+       ^~~~~~
+./scripts/fips_crypto_utils.c:52:10: warning: implicit declaration of function ‘update_crypto_hmac’ [-Wimplicit-function-declaration]
+   return update_crypto_hmac (vmlinux_file, hmac_file, offset);
+          ^~~~~~~~~~~~~~~~~~
+./scripts/fips_crypto_utils.c:82:10: warning: implicit declaration of function ‘collect_crypto_bytes’ [-Wimplicit-function-declaration]
+   return collect_crypto_bytes (in_file, section_name, offset, size, out_file);
+          ^~~~~~~~~~~~~~~~~~~~
+>>>>> Time used for generated all hashes is 15 sec
+  OBJCOPY arch/arm64/boot/Image
+  GZIP    arch/arm64/boot/Image.gz
+Processing dts files...
+=> Processing: exynos8895-dream2lte_eur_open_03.dts
+=> Generating: exynos8895-dream2lte_eur_open_03.dtb
+=> Processing: exynos8895-dream2lte_eur_open_04.dts
+=> Generating: exynos8895-dream2lte_eur_open_04.dtb
+=> Processing: exynos8895-dream2lte_eur_open_05.dts
+=> Generating: exynos8895-dream2lte_eur_open_05.dtb
+=> Processing: exynos8895-dream2lte_eur_open_06.dts
+=> Generating: exynos8895-dream2lte_eur_open_06.dtb
+=> Processing: exynos8895-dream2lte_eur_open_07.dts
+=> Generating: exynos8895-dream2lte_eur_open_07.dtb
+=> Processing: exynos8895-dream2lte_eur_open_08.dts
+=> Generating: exynos8895-dream2lte_eur_open_08.dtb
+=> Processing: exynos8895-dream2lte_eur_open_09.dts
+=> Generating: exynos8895-dream2lte_eur_open_09.dtb
+=> Processing: exynos8895-dream2lte_eur_open_10.dts
+=> Generating: exynos8895-dream2lte_eur_open_10.dtb
+Generating dtb.img...
+=> Found compatible entry: samsung, DREAM2LTE EUR rev01
+    (chip: 8895, hw_rev: 3, hw_rev_end: 3)
+=> Found compatible entry: samsung, DREAM2LTE EUR rev02
+    (chip: 8895, hw_rev: 4, hw_rev_end: 4)
+=> Found compatible entry: samsung, DREAM2LTE EUR rev02
+    (chip: 8895, hw_rev: 5, hw_rev_end: 5)
+=> Found compatible entry: samsung, SM-G955F rev00
+    (chip: 8895, hw_rev: 6, hw_rev_end: 6)
+=> Found compatible entry: samsung, SM-G955F rev01
+    (chip: 8895, hw_rev: 7, hw_rev_end: 7)
+=> Found compatible entry: samsung, SM-G955F rev02
+    (chip: 8895, hw_rev: 8, hw_rev_end: 8)
+=> Found compatible entry: samsung, SM-G955F rev03/rev04
+    (chip: 8895, hw_rev: 9, hw_rev_end: 9)
+=> Found compatible entry: samsung, SM-G955F rev05
+    (chip: 8895, hw_rev: 10, hw_rev_end: 255)
+Done.
+
+=================================
+END   : FUNC_BUILD_KERNEL
+=================================
+
+[3J[H[2J 
+Android Image Kitchen - RepackImg Script
+by osm0sis @ xda-developers
+ 
+Warning: Overwriting existing files!
+ 
+Packing ramdisk...
+ 
+Using compression: gzip
+ 
+Getting build information...
+kernel = boot.img-zImage
+cmdline = 
+board = SRPPH16A001KU
+base = 10000000
+pagesize = 2048
+kernel_offset = 00008000
+ramdisk_offset = 01000000
+second_offset = 00f00000
+tags_offset = 00000100
+os_version = 8.0.0
+os_patch_level = 2018-02
+hash = sha1
+dtb = boot.img-dtb
+ 
+Building image...
+ 
+Using format: AOSP
+ 
+Appending footer...
+ 
+Using type: SEAndroid
+ 
+Done!
+Total compile time was 411 seconds

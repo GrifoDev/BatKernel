@@ -37,9 +37,15 @@ else
 fi;
 fi;
 
-ui_print " - removing critical mcRegistry"
+ui_print " - removing critical mcRegistries"
 
 rm -f /system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+rm -f /system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin
+
+ui_print " - removing Rcl and SecurityLogAgent App"
+
+rm -rf /system/priv-app/Rlc
+rm -rf /system/app/SecurityLogAgent
 
 ui_print " - removing vendor files"
 
@@ -70,6 +76,19 @@ chmod 0644 /system/vendor/firmware/fimc_is_rta_imx333_3h1.bin
 chmod 0644 /system/vendor/firmware/fimc_is_rta_imx333_imx320.bin
 chmod 0644 /system/vendor/lib/libsecure_storage.so
 chmod 0644 /system/vendor/lib64/libsecure_storage.so
+
+ui_print " - fixing wifi files"
+
+cd /system/vendor/etc/wifi
+find . -type f -name 'nvram.*' | while read FILE ; do
+    newfile="$(echo ${FILE} |sed -e 's/nvram/nvram_mfg/')" ;
+    mv "${FILE}" "${newfile}" ;
+done
+
+find . -type f -name 'nvram_mfg.*' | while read FILE ; do
+    newfile="$(echo ${FILE} |sed -e 's/nvram_mfg/nvram_net/')" ;
+    cp "${FILE}" "${newfile}" ;
+done
 
 ui_print " - unmounting partition /data"
 umount /data > /dev/null 2>&1

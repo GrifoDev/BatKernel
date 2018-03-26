@@ -251,7 +251,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 #ARCH		?= $(SUBARCH)
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 ARCH            ?= arm64
-CROSS_COMPILE   ?= ../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.3.0/bin/aarch64-cortex_a53-linux-gnueabi-
+CROSS_COMPILE   ?= ../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.4.0/bin/aarch64-cortex_a53-linux-gnueabi-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
@@ -482,11 +482,12 @@ KBUILD_CFLAGS += -DANDROID_VERSION=$(PLATFORM_VERSION_NUMBER)
 KBUILD_CFLAGS += -DANDROID_MAJOR_VERSION=$(MAJOR_VERSION)
 # Example
 SELINUX_DIR=$(shell $(CONFIG_SHELL) $(srctree)/scripts/find_matching_major.sh "$(srctree)" "security/selinux" "$(ANDROID_MAJOR_VERSION)")
+SDCARDFS_DIR=$(shell $(CONFIG_SHELL) $(srctree)/scripts/find_matching_version.sh "$(srctree)" "fs/sdcardfs" "$(ANDROID_VERSION)")
 else
-export ANDROID_VERSION=700000
-KBUILD_CFLAGS += -DANDROID_VERSION=700000
-export ANDROID_MAJOR_VERSION=7
-KBUILD_CFLAGS += -DANDROID_MAJOR_VERSION=7
+export ANDROID_VERSION=800000
+KBUILD_CFLAGS += -DANDROID_VERSION=800000
+export ANDROID_MAJOR_VERSION=8
+KBUILD_CFLAGS += -DANDROID_MAJOR_VERSION=8
 endif
 PHONY += replace_dirs
 replace_dirs:
@@ -494,6 +495,8 @@ ifneq ($(PLATFORM_VERSION), )
 # Example
 	@echo "replace selinux from $(SELINUX_DIR)"
 	$(Q)$(CONFIG_SHELL) $(srctree)/scripts/replace_dir.sh "$(srctree)" "security/selinux" "$(SELINUX_DIR)"
+	@echo "replace sdcardfs from $(SDCARDFS_DIR)"
+	$(Q)$(CONFIG_SHELL) $(srctree)/scripts/replace_dir.sh "$(srctree)" "fs/sdcardfs" "$(SDCARDFS_DIR)"
 endif
 # To make sure we do not include .config for any of the *config targets
 # catch them early, and hand them over to scripts/kconfig/Makefile
