@@ -113,14 +113,14 @@ config BCM43454
 config BCMDHD_FW_PATH
 	depends on BROADCOM_WIFI
 	string "Firmware path"
-	default "/system/vendor/etc/wifi/bcmdhd_sta.bin"
+	default "/vendor/etc/wifi/bcmdhd_sta.bin"
 	---help---
 	  Path to the firmware file.
 
 config BCMDHD_NVRAM_PATH
 	depends on BROADCOM_WIFI
 	string "NVRAM path"
-	default "/system/vendor/etc/wifi/nvram_net.txt"
+	default "/vendor/etc/wifi/nvram_net.txt"
 	---help---
 	  Path to the nvram file.
 
