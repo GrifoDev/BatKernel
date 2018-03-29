@@ -33,12 +33,11 @@ debug.atrace.tags.enableflags=0
 
 ro.security.vaultkeeper.feature=0
 ro.config.tima=0
-ro.config.knox=v0
 wlan.wfd.hdcp=disable
 ro.securestorage.support=false
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Mon Feb 19 23:23:54 KST 2018
-ro.bootimage.build.date.utc=1519050234
-ro.bootimage.build.fingerprint=samsung/dreamltexx/dreamlte:8.0.0/R16NW/G950FXXU1CRB7:user/test-keys
+ro.bootimage.build.date=Thu Mar 15 18:47:35 KST 2018
+ro.bootimage.build.date.utc=1521107255
+ro.bootimage.build.fingerprint=samsung/dreamltexx/dreamlte:8.0.0/R16NW/G950FXXU1CRC7:user/test-keys

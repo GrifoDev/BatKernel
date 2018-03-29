@@ -45,6 +45,7 @@ persist.scan.		u:object_r:system_prop:s0
 persist.security.ams.       u:object_r:container_mgmt_prop:s0
 persist.security.ccmextra	 u:object_r:ccm_prop:s0
 persist.security.good.      u:object_r:good_mgmt_prop:s0
+persist.security.mdm.policy             u:object_r:security_sepolicy_prop:s0
 persist.security.mdm.       u:object_r:policy_mgmt_prop:s0
 persist.security.tlc.	    u:object_r:tlc_mgmt_prop:s0
 persist.security.ucs.csname                 u:object_r:ucs_prop:s0

@@ -61,6 +61,7 @@ auditfilter hal_audio_default diag_device:chr_file { read write };
 auditfilter hal_audio_default imei_efs_file:dir search;
 auditfilter hal_audio_default system_app:fd use;
 auditfilter hal_camera_default gpu_device:chr_file { read write };
+auditfilter hal_camera_default boot_prop:file read;
 auditfilter hal_drm_default app_data_file:file write;
 auditfilter hal_drm_default radio_data_file:file write;
 auditfilter hal_drm_default sec_efs_file:file read;
@@ -308,7 +309,6 @@ auditfilter untrusted_app_25 rootfs:file { getattr read };
 auditfilter untrusted_app_25 same_process_hal_file:lnk_file read;
 auditfilter untrusted_app_25 sdcardfs:file execute;
 auditfilter untrusted_app_25 sec_debugfs:file read;
-auditfilter untrusted_app_25 sec_debugfs:file read;
 auditfilter untrusted_app_25 sec_efs_file:dir getattr;
 auditfilter untrusted_app_25 sepolicy_file:file read;
 auditfilter untrusted_app_25 serialno_prop:file read; name="u:object_r:serialno_prop:s0"
@@ -537,3 +537,62 @@ auditfilter hal_wifi_default location_socket:sock_file write;
 
 # http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22827904
 auditfilter mm-qcamerad camera_prop:property_service { set read };
+auditfilter mm-qcamerad camera_prop:file read;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22876064
+auditfilter init debugfs:dir write;
+
+# P180122-04785
+auditfilter platform_app sec_debugfs:file read;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22886450
+# P180130-05765
+auditfilter platform_app system_data_file:dir write; comm="app.soundpicker"
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22886165/?page=1
+auditfilter bootanim graphics_vulkan_prop:file read;
+
+# P180130-05765
+auditfilter cnd diag_device:file { read write };
+auditfilter cnd diag_device:chr_file { read write };
+auditfilter cnd gpu_device:file { read write };
+auditfilter cnd gpu_device:chr_file { read write };
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22888208
+# avc:  denied  { create } for  pid=465 comm="vold" name=".nomedia" scontext=u:r:vold:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=0 SEPF_SM-J805FN_8.0.0_0002 unfiltered
+auditfilter vold system_data_file:file create;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22888139
+auditfilter dex2oat resourcecache_data_file:file { read write };
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22887564
+auditfilter timeservice_app time_daemon:unix_stream_socket connectto;
+
+# P180126-04261
+auditfilter hal_sensors_default shell_exec:file execute;
+
+# P180201-00629
+auditfilter priv_app system_data_file:dir write;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22898598
+auditfilter sgdisk vold:unix_stream_socket { read write };
+
+# P180205-05594
+auditfilter system_app vfat:lnk_file setattr;
+auditfilter system_app sdcardfs:lnk_file getattr;
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22895625
+auditfilter dumpstate dumpstate:binder call;
+
+# P180208-01635
+auditfilter vold dpmd_data_file:dir getattr;
+auditfilter qti diag_device:chr_file { read write };
+auditfilter thermal-engine sysfs_uio:lnk_file read;
+auditfilter hal_gnss_default qmuxd_socket:dir write;
+
+# P180209-03456
+auditfilter webview_zygote gpu_device:chr_file { read write };
+
+# http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22947666
+auditfilter radio setupwizard_prop:file read;
+
